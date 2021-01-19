@@ -17,6 +17,10 @@ semester: Spring 2020
   <li> <a href="homework/hw1.pdf">Homework 1</a> </li>
 </ul>
 
-This page was last updated {{ "now" | date: "%Y-%m-%d %H:%M" }}
+This page was last updated {{ "now" | date_to_string: "ordinal", "US"}}
+
+This page was last updated {{ "now" | date: "%r" "%B %b, %Y" }}
+
+This page was last updated {{ "now" | date: "%m-%d-%Y" %H:%M" }}
 
 </div>
