@@ -4,7 +4,6 @@ a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
-<! -- ul { margin-top:-30px; } -->
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
@@ -25,3 +24,6 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 .cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+
+/* default */
+.def ul { margin-top:-30px;  margin-bottom:60px; }
