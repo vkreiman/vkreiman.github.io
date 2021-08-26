@@ -1,0 +1,5 @@
+[user]
+	email = vkreiman2@gmail.com
+	name = Victor Kreiman
+[credential]
+	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
