@@ -17,7 +17,12 @@ nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Ser
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 footer ul li.right { float:right; }
 
-footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
+footer { 
+    border-top: 1px solid #d5d5d5; 
+    font-size: .8em; 
+    margin: 0; 
+    width: 100%; 
+}
 
 /* CV */
 .cv { margin: 0px 0px 60px; }
