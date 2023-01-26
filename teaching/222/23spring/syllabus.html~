@@ -1,18 +1,17 @@
 ---
 layout: syll
-number: Math 221
-title: Calculus and Analytic Geometry I
-semester: Spring 2023
+number: Math 222
+title: Calculus and Analytic Geometry II
+semester: Spring 2022
 ---
 
 <p>
-  <b>Meeting Times and Place</b><br /> MTuWThF 9:00 - 9:53 AM, MOLN
-  D128.
+  <b>Meeting Times and Place</b><br /> MTuWThF 11:00 - 11:53 AM, MOLN
+  D101.
 </p>
 
 <p>
-  <b>Prerequisites</b><br /> Math 112 and 113 or equivalent; or
-  placement.
+  <b>Prerequisites</b><br /> Math 221.
 </p>
 
 <p>
@@ -21,33 +20,29 @@ semester: Spring 2023
 </p>
 
 <p>
-  <b>Course Description</b><br /> Introductory differential and
-  integral calculus and applications. Topics include rate of change
-  and limits, continuity, differentiation, applications of the
-  derivative, integration, applications of the integral, and
-  transcendental functions. We will cover most of chapters 1 - 6 from
-  the textbook.
+  <b>Course Description</b><br /> Methods of integration, analytic
+  geometry, polar coordinates, hyperbolic functions, infinite series,
+  power series, and introduction to ordinary differential equations.
 </p>
 
 <p>
   <b>Homework</b><br /> The way to learn mathematics is to first try
   to understand the concepts, and then apply your understanding to
   solve problems.  Homework problems will be assigned in class; most
-  will be taken from the textbook. Assignments will be collected
-  daily. You may discuss homework problems with other students, but I
-  recommend that you first try to solve them on your own.
+  will be taken from the textbook. You may discuss homework problems
+  with other students, but I recommend that you first try to solve
+  them on your own.
 </p>
 
 <p>
   <b>Grading</b><br /> Graded work will include a final exam, three
-  in-class exams, periodic quizzes, and homework. The final exam will
-  be on Saturday May 6 from 1:00 - 3:00 PM. Each of the in-class exams
-  will be announced in class at least one week before it is given.The
-  final grade will be calculated using the following weights: homework
-  10%; quizzes 16%; in-class exams 18% each; final exam 20%. Your
-  lowest two quiz scores will be dropped. The following grading scale
-  will be applied: 90 - 100 A, 80 - 89 B, 70 - 79 C, 60 - 69 D, 0 - 59
-  F.
+  in-class exams, and periodic quizzes. The final exam will be on
+  Wednesday May 11, 10:30 AM - 12:30 PM. Each of the in-class exams will
+  be announced in class at least one week before it is given.The final
+  grade will be calculated using the following weights: quizzes 20%;
+  in-class exams 20% each; final exam 20%. Your lowest two quiz scores
+  will be dropped. The following grading scale will be applied: 90 -
+  100 A, 80 - 89 B, 70 - 79 C, 60 - 69 D, 0 - 59 F.
 </p>
 
 <p>
