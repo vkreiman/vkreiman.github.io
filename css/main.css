@@ -55,7 +55,7 @@ footer ul li.right { float:right; }
 footer { 
     border-top: 1px solid #d5d5d5; 
     font-size: .8em; 
-    margin: 60px; 
+    margin: 60px auto; 
     width: 80%; 
 }
 
