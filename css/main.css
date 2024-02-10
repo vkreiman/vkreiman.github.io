@@ -16,13 +16,13 @@ ul li {
     margin: .3em;
 }
 
-h1, h2, h3 { 
+h1, h2 { 
     font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
     border: .3em;
     margin: .3em; 
 }
 
-h4 {
+h3, h4 {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
     border: .3em;
     margin: .8em .3em .3em .3em; 
