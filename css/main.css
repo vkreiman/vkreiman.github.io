@@ -1,4 +1,4 @@
-body { margin: 30px auto; width: 90%; }
+body { margin: 30px auto; width: 95%; }
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
@@ -11,7 +11,7 @@ h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 
 .sidenav {
   height: 100%;
-  width: 160px;
+/*  width: 160px; */
   position: fixed;
   z-index: 1;
   top: 0;
@@ -22,9 +22,9 @@ h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+  padding: 2px 4px 2px 4px;
   text-decoration: none;
-/*  font-size: 25px; */
+  font-size: .8em; 
   color: #818181;
   display: block;
 }
@@ -34,7 +34,7 @@ h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 }
 
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
+  margin-left: 90px; /* Same as the width of the sidenav */
 /*  font-size: 28px; */ /* Increased text to enable scrolling */
 /*  padding: 0px 10px; */
 }
