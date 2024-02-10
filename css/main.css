@@ -5,7 +5,12 @@ a:hover { text-decoration: underline; }
 
 p, ul { color: #333; }
 
-ul li ul { 
+ul {
+    border: .3em; 
+    margin: .3em; 
+}
+
+ul li { 
     color: #333; 
     border: .3em;
     margin: .3em;
@@ -38,13 +43,13 @@ h1, h2, h3, h4 {
 }
 
 /* Active/current link */
-.sidebar a.active {
+.sidenav a.active {
   background-color: #04AA6D;
   color: white;
 }
 
 /* Links on mouse-over */
-.sidebar a:hover:not(.active) {
+.sidenav a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
