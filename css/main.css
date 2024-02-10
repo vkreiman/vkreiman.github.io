@@ -18,7 +18,7 @@ h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
   left: 0;
   background-color: #3a4669;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding: 7px;
 }
 
 .sidenav a {
@@ -39,16 +39,19 @@ h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 /*  padding: 0px 10px; */
 }
 
+/*
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+*/
 
 /* nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; } */
 
 /* nav ul li, footer ul li { display: inline; margin-right: 20px; } */ 
 
-footer ul li.right { float:right; }
+
+/* footer ul li.right { float:right; } */
 
 footer { 
     border-top: 1px solid #d5d5d5; 
@@ -56,14 +59,7 @@ footer {
 /*    margin: 60px auto; */
     width: 85%; 
 }
-
-/* CV */
-.cv { margin: 0px 0px 60px; }
-.cv h1 { font-size: 3em; }
-.cv h2 { font-size: 2em; }
-.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-.cv address, .cv p { font-size: 1.2em; }
-.cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+ 
 
 /* default */
 /* .def ul { margin-top:-30px;  margin-bottom:60px; } */
