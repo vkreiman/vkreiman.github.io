@@ -24,7 +24,7 @@ h1, h2, h3, h4 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #3a4669;
+  background-color: #f1f1f1;
   overflow-x: hidden;
   padding: 20px 7px 7px 7px;
 }
@@ -37,8 +37,16 @@ h1, h2, h3, h4 {
   display: block;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+/* Active/current link */
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
 }
 
 .main {
