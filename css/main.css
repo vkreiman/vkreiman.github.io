@@ -7,7 +7,7 @@ p, ul { color: #333; }
 
 ul {
     border: .3em; 
-    margin: .8em .3em .3em .3em; 
+    margin: .3em; 
 }
 
 ul li { 
@@ -16,11 +16,18 @@ ul li {
     margin: .3em;
 }
 
-h1, h2, h3, h4 { 
+h1, h2, h3 { 
     font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
     border: .3em;
-    margin: .3em;
+    margin: .3em; 
 }
+
+h4 {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
+    border: .3em;
+    margin: .8em .3em .3em .3em; 
+}
+
 
 .sidenav {
   height: 100%;
