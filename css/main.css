@@ -7,7 +7,7 @@ p, ul { color: #333; }
 
 ul {
     border: .3em; 
-    margin: .3em; 
+    margin: .8em .3em .3em .3em; 
 }
 
 ul li { 
