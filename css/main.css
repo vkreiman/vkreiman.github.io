@@ -8,11 +8,13 @@ p, ul { color: #333; }
 ul li ul { 
     color: #333; 
     border: .3em;
+    margin: .3em;
 }
 
 h1, h2, h3, h4 { 
     font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
     border: .3em;
+    margin: .3em;
 }
 
 .sidenav {
@@ -24,7 +26,7 @@ h1, h2, h3, h4 {
   left: 0;
   background-color: #3a4669;
   overflow-x: hidden;
-  padding: 7px;
+  padding: 20px 7px 7px 7px;
 }
 
 .sidenav a {
