@@ -3,10 +3,6 @@ body { margin: 30px auto; width: 95%; }
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
-a:active { color: #04AA6D; }
-
-a#highlight { color: #04AA6D; }
-
 p, ul { color: #333; }
 
 ul {
@@ -54,9 +50,19 @@ h3, h4 {
 }
 
 /* Active/current link */
-.sidenav a:active {
+.sidenav a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+#navigation a .active-link{
+    background: #29abe2;
+    color: #fff; 
+}
+
+#page1:target, #page2:target, #page3:target, #page4:target, #page5:target, #page6:target{
+    background: #29abe2;
+    color: #fff;
 }
 
 /* Links on mouse-over */
