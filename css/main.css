@@ -50,7 +50,7 @@ h3, h4 {
 }
 
 /* Active/current link */
-.sidenav a.active {
+.sidenav a:active {
   background-color: #04AA6D;
   color: white;
 }
@@ -78,7 +78,6 @@ h3, h4 {
 
 /* nav ul li, footer ul li { display: inline; margin-right: 20px; } */ 
 
-
 /* footer ul li.right { float:right; } */
 
 footer { 
@@ -88,10 +87,6 @@ footer {
     width: 85%; 
 }
  
-
-/* default */
-/* .def ul { margin-top:-30px;  margin-bottom:60px; } */
-
 /* @media print { */
     @page{
 	magin-top: 2cm;
@@ -99,4 +94,3 @@ footer {
 	magin-left: 2cm;
 	magin-right: 2cm;
     }   
-/* } */
