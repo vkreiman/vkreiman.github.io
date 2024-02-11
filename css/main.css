@@ -103,7 +103,7 @@ table {
 }
 
 caption {
-  caption-side: bottom;
+  caption-side: top;
   padding: 10px;
   font-weight: bold;
 }
@@ -121,6 +121,10 @@ td {
 
 td:last-of-type {
   text-align: center;
+}
+
+td:nth-child(3) {
+  text-align: left;
 }
 
 tbody > tr:nth-of-type(even) {
