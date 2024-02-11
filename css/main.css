@@ -55,14 +55,9 @@ h3, h4 {
   color: white;
 }
 
-#navigation a.active-link{
+#sidenav a.active-link{
     background: #29abe2;
     color: #fff; 
-}
-
-#page1:target, #page2:target, #page3:target, #page4:target, #page5:target, #page6:target{
-    background: #29abe2;
-    color: #fff;
 }
 
 /* Links on mouse-over */
