@@ -28,8 +28,6 @@ h3, h4 {
     margin: .8em .3em .3em .3em; 
 }
 
-:target { color: red; }
-
 .sidenav {
   height: 100%;
 /*  width: 160px; */
@@ -51,15 +49,16 @@ h3, h4 {
 }
 
 /* Active/current link */
+.sidenav a:focus {
+  background-color: blue;
+  color: white;
+}
+
 .sidenav a.active {
   background-color: #04AA6D;
   color: white;
 }
 
-#sidenav a.active-link{
-    background: #29abe2;
-    color: #fff; 
-}
 
 /* Links on mouse-over */
 .sidenav a:hover:not(.active) {
