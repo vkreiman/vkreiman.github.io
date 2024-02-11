@@ -5,6 +5,8 @@ a:hover { text-decoration: underline; }
 
 a:active { color: #04AA6D; }
 
+a#highlight { color: #04AA6D; }
+
 p, ul { color: #333; }
 
 ul {
