@@ -13,7 +13,7 @@ ul {
     list-style-type: none;
     border: .3em; 
     margin: .3em;
-    padding: .4em;
+    padding: 0em 0em 0em .4em;
 }
 
 ul li { 
