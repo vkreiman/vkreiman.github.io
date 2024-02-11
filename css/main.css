@@ -3,6 +3,8 @@ body { margin: 30px auto; width: 95%; }
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
+a:active { color: #04AA6D; }
+
 p, ul { color: #333; }
 
 ul {
@@ -50,7 +52,7 @@ h3, h4 {
 }
 
 /* Active/current link */
-.sidenav a.active {
+.sidenav a:active {
   background-color: #04AA6D;
   color: white;
 }
