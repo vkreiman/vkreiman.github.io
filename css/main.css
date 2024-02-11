@@ -55,7 +55,7 @@ h3, h4 {
   color: white;
 }
 
-#navigation a .active-link{
+#navigation a.active-link{
     background: #29abe2;
     color: #fff; 
 }
