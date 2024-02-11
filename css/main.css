@@ -28,6 +28,7 @@ h3, h4 {
     margin: .8em .3em .3em .3em; 
 }
 
+:target { color: red; }
 
 .sidenav {
   height: 100%;
