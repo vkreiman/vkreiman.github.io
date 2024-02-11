@@ -49,7 +49,7 @@ h3, h4 {
 }
 
 /* Active/current link */
-.sidenav a:focus {
+.target:focus {
   background-color: blue;
   color: white;
 }
