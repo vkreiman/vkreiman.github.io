@@ -34,6 +34,10 @@ h3, h4 {
     margin: .8em .3em .3em .3em; 
 }
 
+hr {
+    margin: 1em 0em 2em 0em;
+}
+
 .sidenav {
   height: 100%;
 /*  width: 160px; */
@@ -44,6 +48,11 @@ h3, h4 {
   background-color: #f1f1f1;
   overflow-x: hidden;
   padding: 20px 0px 0px 0px;
+}
+
+
+.syll hr {
+    margin: 1em;
 }
 
 .sidenav a {
