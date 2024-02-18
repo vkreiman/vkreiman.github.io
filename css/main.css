@@ -39,8 +39,8 @@ hr {
 }
 
 .Header {
-    height: 40px;
-    background-color: #9A8C98;
+    height: 60px;
+    background-color: #4A4E69;
     color: white;
     font-size: 30px;
     padding: 10px;
@@ -49,6 +49,11 @@ hr {
 h1.Header {
     font-size=20px;
 }
+
+.cent {
+    width: 940px;
+}
+
 
 .sidenav {
   height: 100%;
