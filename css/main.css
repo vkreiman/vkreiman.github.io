@@ -32,6 +32,10 @@ h1, h2 {
     margin: .3em; 
 }
 
+h1 {
+    text-align: center
+}
+
 h3, h4 {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
     border: .3em;
@@ -71,7 +75,7 @@ h1.Header {
     left: 0;
     background-color: #f1f1f1;
     overflow-x: hidden;
-    padding: 20px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 
