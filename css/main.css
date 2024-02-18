@@ -9,7 +9,7 @@ a:hover { text-decoration: underline; }
 
 p, ul {
     margin: 0px;
-    padding: 20px;
+    padding: 10px;
     color: #333;
 }
 
@@ -61,7 +61,7 @@ h1.Header {
 
 .sidenav {
     height: 100%;
-    width: 70px;
+    width: 90px;
     /*  width: 160px; */
     /*  position: fixed; */
     float: left;
@@ -100,7 +100,7 @@ h1.Header {
 
 .main {
     float: left;
-    width: 80%;
+    width: 85%;
     margin-left: 20px;
     margin-right: 20px;
     padding: 30px 0px 0px 0px;
