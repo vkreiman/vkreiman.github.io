@@ -1,6 +1,6 @@
 body { 
-    margin: 30px auto; 
-    width: 95%;
+    margin: 0; 
+ /* width: 95%; */
     font-family: sans-serif;
 }
 
@@ -99,7 +99,9 @@ h1.Header {
 }
 
 .main {
-  margin-left: 70px; /* Same as the width of the sidenav */
+    float: left;
+    margin-left: 20px;
+    padding: 20px 0px 0px 0px;
 /*  font-size: 28px; */ /* Increased text to enable scrolling */
 /*  padding: 0px 10px; */
 }
