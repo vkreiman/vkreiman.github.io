@@ -60,7 +60,7 @@ h1.Header {
 
 
 .sidenav {
-    height: 100%;
+    height: 100vh;
     width: 90px;
     /*  width: 160px; */
     /*  position: fixed; */
