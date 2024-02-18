@@ -51,7 +51,8 @@ hr {
 }
 
 h1.Header {
-    font-size=20px;
+  /*  font-size: 20px; */
+    text-align: center;
 }
 
 .cent {
@@ -61,7 +62,7 @@ h1.Header {
 
 .sidenav {
     height: 100vh;
-    width: 90px;
+    width: 110px;
     /*  width: 160px; */
     /*  position: fixed; */
     float: left;
@@ -79,9 +80,9 @@ h1.Header {
 }
 
 .sidenav a {
-  padding: 3px 8px 3px 6px;
+  padding: 3px 8px 5px 6px;
   text-decoration: none;
-  font-size: .8em; 
+  font-size: 1em; 
   color: #818181;
   display: block;
 }
@@ -100,8 +101,8 @@ h1.Header {
 
 .main {
     float: left;
-    width: 85%;
-    margin-left: 20px;
+    width: 80%;
+    margin-left: 30px;
     margin-right: 20px;
     padding: 30px 0px 0px 0px;
 /*  font-size: 28px; */ /* Increased text to enable scrolling */
