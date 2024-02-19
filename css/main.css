@@ -146,9 +146,9 @@ h1.Header {
 
 .main {
 /*    float: left; */
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 50px 0px 30px 0px;
 /*  font-size: 28px; */ /* Increased text to enable scrolling */
 /*  padding: 0px 10px; */
