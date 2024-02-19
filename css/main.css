@@ -26,6 +26,11 @@ ul li {
     margin: .3em;
 }
 
+.res {
+    margin: .8em;
+}
+
+
 h1, h2 { 
     font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
     border: .3em;
