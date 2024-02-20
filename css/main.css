@@ -61,7 +61,8 @@ hr {
 }
 
 .Header {
-    height: 170px;
+    height: 160px;
+    font-family: Georgia, serif;
     background-color: #415A87;
     color: #E0E1DD;
  /*  font-size: 20px; */
