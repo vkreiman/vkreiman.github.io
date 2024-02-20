@@ -1,11 +1,17 @@
 body { 
-    margin: 0; 
+    margin: 0;
+    font-family: Georgia, serif;
  /* width: 95%; */
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+ /*   font-family: 'Helvetica', 'Arial', 'Sans-Serif'; */
 }
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
+
+h1 { font-size: 4.219rem; }
+h2 { font-size: 2.813rem; }
+h3 { font-size: 1.875rem; }
+p, h4 { font-size: 1.25rem; }
 
 p, ul {
     margin: 0px;
@@ -32,7 +38,7 @@ ul li {
 
 
 h1, h2 { 
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
+  /*  font-family: 'Helvetica', 'Arial', 'Sans-Serif'; */
     border: .3em;
     margin: .3em; 
 }
@@ -43,7 +49,7 @@ h1 {
 }
 
 h3, h4 {
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
+  /*    font-family: 'Helvetica', 'Arial', 'Sans-Serif'; */
     border: .3em;
     margin: .8em .3em .3em .3em; 
 }
@@ -56,7 +62,7 @@ hr {
     height: 120px;
     background-color: #415A87;
     color: #E0E1DD;
-    font-size: 20px;
+ /*  font-size: 20px; */
     padding: 15px;
 }
 
@@ -84,7 +90,8 @@ h1.Header {
 /* Links inside the navbar */
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 1.25rem;
+  font-weight: Bold;
   color: #E0E1DD;
   text-align: center;
   padding: 14px 16px;
