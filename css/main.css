@@ -8,10 +8,10 @@ body {
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
-h1 { font-size: 2.417rem; }
-h2 { font-size: 1.859rem; }
-h3 { font-size: 1.43rem; }
-p, h4, ul { font-size: 1.1rem; }
+h1 { font-size: 2.746rem; }
+h2 { font-size: 2.113rem; }
+h3 { font-size: 1.625rem; }
+p, h4, ul { font-size: 1.25rem; }
 
 p { max-width: 65ch; }
 
@@ -94,8 +94,8 @@ h1.Header {
 /* Links inside the navbar */
 .navbar a {
   float: left;
-  font-size: 0.846rem;
-  font-weight: 400;
+  font-size: 0.962rem;
+  font-weight: 500;
   color: #E0E1DD;
   text-align: center;
   padding: 14px 16px;
@@ -110,8 +110,8 @@ h1.Header {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-    font-size: 0.846rem;
-    font-weight: 400;
+    font-size: 0.962rem;
+    font-weight: 500;
     border: none;
     outline: none;
     color: #E0E1DD;
@@ -159,7 +159,7 @@ h1.Header {
 
 .main {
     /*    float: left; */
-    line-height: 1.5;
+    line-height: 1.875rem;
   /*  font-size: 110%; */
     width: 60%;
     margin-left: 20%;
