@@ -8,9 +8,9 @@ body {
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
-h1 { font-size: 4.219rem; }
-h2 { font-size: 2.813rem; }
-h3 { font-size: 1.875rem; }
+h1 { font-size: 2.746rem; }
+h2 { font-size: 2.1125rem; }
+h3 { font-size: 1.625rem; }
 p, h4 { font-size: 1.25rem; }
 
 p { max-width: 65ch; }
@@ -95,7 +95,7 @@ h1.Header {
 .navbar a {
   float: left;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #E0E1DD;
   text-align: center;
   padding: 14px 16px;
@@ -111,7 +111,7 @@ h1.Header {
 /* Dropdown button */
 .dropdown .dropbtn {
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 500;
     border: none;
     outline: none;
     color: #E0E1DD;
@@ -123,7 +123,7 @@ h1.Header {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: slategray;
 }
 
 /* Dropdown content (hidden by default) */
@@ -160,7 +160,7 @@ h1.Header {
 .main {
     /*    float: left; */
     line-height: 1.5;
-    font-size: 110%;
+  /*  font-size: 110%; */
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
