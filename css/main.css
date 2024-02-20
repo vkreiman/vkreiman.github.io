@@ -148,7 +148,7 @@ h1.Header {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #cbe6f6;
 }
 
 /* Show the dropdown menu on hover */
