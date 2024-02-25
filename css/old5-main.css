@@ -5,10 +5,10 @@ body {
  /*   font-family: 'Arial', 'Sans-Serif'; */
 }
 
-a { text-decoration: none; color: #000000; }
+a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
-h1 { font-size: 2.747rem; }
+h1 { font-size: 2.746rem; }
 h2 { font-size: 2.113rem; }
 h3 { font-size: 1.625rem; }
 p, h4, ul { font-size: 1.25rem; }
@@ -61,13 +61,12 @@ hr {
 }
 
 .Header {
-/*    height: 140px; */
+    height: 140px;
     font-family: Georgia, serif;
-/*    background-color: lightseagreen; */
-/*    background-color: #415A87; */
-/*    color: #86af08; */
+    background-color: #415A87;
+    color: #E0E1DD;
  /*  font-size: 20px; */
-     padding: 6px;
+    padding: 15px;
 }
 
 h1.Header {
@@ -86,30 +85,23 @@ h1.Header {
 
 /* Navbar container */
 .navbar {
-    padding-left: 1rem;
+    padding-left: 4rem;
     overflow: hidden;
-/*    background-color: #0D1B2A; */
-    font-weight: 900;
+    background-color: #0D1B2A;
     font-family: Arial;
 }
 
 /* Links inside the navbar */
-.navbar a, .try {
+.navbar a {
   float: left;
-  font-size: 1.25rem;
-  font-weight: 600;
- /* color: #E0E1DD; */
+  font-size: 0.962rem;
+  font-weight: 500;
+  color: #E0E1DD;
   text-align: center;
   padding: 14px 16px;
-  margin: 0px 10px 0px 10px;    
   text-decoration: none;
 }
 
-.try {
-  padding: 4px 16px;
-    font-size: 1.625rem;
-  font-weight: 800; 
-}
 /* The dropdown container */
 .dropdown {
   float: left;
@@ -118,11 +110,11 @@ h1.Header {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 0.962rem;
+    font-weight: 500;
     border: none;
     outline: none;
-    color: #000000;
+    color: #E0E1DD;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
@@ -131,10 +123,7 @@ h1.Header {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-    text-decoration-line: underline;
-    text-underline-offset: 5px;
-/*    text-decoration: underline; */
-  /* background-color: slategray; */
+  background-color: slategray;
 }
 
 /* Dropdown content (hidden by default) */
@@ -159,7 +148,7 @@ h1.Header {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
- /* background-color: #cbe6f6; */
+  background-color: #cbe6f6;
 }
 
 /* Show the dropdown menu on hover */
