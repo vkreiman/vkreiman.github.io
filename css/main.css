@@ -42,7 +42,7 @@ ul li {
 h1, h2 { 
   /*  font-family: 'Helvetica', 'Arial', 'Sans-Serif'; */
     border: .3em;
-    margin: .3em; 
+    margin: .5em 0 1.2em 0; 
 }
 
 h1 {
@@ -61,17 +61,11 @@ hr {
 }
 
 .Header {
-/*    height: 140px; */
     font-family: Georgia, serif;
-/*    background-color: lightseagreen; */
-/*    background-color: #415A87; */
-/*    color: #86af08; */
- /*  font-size: 20px; */
      padding: 6px;
 }
 
 h1.Header {
-  /*  font-size: 20px; */
     text-align: center;
     font-family: Georgia, serif;
 }
@@ -79,6 +73,15 @@ h1.Header {
 .cent {
     width: 100%;
 }
+
+hr.thin {
+    height: 1px; 
+    border : 0;
+    padding : 0;
+    margin: 0;
+    color: lightgray;
+    background-color : lightgray; 
+} 
 
 .syll hr {
     margin: 1em;
@@ -90,23 +93,23 @@ h1.Header {
     overflow: hidden;
 /*    background-color: #0D1B2A; */
     font-weight: 900;
-    font-family: Arial;
+    font-family: Merriweather;
 }
 
 /* Links inside the navbar */
 .navbar a, .try {
   float: left;
-  font-size: 1.25rem;
+  font-size: .962rem;
   font-weight: 600;
  /* color: #E0E1DD; */
   text-align: center;
-  padding: 14px 16px;
+  padding: 18px 14px;
   margin: 0px 10px 0px 10px;    
   text-decoration: none;
 }
 
 .try {
-  padding: 4px 16px;
+  padding: 10px 16px;
     font-size: 1.625rem;
   font-weight: 800; 
 }
@@ -118,12 +121,12 @@ h1.Header {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-    font-size: 1.25rem;
+    font-size: .962rem;
     font-weight: 600;
     border: none;
     outline: none;
     color: #000000;
-    padding: 14px 16px;
+    padding: 18px 14px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
