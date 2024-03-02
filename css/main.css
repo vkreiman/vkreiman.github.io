@@ -14,8 +14,8 @@ h3 { font-size: 1.625rem; }
 p, h4, ul { font-size: 1.25rem; }
 
 section {
-    padding: .5rem;
-    margin: 1rem;
+    padding: .3rem;
+    margin: .3rem;
 }
 
 article {
@@ -61,7 +61,13 @@ h1 {
     text-align: center;
 }
 
-h3, h4 {
+
+h3 {
+    border: .3em;
+    margin: 1em .3em 1em .3em; 
+}
+
+h4 {
   /*    font-family: 'Helvetica', 'Arial', 'Sans-Serif'; */
     border: .3em;
     margin: .8em .3em .3em .3em; 
