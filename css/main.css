@@ -13,6 +13,17 @@ h2 { font-size: 2.113rem; }
 h3 { font-size: 1.625rem; }
 p, h4, ul { font-size: 1.25rem; }
 
+section {
+    padding: .5rem;
+    margin: 1rem;
+}
+
+article {
+    padding: .5rem;
+    margin: 1rem;
+}
+
+
 p { max-width: 65ch; }
 
 p, ul {
