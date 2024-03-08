@@ -29,7 +29,7 @@ p { max-width: 65ch; }
 p, ul {
     margin: 0px;
     padding: 10px;
-    color: #333;
+   /* color: #333; */
 }
 
 ul {
@@ -78,7 +78,7 @@ hr {
 }
 
 header {
-    font-family: Georgia, serif;
+     font-family: Georgia, serif; 
      padding: 6px;
 }
 
@@ -215,12 +215,24 @@ main {
 /* footer ul li.right { float:right; } */
 
 footer { 
-    border-top: 1px solid #d5d5d5; 
-    font-size: .8em; 
+    background-color: #f0f6fc;
+    border-top: 1px solid #d5d5d5;
 /*    margin: 60px auto; */
-    width: 85%; 
+    width: 100%;
+    padding-left: 1rem;
+    display: flex;
 }
- 
+
+footer p {
+    font-family: Merriweather;
+    font-size: .962rem;
+    line-height: 1.4423rem;
+    margin: 0px 80px 0px 0px;
+    padding: 18px 10px 15px 15px;
+/*    background-color: yellow; */
+/*    display: inline; */
+    }
+
 /* @media print { */
     @page{
 	magin-top: 2cm;
