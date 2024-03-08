@@ -91,7 +91,7 @@ hr {
 
 header {
      font-family: Georgia, serif; 
-     padding: 6px;
+     padding: 6px 6px 0px 6px;
 }
 
 h1.Header {
@@ -202,6 +202,7 @@ hr.thin {
 
 main {
     /*    float: left; */
+    border-left: 1px solid;
     line-height: 1.875rem;
   /*  font-size: 110%; */
     width: 80%;
