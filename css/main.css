@@ -1,4 +1,3 @@
-
 *, *::before, *::after{
      margin: 0;
      padding: 0;
@@ -100,8 +99,7 @@ hr {
 }
 
 header {
-     font-family: Georgia, serif; 
-     padding: 6px 6px 0px 6px;
+     padding: 0px;
 }
 
 h1.Header {
@@ -128,6 +126,7 @@ hr.thin {
 
 /* Navbar container */
 .navbar {
+    background-color: #f0f6fc;
     padding-left: 1rem;
     overflow: hidden;
 /*    background-color: #0D1B2A; */
@@ -212,7 +211,7 @@ hr.thin {
 
 main {
     /*    float: left; */
-  /*  border-left: 1px solid; */
+    border-left: 1px solid;
     line-height: 1.875rem;
   /*  font-size: 110%; */
     width: 80%;
