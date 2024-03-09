@@ -126,6 +126,7 @@ hr.thin {
 
 /* Navbar container */
 .navbar {
+    border-bottom: 1px solid #d5d5d5; 
     background-color: #f0f6fc;
     padding-left: 1rem;
     overflow: hidden;
@@ -211,7 +212,7 @@ hr.thin {
 
 main {
     /*    float: left; */
-    border-left: 1px solid;
+   /* border-left: 1px solid; */
     line-height: 1.875rem;
   /*  font-size: 110%; */
     width: 80%;
