@@ -25,6 +25,10 @@ main {
     flex: 1;
 }
 
+main a {
+    color: #2a5a7a;
+}
+
 
 .links {
     display: grid;
