@@ -143,10 +143,9 @@ hr.thin {
 /* Navbar container */
 .navbar {
     border-bottom: 1px solid #d5d5d5; 
-    background-color: #f0f6fc;
+/*    background-color: #f0f6fc; */
     padding-left: 1rem;
     overflow: hidden;
-/*    background-color: #0D1B2A; */
     font-weight: 900;
     font-family: Merriweather;
 }
@@ -156,7 +155,6 @@ hr.thin {
   float: left;
   font-size: .962rem;
   font-weight: 600;
- /* color: #E0E1DD; */
   text-align: center;
   padding: 18px 14px;
   margin: 0px 10px 0px 10px;    
@@ -199,7 +197,7 @@ hr.thin {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f0f6fc;/* #c5d9ed; */
+/*  background-color: #f0f6fc; */
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -254,14 +252,11 @@ main {
 /* footer ul li.right { float:right; } */
 
 footer { 
-    background-color: #f0f6fc;
+/*    background-color: #f0f6fc; */
     border-top: 1px solid #d5d5d5;
-/*    margin: 60px auto; */
     width: 100%;
     padding-left: 1rem;
 text-align: center;
-    /*    flex-shrink: 0; */
- /*   display: flex; */
 }
 
 footer span {
@@ -271,7 +266,6 @@ footer span {
     margin: 3px 3px 3px 3px;
     padding: 2px 2px 2px 2px;
 /*    background-color: yellow; */
-/*    display: inline; */
     }
 
 
@@ -286,9 +280,7 @@ footer span {
 table {
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
- /* font-family: sans-serif; */
  font-size: 0.8rem;
- /*  letter-spacing: 1px; */
 }
 
 caption {
