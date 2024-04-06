@@ -97,7 +97,6 @@ ul {
     padding: 0em 0em 0em .4em;
 }
 
-
 ul li { 
     color: #333; 
     border: .3em;
@@ -220,7 +219,7 @@ hr.thin {
   display: none;
   position: absolute;
   background-color: white;
-  min-width: 160px;
+  min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -229,7 +228,7 @@ hr.thin {
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 10px 14px;
   text-decoration: none;
   display: block;
   text-align: left;
