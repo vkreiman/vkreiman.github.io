@@ -233,7 +233,7 @@ hr.thin {
   padding: 10px 14px;
   text-decoration: none;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 /* Add a grey background color to dropdown links on hover */
