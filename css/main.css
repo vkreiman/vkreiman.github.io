@@ -218,6 +218,7 @@ hr.thin {
 .dropdown-content {
   display: none;
   position: absolute;
+  margin: 0;
   background-color: white;
   min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -228,20 +229,22 @@ hr.thin {
 .dropdown-content a {
   float: none;
   color: black;
+  margin: 0;
   padding: 10px 14px;
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
- /* background-color: #cbe6f6; */
+    text-decoration-line: none;
+    background-color: #dbdbdb94;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 } 
 
 
