@@ -7,6 +7,7 @@
 body { 
     margin: 0;
     font-family: Georgia, serif;
+    text-underline-offset: 3px;
     /* width: 95%; */
  /*   font-family: 'Arial', 'Sans-Serif'; */
 }
@@ -218,6 +219,7 @@ hr.thin {
 .dropdown-content {
   display: none;
   position: absolute;
+    border-radius: 5px;
   margin: 0;
   background-color: white;
   min-width: 120px;
@@ -229,7 +231,8 @@ hr.thin {
 .dropdown-content a {
   float: none;
   color: black;
-  margin: 0;
+  margin: 2px;
+    border-radius: 8px;
   padding: 10px 14px;
   text-decoration: none;
   display: block;
@@ -245,6 +248,7 @@ hr.thin {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+    border-radius: 8px;
 } 
 
 
