@@ -88,7 +88,6 @@ p { max-width: 65ch; }
 p, ul {
     margin: 0px;
     padding: 10px;
-   /* color: #333; */
 }
 
 ul {
@@ -127,7 +126,6 @@ h3 {
 }
 
 h4 {
-  /*    font-family: 'Helvetica', 'Arial', 'Sans-Serif'; */
     border: .3em;
     margin: .8em .3em .3em .3em; 
 }
@@ -165,7 +163,6 @@ hr.thin {
 /* Navbar container */
 .navbar {
     border-bottom: 1px solid #d5d5d5; 
-/*    background-color: #f0f6fc; */
     padding-left: 1rem;
     overflow: hidden;
     font-weight: 900;
@@ -207,12 +204,10 @@ hr.thin {
     margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+/* Underline navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
     text-decoration-line: underline;
     text-underline-offset: 5px;
-/*    text-decoration: underline; */
-  /* background-color: slategray; */
 }
 
 /* Dropdown content (hidden by default) */
@@ -253,17 +248,12 @@ hr.thin {
 
 
 main {
-    /*    float: left; */
-   /* border-left: 1px solid; */
     line-height: 1.875rem;
-  /*  font-size: 110%; */
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    padding: 50px 0px 50px 0px;
+    padding: 80px 0px 80px 0px;
 /*    background-color: #E0E1DD; */
-/*  font-size: 28px; */ /* Increased text to enable scrolling */
-/*  padding: 0px 10px; */
 }
 
 /*
@@ -273,12 +263,6 @@ main {
 }
 */
 
-/* nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; } */
-
-/* nav ul li, footer ul li { display: inline; margin-right: 20px; } */ 
-
-/* footer ul li.right { float:right; } */
-
 
 /* @media print { */
     @page{
@@ -287,6 +271,10 @@ main {
 	magin-left: 2cm;
 	magin-right: 2cm;
     }   
+    
+
+
+/* The rest of this file is for tables */
     
 table {
   border-collapse: collapse;
