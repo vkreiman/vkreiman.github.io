@@ -12,23 +12,6 @@ body {
  /*   font-family: 'Arial', 'Sans-Serif'; */
 }
 
-#sylldata {
-    width: 65ch;
-    padding: 1rem 1rem 1rem 0rem ;
-    margin: 4rem 1rem 3rem .5rem;
-    font-size: 1.25rem;
-    font-family: Georgia, serif;
-    border-top: 4px groove;
-    border-bottom: 4px groove;
-}
-
-#sylldata ul {
-   list-style-type: none;
-    border: 0em; 
-    margin: 0em;
-    padding: 0em;    
-}
-
 
 footer { 
 /*    background-color: #f0f6fc; */
@@ -90,8 +73,8 @@ h3 { font-size: 1.625rem; }
 p, h4, ul { font-size: 1.25rem; }
 
 section {
-    padding: 0rem;
-    margin: 0rem;
+    padding: .3rem;
+    margin: .3rem;
 }
 
 article {
@@ -100,18 +83,18 @@ article {
 }
 
 
-p, ul { max-width: 65ch; }
+p { max-width: 65ch; }
 
-p {
+p, ul {
     margin: 0px;
-    padding: 0.5rem;
+    padding: .5rem;
 }
 
 ul {
     list-style-type: none;
     border: .3em; 
-    margin: 0.3em 0em;
-    padding: 0em 0em 0em 0em;
+    margin: .3em;
+    padding: 0em 0em 0em .4em;
 }
 
 ul li { 
@@ -122,10 +105,6 @@ ul li {
 
 .res {
     margin: .8em;
-}
-
-li.res{
-    margin: .8em 0em;
 }
 
 
