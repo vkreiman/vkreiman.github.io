@@ -6,7 +6,7 @@
 
 body { 
     margin: 0;
-    font-family: Arial;
+    font-family: Georgia, serif;
     text-underline-offset: 3px;
     /* width: 95%; */
  /*   font-family: 'Arial', 'Sans-Serif'; */
@@ -17,7 +17,7 @@ body {
     padding: .8rem .8rem .8rem 0rem ;
     margin: 3.2rem .8rem 2.4rem .4rem;
     font-size: 1rem;
-    font-family: Arial;
+    font-family: Georgia, serif;
     border-top: 4px groove;
     border-bottom: 4px groove;
 }
@@ -43,7 +43,7 @@ footer {
 }
 
 footer span {
-    font-family: Calibri;
+    font-family: Merriweather;
     font-size: .769rem;
     line-height: 1.6rem;
 /*    margin: 3px 3x 3px 33x; */
@@ -143,8 +143,7 @@ h1 {
 
 h3 {
     border: .24em;
-    margin: .4rem .24em 1.6em .24em;
-   /* color: #bc1313 */
+    margin: .4rem .24em 1.6em .24em; 
 }
 
 h4 {
@@ -188,9 +187,7 @@ hr.thin {
     padding-left: .8rem;
     overflow: hidden;
     font-weight: 900;
-    font-family: Calibri;
-    background-color: #bc1313;
-    color: white;
+    font-family: Merriweather;
 }
 
 /* Links inside the navbar */
@@ -202,7 +199,6 @@ hr.thin {
   padding: 14.4px 11.2px;
   margin: 0px 8px 0px 8px;    
   text-decoration: none;
-  color: white;
 }
 
 .try {
@@ -227,7 +223,6 @@ hr.thin {
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
-    color: white;
 }
 
 /* Underline navbar links on hover */
