@@ -14,9 +14,9 @@ body {
 
 #sylldata {
     width: 65ch;
-    padding: .9rem .9rem .9rem 0rem ;
-    margin: 3.5rem .9rem 2.6rem .45rem;
-    font-size: 1.1rem;
+    padding: .8rem .8rem .8rem 0rem ;
+    margin: 3.2rem .8rem 2.4rem .4rem;
+    font-size: 1rem;
     font-family: Arial;
     border-top: 4px groove;
     border-bottom: 4px groove;
@@ -84,10 +84,10 @@ main a {
 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-h1 { font-size: 2.42rem; }
-h2 { font-size: 1.86rem; }
-h3 { font-size: 1.43rem; }
-p, h4, ul { font-size: 1.1rem; }
+h1 { font-size: 2.197rem; }
+h2 { font-size: 1.69rem; }
+h3 { font-size: 1.3rem; }
+p, h4, ul { font-size: 1rem; }
 
 section {
     padding: 0rem;
@@ -95,8 +95,8 @@ section {
 }
 
 article {
-    padding: .44rem;
-    margin: .88rem;
+    padding: .4rem;
+    margin: .8rem;
 }
 
 
@@ -104,13 +104,13 @@ p, ul { max-width: 65ch; }
 
 p {
     margin: 0px;
-    padding: 0.44rem;
+    padding: 0.4rem;
 }
 
 ul {
     list-style-type: none;
-    border: .26em; 
-    margin: 0.26em 0em;
+    border: .24em; 
+    margin: 0.24em 0em;
     padding: 0em 0em 0em 0em;
 }
 
@@ -121,7 +121,7 @@ ul li {
 }
 
 .res {
-    margin: .7em;
+    margin: .64em;
 }
 
 li.res{
@@ -131,8 +131,8 @@ li.res{
 
 h1, h2 { 
   /*  font-family: 'Helvetica', 'Arial', 'Sans-Serif'; */
-    border: .26em;
-    margin: .44em 1em 0; 
+    border: .24em;
+    margin: .4em 0 .96em 0; 
 }
 
 h1 {
@@ -142,18 +142,18 @@ h1 {
 
 
 h3 {
-    border: .26em;
-    margin: .44rem .26em 1.76em .26em;
+    border: .24em;
+    margin: .4rem .24em 1.6em .24em;
    /* color: #bc1313 */
 }
 
 h4 {
-    border: .26em;
-    margin: .7em .26em .26em .26em; 
+    border: .24em;
+    margin: .64em .24em .24em .24em; 
 }
 
 hr {
-    margin: .44em 0em 1.76em 0em;
+    margin: .4em 0em 1.6em 0em;
 }
 
 header {
@@ -179,13 +179,13 @@ hr.thin {
 } 
 
 .syll hr {
-    margin: .88em;
+    margin: .8em;
 }
 
 /* Navbar container */
 .navbar {
     border-bottom: 1px solid #d5d5d5; 
-    padding-left: .88rem;
+    padding-left: .8rem;
     overflow: hidden;
     font-weight: 900;
     font-family: Calibri;
@@ -196,7 +196,7 @@ hr.thin {
 /* Links inside the navbar */
 .navbar a, .try {
   float: left;
-  font-size: .85rem;
+  font-size: .769rem;
   font-weight: 600;
   text-align: center;
   padding: 14.4px 11.2px;
@@ -207,7 +207,7 @@ hr.thin {
 
 .try {
   padding: 8px 12.8px;
-    font-size: 1.43rem;
+    font-size: 1.3rem;
   font-weight: 800; 
 }
 /* The dropdown container */
@@ -218,7 +218,7 @@ hr.thin {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-    font-size: .85rem;
+    font-size: .769rem;
     font-weight: 600;
     border: none;
     outline: none;
@@ -274,7 +274,7 @@ hr.thin {
 
 
 main {
-    line-height: 1.6rem;
+    line-height: 1.5rem;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
