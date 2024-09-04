@@ -4,12 +4,16 @@
      box-sizing: border-box; 
   }
 
+.html {
+    font-size: 100%;
+}
+
 body { 
     margin: 0;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     text-underline-offset: 3px;
     /* width: 95%; */
- /*   font-family: 'Arial', 'Sans-Serif'; */
+ /*   font-family: ''Times New Roman', Times, serif', 'Sans-Serif'; */
 }
 
 #sylldata {
@@ -17,7 +21,7 @@ body {
     padding: .9rem .9rem .9rem 0rem ;
     margin: 3.5rem .9rem 2.6rem .45rem;
     font-size: 1.1rem;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     border-top: 4px groove;
     border-bottom: 4px groove;
 }
@@ -130,7 +134,7 @@ li.res{
 
 
 h1, h2 { 
-  /*  font-family: 'Helvetica', 'Arial', 'Sans-Serif'; */
+  /*  font-family: 'Helvetica', ''Times New Roman', Times, serif', 'Sans-Serif'; */
     border: .26em;
     margin: .44em 1em 0; 
 }
