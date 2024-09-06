@@ -179,7 +179,11 @@ hr.thin {
 .navbar {
   display: flex;
     align-items: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+
 }
 
 /* Links inside the navbar */
@@ -195,15 +199,14 @@ hr.thin {
 
 
 .try {
-  padding: 8px 12.8px;
+  padding: 4px .8px;
     font-size: 1.86rem;
     font-weight: 800;
     font-family: Gabriola;
-/*    flex-grow: 1;
-   
-    justify-content: flex-start;
-        align-content: flex-start;*/
+    flex-grow: 1;
+    text-align: left;
 }
+
 /* The dropdown container */
 .dropdown {
   float: left;

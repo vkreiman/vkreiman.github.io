@@ -34,31 +34,6 @@ body {
 }
 
 
-footer { 
-/*    background-color: #f0f6fc; */
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    border-top: 1px solid #d5d5d5;
-    width: 100%;
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
-/*text-align: center; */
-}
-
-footer span {
-    font-family: 'Times New Roman', Times, serif;
-/*    font-family: Calibri;*/
-    font-size: .769rem;
-    line-height: 1.6rem;
-/*    margin: 3px 3x 3px 33x; */
-    padding: 1.6px .8px 1.6px .8px;
-/*    background-color: yellow; */
-    }
-
-.ftright {
-    font-size: .769rem;
-}
 
 a { text-decoration: none; color: #000000; }
 a:hover { text-decoration: underline; }
@@ -201,8 +176,14 @@ hr.thin {
 }
 
 /* Links inside the navbar */
+.navbar {
+  display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Links inside the navbar */
 .navbar a, .try {
-  float: left;
   font-size: .85rem;
   font-weight: 600;
   text-align: center;
@@ -212,10 +193,16 @@ hr.thin {
   color: white;
 }
 
+
 .try {
   padding: 8px 12.8px;
-    font-size: 1.43rem;
-  font-weight: 800; 
+    font-size: 1.86rem;
+    font-weight: 800;
+    font-family: Gabriola;
+/*    flex-grow: 1;
+   
+    justify-content: flex-start;
+        align-content: flex-start;*/
 }
 /* The dropdown container */
 .dropdown {
@@ -278,6 +265,33 @@ hr.thin {
     display: block;
     border-radius: 6.4px;
 } 
+
+
+footer { 
+/*    background-color: #f0f6fc; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+/*text-align: center; */
+}
+
+footer span {
+    font-family: 'Times New Roman', Times, serif;
+/*    font-family: Calibri;*/
+    font-size: .769rem;
+    line-height: 1.6rem;
+/*    margin: 3px 3x 3px 33x; */
+    padding: 1.6px .8px 1.6px .8px;
+/*    background-color: yellow; */
+    }
+
+.ftright {
+    font-size: .769rem;
+}
 
 
 main {
