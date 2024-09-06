@@ -47,7 +47,8 @@ footer {
 }
 
 footer span {
-    font-family: Calibri;
+    font-family: 'Times New Roman', Times, serif;
+/*    font-family: Calibri;*/
     font-size: .769rem;
     line-height: 1.6rem;
 /*    margin: 3px 3x 3px 33x; */
@@ -90,7 +91,8 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 
 h1 { font-size: 2.42rem; }
 h2 { font-size: 1.86rem; }
-h3 { font-size: 1.86rem; }
+h3 { font-size: 1.86rem;
+     font-family: Gabriola, 'Times New Roman', Times, serif;}
 p, h4, ul { font-size: 1.1rem; }
 
 section {
@@ -192,7 +194,8 @@ hr.thin {
     padding-left: .88rem;
     overflow: hidden;
     font-weight: 900;
-    font-family: Calibri;
+    font-family: 'Times New Roman', Times, serif;
+/*    font-family: Calibri;*/
     background-color: #bc1313;
     color: white;
 }
