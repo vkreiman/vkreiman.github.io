@@ -305,10 +305,8 @@ footer span {
 
 main {
     line-height: 1.7rem;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 48px 0px 96px 0px;
+    margin: auto;
+    padding: 80px 0px 96px 0px;
 /*    background-color: #E0E1DD; */
 }
 
