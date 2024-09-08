@@ -68,8 +68,11 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 
 h1 { font-size: 2.42rem; }
 h2 { font-size: 1.86rem; }
-h3 { font-size: 1.86rem;
-     font-family: Inter, sans-serif;}
+h3 { 
+    font-size: 1.86rem;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
 p, h4, ul { font-size: 1.1rem; }
 
 section {
@@ -83,7 +86,7 @@ article {
 }
 
 
-p, ul { max-width: 65ch; }
+p, ul { max-width: 55ch; }
 
 p {
     margin: 0px;
@@ -170,7 +173,7 @@ hr.thin {
     border-bottom: 1px solid #d5d5d5; 
     padding-left: .88rem;
     overflow: hidden;
-    font-weight: 900;
+    font-weight: 900; /* seems irrelevant */
     font-family: Inter, sans-serif;
 /*    font-family: Calibri;*/
     background-color: #000000;
@@ -192,9 +195,9 @@ hr.thin {
 /* Links inside the navbar */
 .navbar a, .try {
   font-size: .85rem;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
-  padding: 26.4px 11.2px;
+  padding: 34.4px 11.2px;
   margin: 0px 8px 0px 8px;    
   text-decoration: none;
   color: white;
@@ -204,7 +207,7 @@ hr.thin {
 .try {
   padding: 4px .8px;
     font-size: 1.86rem;
-    font-weight: 800;
+    font-weight: 500;
     font-family: Inter, sans-serif;
     flex-grow: 1;
     text-align: left;
@@ -219,7 +222,7 @@ hr.thin {
 /* Dropdown button */
 .dropdown .dropbtn {
     font-size: .85rem;
-    font-weight: 600;
+    font-weight: 700;
     border: none;
     outline: none;
     color: #000000;
