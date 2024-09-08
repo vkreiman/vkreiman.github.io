@@ -12,7 +12,7 @@ html {
 
 body { 
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Noto Sans', sans-serif;
     text-underline-offset: 3px;
     /* width: 95%; */
  /*   font-family: ''Times New Roman', Times, serif', 'Sans-Serif'; */
@@ -23,7 +23,7 @@ body {
     padding: .9rem .9rem .9rem 0rem ;
     margin: 3.5rem .9rem 2.6rem .45rem;
     font-size: 1.1rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Noto Sans', sans-serif;
     border-top: 4px groove;
     border-bottom: 4px groove;
 }
@@ -171,7 +171,7 @@ hr.thin {
     padding-left: .88rem;
     overflow: hidden;
     font-weight: 900;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Noto Sans', sans-serif;
 /*    font-family: Calibri;*/
     background-color: #bc1313;
     color: white;
@@ -285,7 +285,7 @@ footer {
 }
 
 footer span {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Noto Sans', sans-serif;
 /*    font-family: Calibri;*/
     font-size: .769rem;
     line-height: 1.6rem;
