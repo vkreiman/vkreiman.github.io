@@ -194,8 +194,8 @@ hr.thin {
 
 /* Links inside the navbar */
 .navbar a, .try {
-  font-size: .85rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 600;
   text-align: center;
   padding: 34.4px 11.2px;
   margin: 0px 8px 0px 8px;    
@@ -206,7 +206,7 @@ hr.thin {
 
 .try {
   padding: 4px .8px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 500;
     font-family: Inter, sans-serif;
     flex-grow: 1;
@@ -221,8 +221,8 @@ hr.thin {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-    font-size: .85rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 600;
     border: none;
     outline: none;
     color: #000000;
