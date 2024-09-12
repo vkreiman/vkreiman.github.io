@@ -5,7 +5,7 @@
   }
 
 html {
-    font-size: 20px;
+    font-size: 18px;
     overflow-y: scroll; /* Adds scrollbar to all screen. 
 			   Prevents content shifting on screens w/o scrollbar */
 }
