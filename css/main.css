@@ -22,7 +22,7 @@ body {
     width: 65ch;
     padding: .9rem .9rem .9rem 0rem ;
     margin: 3.5rem .9rem 2.6rem .45rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     border-top: 4px groove;
     border-bottom: 4px groove;
@@ -73,7 +73,7 @@ h3 {
     font-family: Inter, sans-serif;
     font-weight: 500;
 }
-p, h4, ul { font-size: 1.1rem; }
+p, h4, ul { font-size: 1rem; }
 
 section {
     padding: 0rem;
