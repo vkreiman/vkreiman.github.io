@@ -46,7 +46,7 @@ a:hover { text-decoration: underline; }
   flex-direction: column;
   background-color: #e6e6e6;
   overflow-y: clip; /* For rotation animation */
-  overlflow-x: unset; /* For rotation animation */
+  overflow-x: clip; /* For rotation animation */
   /*  justify-content: flex-start; */
 }
 
