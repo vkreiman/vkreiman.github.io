@@ -52,6 +52,8 @@ main {
     flex: 1;
     perspective: 1000px; /* For rotation animation */
     transform-style: preserve-3d; /* For rotation animation */
+    overflow-y: clip; /* For rotation animation */
+    overlflow-x: initial; /* For rotation animation */
 }
 
 main a {
@@ -384,16 +386,16 @@ tfoot td {
 
 /* For 3d rotation animations */
 
-.rotateY {
-  animation: rotateY 30s normal forwards;
+.rotateX {
+  animation: rotateX 30s normal forwards;
 }
 
-@keyframes rotateY {
+@keyframes rotateX {
   0% {
     transform: none;
   }
   100% {
-    transform: rotateY(360deg);
+    transform: rotateX(360deg);
   }
 }
 
