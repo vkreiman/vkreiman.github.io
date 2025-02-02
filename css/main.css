@@ -44,7 +44,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: #f3f3f3;
+  background-color: #f4f4f4;
 /*  justify-content: flex-start; */
 }
 
@@ -256,7 +256,7 @@ hr.thin {
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: white;
+  color: black;
   margin: 0px;
     border-radius: 0px;
   padding: 8px 11.2px;
@@ -270,7 +270,7 @@ hr.thin {
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
     text-decoration-line: none;
-    background-color: #dbdbdb94;
+    background-color: #f4f4f4;
 }
 
 /* Show the dropdown menu on hover */
