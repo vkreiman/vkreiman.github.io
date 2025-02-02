@@ -45,15 +45,15 @@ a:hover { text-decoration: underline; }
   min-height: 100vh;
   flex-direction: column;
   background-color: #e6e6e6;
-/*  justify-content: flex-start; */
+  overflow-y: clip; /* For rotation animation */
+  overlflow-x: unset; /* For rotation animation */
+  /*  justify-content: flex-start; */
 }
 
 main {
     flex: 1;
     perspective: 1000px; /* For rotation animation */
     transform-style: preserve-3d; /* For rotation animation */
-    overflow-y: clip; /* For rotation animation */
-    overlflow-x: initial; /* For rotation animation */
 }
 
 main a {
@@ -387,7 +387,7 @@ tfoot td {
 /* For 3d rotation animations */
 
 .rotateX {
-  animation: rotateX 30s normal forwards;
+  animation: rotateX 8s normal forwards;
 }
 
 @keyframes rotateX {
