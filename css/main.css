@@ -385,7 +385,7 @@ tfoot td {
 /* For 3d rotation animations */
 
 .rotateY {
-  animation: rotateY 30s infinite;
+  animation: rotateY 30s normal forwards;
 }
 
 @keyframes rotateY {
