@@ -384,16 +384,16 @@ tfoot td {
 
 /* For 3d rotation animations */
 
-.rotateX {
-  animation: rotateX 30s infinite;
+.rotateY {
+  animation: rotateY 30s infinite;
 }
 
-@keyframes rotateX {
+@keyframes rotateY {
   0% {
     transform: none;
   }
   100% {
-    transform: rotateX(360deg);
+    transform: rotateY(360deg);
   }
 }
 
