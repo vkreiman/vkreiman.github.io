@@ -50,6 +50,8 @@ a:hover { text-decoration: underline; }
 
 main {
     flex: 1;
+    perspective: 1000px; /* For rotation animation */
+    transform-style: preserve-3d; /* For rotation animation */
 }
 
 main a {
@@ -379,3 +381,26 @@ tfoot td {
   font-weight: bold;
 }
     
+
+/* For 3d rotation animations */
+
+.rotateX {
+  animation: rotateX 30s infinite;
+}
+
+@keyframes rotateX {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+#rotate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  flex-direction: column;
+}
