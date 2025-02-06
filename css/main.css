@@ -44,7 +44,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: #e6e6e6;
+  background-color: #e8e6e1;
   overflow-y: clip; /* For rotation animation */
   overflow-x: clip; /* For rotation animation */
   /*  justify-content: flex-start; */
@@ -275,7 +275,7 @@ hr.thin {
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
     text-decoration-line: none;
-    background-color: #e6e6e6;
+    background-color: #e8e6e1;
 }
 
 /* Show the dropdown menu on hover */
@@ -344,7 +344,8 @@ main {
 table {
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
- font-size: 0.8rem;
+  font-size: 0.8rem;
+  width: 100%;
 }
 
 caption {
