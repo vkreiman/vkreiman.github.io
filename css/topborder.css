@@ -44,11 +44,16 @@ a:hover { text-decoration: underline; }
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-/*  justify-content: flex-start; */
+  background-color: #e8e6e1;
+  overflow-y: clip; /* For rotation animation */
+  overflow-x: clip; /* For rotation animation */
+  /*  justify-content: flex-start; */
 }
 
 main {
     flex: 1;
+    perspective: 1000px; /* For rotation animation */
+    transform-style: preserve-3d; /* For rotation animation */
 }
 
 main a {
@@ -81,8 +86,11 @@ section {
 }
 
 article {
-    padding: .44rem;
+    padding: 3rem;
     margin: .88rem;
+    background-color: white;
+    border-radius: 1em;
+/*    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
 }
 
 
@@ -170,13 +178,13 @@ hr.thin {
 
 /* Navbar container */
 .navbar {
-    border-bottom: 1px solid #d5d5d5; 
+/*   border-bottom: 1px solid #d5d5d5; */
     padding-left: .88rem;
     overflow: hidden;
     font-weight: 900; /* seems irrelevant */
     font-family: Inter, sans-serif;
 /*    font-family: Calibri;*/
-    background-color: #000000;
+/*    background-color: #000000; */
 /*    background-color: #bc1313; */
     color: white;
 }
@@ -200,7 +208,7 @@ hr.thin {
   padding: 20px 11.2px;
   margin: 0px 8px 0px 8px;    
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 
@@ -225,12 +233,11 @@ hr.thin {
     font-weight: 500;
     border: none;
     outline: none;
-    color: #000000;
     padding: 20px 11.2px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
-    color: white;
+    color: black;
 }
 
 /* Underline navbar links on hover */
@@ -268,7 +275,7 @@ hr.thin {
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
     text-decoration-line: none;
-    background-color: #dbdbdb94;
+    background-color: #e8e6e1;
 }
 
 /* Show the dropdown menu on hover */
@@ -283,7 +290,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-top: 1px solid #d5d5d5;
+/*    border-top: 1px solid #d5d5d5; */
     width: 100%;
     padding-left: 1.6rem;
     padding-right: 1.6rem;
@@ -309,7 +316,9 @@ main {
     line-height: 1.7rem;
     margin: auto;
     padding: 80px 0px 96px 0px;
-/*    background-color: #E0E1DD; */
+    height: 100%;
+    display: grid;
+    place-items: center;
 }
 
 /*
@@ -335,7 +344,8 @@ main {
 table {
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
- font-size: 0.8rem;
+  font-size: 0.8rem;
+  width: 100%;
 }
 
 caption {
@@ -374,3 +384,26 @@ tfoot td {
   font-weight: bold;
 }
     
+
+/* For 3d rotation animations */
+
+.rotateX {
+  animation: rotateX 8s normal forwards;
+}
+
+@keyframes rotateX {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+#rotate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  flex-direction: column;
+}
