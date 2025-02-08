@@ -90,7 +90,7 @@ p, ul { max-width: 60ch; }
 
 p {
     margin: 0px;
-    padding: 0.44rem 0.44rem 0.44rem 0rem;
+   /*  padding: 0.44rem 0.44rem 0.44rem 0rem; */
 }
 
 ul {
