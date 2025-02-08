@@ -310,7 +310,7 @@ main {
     margin: auto;
     padding: 80px 0px 96px 0px;
 /*    background-color: #E0E1DD; */
-    max-width: 700px; /* This line and next put all pages 
+    max-width: 780px; /* This line and next put all pages 
 			 left-justified at same column */
     width: 100%;
 }
