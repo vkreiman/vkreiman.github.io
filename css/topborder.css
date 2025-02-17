@@ -1,3 +1,70 @@
+
+.titillium-web-extralight {
+  font-family: "Titillium Web", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.titillium-web-light {
+  font-family: "Titillium Web", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-semibold {
+  font-family: "Titillium Web", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.titillium-web-bold {
+  font-family: "Titillium Web", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-black {
+  font-family: "Titillium Web", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+  font-family: "Titillium Web", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titillium-web-regular-italic {
+  font-family: "Titillium Web", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+  font-family: "Titillium Web", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.titillium-web-bold-italic {
+  font-family: "Titillium Web", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 *, *::before, *::after{
      margin: 0;
      padding: 0;
@@ -70,8 +137,9 @@ h1 { font-size: 2.42rem; }
 h2 { font-size: 1.86rem; }
 h3 { 
     font-size: 2.2rem;
-    font-family: Inter, sans-serif;
-    font-weight: 500;
+    font-family: "Titillium Web", serif;
+    font-weight: 600;
+    font-style: normal;
 }
 p, h4, ul { font-size: 1rem; }
 
@@ -173,9 +241,10 @@ hr.thin {
     border-bottom: 4px solid #556699; 
     padding-left: .88rem;
     overflow: hidden;
-    font-weight: 900; /* seems irrelevant */
-    font-family: Inter, sans-serif;
-/*    font-family: Calibri;*/
+    font-weight: 400; /* seems irrelevant */
+    font-family: "Titillium Web", serif;
+    font-style: normal;
+    /*    font-family: Calibri;*/
     background-color: #223366;
 /*    background-color: #bc1313; */
     color: white;
@@ -189,7 +258,7 @@ hr.thin {
     flex-wrap: wrap;
     padding-left: 1.6rem;
     padding-right: 1.6rem;
-
+    padding-top: 18pt;
 }
 
 /* Links inside the navbar */
@@ -207,8 +276,9 @@ hr.thin {
 .try {
   padding: 4px .8px;
     font-size: 1.2rem;
-    font-weight: 700;
-    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-family: "Titillium Web", serif;
+    font-style: normal;
     flex-grow: 1;
     text-align: left;
 }
