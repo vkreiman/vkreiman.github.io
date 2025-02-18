@@ -79,7 +79,7 @@ html {
 
 body { 
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
     text-underline-offset: 3px;
     /* width: 95%; */
  /*   font-family: ''Times New Roman', Times, serif', 'Sans-Serif'; */
@@ -90,7 +90,7 @@ body {
     padding: .9rem .9rem .9rem 0rem ;
     margin: 3.5rem .9rem 2.6rem .45rem;
     font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
     border-top: 4px groove;
     border-bottom: 4px groove;
 }
@@ -138,7 +138,7 @@ h2 { font-size: 1.86rem; }
 h3 { 
     font-size: 2.2rem;
     font-family: "Titillium Web", serif;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
 }
 p, h4, ul { font-size: 1rem; }
@@ -264,7 +264,7 @@ hr.thin {
 /* Links inside the navbar */
 .navbar a, .try {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   padding: 20px 11.2px;
   margin: 0px 8px 0px 8px;    
@@ -275,7 +275,7 @@ hr.thin {
 
 .try {
   padding: 4px .8px;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     font-weight: 400;
     font-family: "Titillium Web", serif;
     font-style: normal;
@@ -292,7 +292,7 @@ hr.thin {
 /* Dropdown button */
 .dropdown .dropbtn {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     border: none;
     outline: none;
     color: #000000;
@@ -361,7 +361,7 @@ footer {
 }
 
 footer span {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
 /*    font-family: Calibri;*/
     font-size: .769rem;
     line-height: 1.7rem;
