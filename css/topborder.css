@@ -197,7 +197,7 @@ h1 {
 
 h3 {
     border: .26em;
-    margin: .26em .26em 1.76em 0rem;
+    margin: .26em .26em .8em 0rem;
    /* color: #bc1313 */
 }
 
@@ -263,8 +263,8 @@ hr.thin {
 
 /* Links inside the navbar */
 .navbar a, .try {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 1em;
+  font-weight: 600;
   text-align: center;
   padding: 20px 11.2px;
   margin: 0px 8px 0px 8px;    
@@ -275,7 +275,7 @@ hr.thin {
 
 .try {
   padding: 4px .8px;
-    font-size: 2.2rem;
+    font-size: 30px;
     font-weight: 400;
     font-family: "Titillium Web", serif;
     font-style: normal;
@@ -292,7 +292,7 @@ hr.thin {
 /* Dropdown button */
 .dropdown .dropbtn {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     border: none;
     outline: none;
     color: #000000;
