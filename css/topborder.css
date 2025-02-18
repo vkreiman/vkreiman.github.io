@@ -136,7 +136,7 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 h1 { font-size: 2.42rem; }
 h2 { font-size: 1.86rem; }
 h3 { 
-    font-size: 2.2rem;
+    font-size: 30px;
     font-family: "Titillium Web", serif;
     font-weight: 400;
     font-style: normal;
@@ -197,7 +197,7 @@ h1 {
 
 h3 {
     border: .26em;
-    margin: .44em .26em 1.76em 0rem;
+    margin: .26em .26em 1.76em 0rem;
    /* color: #bc1313 */
 }
 
@@ -238,7 +238,7 @@ hr.thin {
 
 /* Navbar container */
 .navbar {
-    border-bottom: 4px solid #556699; 
+    border-bottom: 4px solid #3a65e6; 
     padding-left: .88rem;
     overflow: hidden;
     font-weight: 400; /* seems irrelevant */
@@ -263,7 +263,7 @@ hr.thin {
 
 /* Links inside the navbar */
 .navbar a, .try {
-  font-size: 1rem;
+  font-size: 30px;
   font-weight: 400;
   text-align: center;
   padding: 20px 11.2px;
@@ -376,9 +376,9 @@ footer span {
 
 
 main {
-    line-height: 1.7rem;
+    line-height: 25px;
     margin: auto;
-    padding: 80px 0px 96px 0px;
+    padding: 20px 0px 20px 0px;
 /*    background-color: #E0E1DD; */
     max-width: 780px; /* This line and next put all pages 
 			 left-justified at same column */
