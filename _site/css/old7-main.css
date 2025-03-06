@@ -1,0 +1,341 @@
+*, *::before, *::after{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box; 
+  }
+
+body { 
+    margin: 0;
+    font-family: Georgia, serif;
+    text-underline-offset: 3px;
+    /* width: 95%; */
+ /*   font-family: 'Arial', 'Sans-Serif'; */
+}
+
+#sylldata {
+    width: 65ch;
+    padding: 1rem 1rem 1rem 0rem ;
+    margin: 4rem 1rem 3rem .5rem;
+    font-size: 1.25rem;
+    font-family: Georgia, serif;
+    border-top: 4px groove;
+    border-bottom: 4px groove;
+}
+
+#sylldata ul {
+   list-style-type: none;
+    border: 0em; 
+    margin: 0em;
+    padding: 0em;    
+}
+
+
+footer { 
+/*    background-color: #f0f6fc; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+/*text-align: center; */
+}
+
+footer span {
+    font-family: Merriweather;
+    font-size: .962rem;
+    line-height: 2rem;
+/*    margin: 3px 3x 3px 33x; */
+    padding: 2px 1px 2px 1px;
+/*    background-color: yellow; */
+    }
+
+.ftright {
+    font-size: .73964rem;
+}
+
+a { text-decoration: none; color: #000000; }
+a:hover { text-decoration: underline; }
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+/*  justify-content: flex-start; */
+}
+
+main {
+    flex: 1;
+}
+
+main a {
+    color: #36c;
+}
+
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+
+.links > section {    
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+h1 { font-size: 2.747rem; }
+h2 { font-size: 2.113rem; }
+h3 { font-size: 1.625rem; }
+p, h4, ul { font-size: 1.25rem; }
+
+section {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+article {
+    padding: .5rem;
+    margin: 1rem;
+}
+
+
+p, ul { max-width: 65ch; }
+
+p {
+    margin: 0px;
+    padding: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+    border: .3em; 
+    margin: 0.3em 0em;
+    padding: 0em 0em 0em 0em;
+}
+
+ul li { 
+    color: #333; 
+    border: .3em;
+    margin: .3em;
+}
+
+.res {
+    margin: .8em;
+}
+
+li.res{
+    margin: .8em 0em;
+}
+
+
+h1, h2 { 
+  /*  font-family: 'Helvetica', 'Arial', 'Sans-Serif'; */
+    border: .3em;
+    margin: .5em 0 1.2em 0; 
+}
+
+h1 {
+    margin: 30pt 0pt 5pt 0pt;
+    text-align: center;
+}
+
+
+h3 {
+    border: .3em;
+    margin: .5rem .3em 2em .3em; 
+}
+
+h4 {
+    border: .3em;
+    margin: .8em .3em .3em .3em; 
+}
+
+hr {
+    margin: .5em 0em 2em 0em;
+}
+
+header {
+     padding: 0px;
+}
+
+h1.Header {
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+.cent {
+    width: 100%;
+}
+
+hr.thin {
+    height: 1px; 
+    border : 0;
+    padding : 0;
+    margin: 0;
+    color: lightgray;
+    background-color : lightgray; 
+} 
+
+.syll hr {
+    margin: 1em;
+}
+
+/* Navbar container */
+.navbar {
+    border-bottom: 1px solid #d5d5d5; 
+    padding-left: 1rem;
+    overflow: hidden;
+    font-weight: 900;
+    font-family: Merriweather;
+}
+
+/* Links inside the navbar */
+.navbar a, .try {
+  float: left;
+  font-size: .962rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 18px 14px;
+  margin: 0px 10px 0px 10px;    
+  text-decoration: none;
+}
+
+.try {
+  padding: 10px 16px;
+    font-size: 1.625rem;
+  font-weight: 800; 
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: .962rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: #000000;
+    padding: 18px 14px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Underline navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+    border-radius: 5px;
+  margin: 0;
+  background-color: white;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  margin: 3px;
+    border-radius: 8px;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    text-decoration-line: none;
+    background-color: #dbdbdb94;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 8px;
+} 
+
+
+main {
+    line-height: 1.875rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 60px 0px 60px 0px;
+/*    background-color: #E0E1DD; */
+}
+
+/*
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+*/
+
+
+/* @media print { */
+    @page{
+	magin-top: 2cm;
+	magin-bottom: 2cm;
+	magin-left: 2cm;
+	magin-right: 2cm;
+    }   
+    
+
+
+/* The rest of this file is for tables */
+    
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+ font-size: 0.8rem;
+}
+
+caption {
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+td:nth-child(4) {
+  text-align: left;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+    
