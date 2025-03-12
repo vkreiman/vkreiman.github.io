@@ -34,11 +34,13 @@ header {
     padding: 0px;
 }
 
-.wrapper {
+.wrapper-header {
     max-width: 860px;
     margin: 0 auto;
-    padding: 0 30px;
-    padding-top: 14px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 /* Navbar container */
@@ -162,6 +164,37 @@ header {
     border-radius: 6.4px; 
 } 
 
+
+.wrapper-main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 55px 30px 55px 30px;
+}
+
+
+h3 { 
+    font-size: 2.2rem;
+    margin: 0 0 50px 0;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+main a {
+    color: #36c;
+}
+
+main{
+    flex: 1;
+    line-height: 1.7rem;
+/*    margin: auto; */
+/*    padding: 58px 0px 96px 0px; */
+/*    background-color: #E0E1DD; */
+/*    max-width: 780px; */ /* This line and next put all pages 
+			 left-justified at same column */
+/*    width: 100%; */
+}
+
+
 #sylldata {
     width: 65ch;
     padding: .9rem .9rem .9rem 0rem ;
@@ -185,13 +218,6 @@ a { text-decoration: none; color: #000000; }
 a:hover { text-decoration: underline; }
 
 
-main {
-    flex: 1;
-}
-
-main a {
-    color: #36c;
-}
 
 
 .links {
@@ -206,11 +232,6 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 
 h1 { font-size: 2.42rem; }
 h2 { font-size: 1.86rem; }
-h3 { 
-    font-size: 2.2rem;
-    font-family: Inter, sans-serif;
-    font-weight: 500;
-}
 p, h4, ul { font-size: 1rem; }
 
 section {
@@ -219,12 +240,12 @@ section {
 }
 
 article {
-    padding: .44rem;
-    margin: .88rem;
+ /*   padding: .44rem;
+    margin: .88rem; */
 }
 
 
-p, ul { max-width: 60ch; }
+p, ul { max-width: 70ch; }
 
 p {
     margin: 0px;
@@ -264,12 +285,6 @@ h1 {
     text-align: center;
 }
 
-
-h3 {
-    border: .26em;
-    margin: .44em .26em 1.76em 0rem;
-   /* color: #bc1313 */
-}
 
 h4 {
     border: .26em;
@@ -332,15 +347,6 @@ footer span {
 }
 
 
-main {
-    line-height: 1.7rem;
-    margin: auto;
-    padding: 58px 0px 96px 0px;
-/*    background-color: #E0E1DD; */
-    max-width: 780px; /* This line and next put all pages 
-			 left-justified at same column */
-    width: 100%;
-}
 
 /*
 @media screen and (max-height: 450px) {
