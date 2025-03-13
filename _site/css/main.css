@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    border-top: 4px solid #2b2727;
+/*    border-top: 4px solid #2b2727; */
     border-bottom: 4px solid #1f7090;
     min-height: 64px;
     background-color: #000000;
@@ -37,7 +37,7 @@ header {
 .wrapper-header {
     max-width: 860px;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 12px;
     padding-bottom: 0px;
     padding-right: 30px;
     padding-left: 30px;
@@ -80,7 +80,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 34px;
+    column-gap: 36px;
     flex-wrap: wrap;
 /*    min-width: 100px; */
 }
@@ -109,7 +109,7 @@ header {
     border: none;
     outline: none;
     color: #000000;
-    padding: 8px 0;
+    padding: 12px 0;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
@@ -121,7 +121,8 @@ header {
 /*    text-decoration-line: underline;
     text-underline-offset: 6px; */
     text-decoration: none;
-    color: #6fa3b6;
+    /* color: #6fa3b6; */
+    color: #b4c8d8;
 }
 
 /* Dropdown content (hidden by default) */
@@ -248,7 +249,7 @@ article {
 p, ul { max-width: 70ch; }
 
 p {
-    margin: 0px;
+    margin: 0 0 14px 0;
    /*  padding: 0.44rem 0.44rem 0.44rem 0rem; */
 }
 
