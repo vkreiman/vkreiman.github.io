@@ -121,8 +121,8 @@ header {
 /*    text-decoration-line: underline;
     text-underline-offset: 6px; */
     text-decoration: none;
-    /* color: #6fa3b6; */
-    color: #b4c8d8;
+    color: #69a9dd;
+    /* color: #b4c8d8; */
 }
 
 /* Dropdown content (hidden by default) */
@@ -187,13 +187,49 @@ main a {
 main{
     flex: 1;
     line-height: 1.7rem;
-/*    margin: auto; */
-/*    padding: 58px 0px 96px 0px; */
-/*    background-color: #E0E1DD; */
-/*    max-width: 780px; */ /* This line and next put all pages 
-			 left-justified at same column */
-/*    width: 100%; */
 }
+
+footer { 
+/*    background-color: #f0f6fc; */
+    border-top: 1px solid #d5d5d5;
+    /*    width: 100%; */
+/*    padding-left: 1.6rem; */
+/*    padding-right: 1.6rem;*/
+/*text-align: center; */
+}
+
+.wrapper-footer {
+    max-width: 860px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 1.4rem;
+}
+
+footer span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .769rem;
+/*    line-height: 1.7rem; */
+    font-weight: 300;
+/*    padding: 30px 0;*/
+/*    padding: 1.6px .8px 1.6px .8px; */
+/*    background-color: yellow; */
+    }
+
+/* 
+.ftright {
+    font-size: .769rem;
+}
+*/
 
 
 #sylldata {
@@ -321,31 +357,6 @@ hr.thin {
 
 
 
-footer { 
-/*    background-color: #f0f6fc; */
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    border-top: 1px solid #d5d5d5;
-    width: 100%;
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
-/*text-align: center; */
-}
-
-footer span {
-    font-family: 'Open Sans', sans-serif;
-/*    font-family: Calibri;*/
-    font-size: .769rem;
-    line-height: 1.7rem;
-/*    margin: 3px 3x 3px 33x; */
-    padding: 1.6px .8px 1.6px .8px;
-/*    background-color: yellow; */
-    }
-
-.ftright {
-    font-size: .769rem;
-}
 
 
 
