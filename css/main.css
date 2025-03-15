@@ -233,14 +233,41 @@ footer span {
 */
 
 
+section:first-of-type {
+    padding-top: 2.5rem;
+    border-top: 1px solid #d5d5d5;
+}
+
+section {
+    border: .26em;
+    margin: 1.2rem .28em .26em 0em; 
+}
+
+
+article {
+ /*   padding: .44rem;
+    margin: .88rem; */
+}
+
+
+/*
+p, ul { max-width: 70ch; }
+*/
+
+
+p {
+    margin: 0 0 14px 0;
+   /*  padding: 0.44rem 0.44rem 0.44rem 0rem; */
+}
+
+
 #sylldata {
-    width: 65ch;
-    padding: .9rem .9rem .9rem 0rem ;
-    margin: 3.5rem .9rem 2.6rem .45rem;
+    padding: 0 .9rem 2.3rem 0rem ;
+    margin: 0 0 2.6rem 0;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
-    border-top: 4px groove;
-    border-bottom: 4px groove;
+/*    border-top: 4px groove; */
+    border-bottom: 1px solid #d5d5d5;
 }
 
 #sylldata ul {
@@ -272,26 +299,6 @@ h1 { font-size: 2.42rem; }
 h2 { font-size: 1.86rem; }
 p, h4, ul { font-size: 1rem; }
 
-section {
-    padding: 0rem;
-    margin: 0rem;
-}
-
-article {
- /*   padding: .44rem;
-    margin: .88rem; */
-}
-
-
-/*
-p, ul { max-width: 70ch; }
-*/
-
-
-p {
-    margin: 0 0 14px 0;
-   /*  padding: 0.44rem 0.44rem 0.44rem 0rem; */
-}
 
 ul {
     list-style-type: none;
@@ -314,6 +321,10 @@ li.res{
     margin: .64em 0em;
 }
 
+li.res:first-of-type {
+    margin: 0 0 .64em 0;
+}
+
 
 h1, h2 { 
   /*  font-family: 'Helvetica', ''Times New Roman', Times, serif', 'Sans-Serif'; */
@@ -326,11 +337,6 @@ h1 {
     text-align: center;
 }
 
-
-h4 {
-    border: .26em;
-    margin: 1em .26em .26em 0em; 
-}
 
 hr {
     margin: .44em 0em 1.76em 0em;
