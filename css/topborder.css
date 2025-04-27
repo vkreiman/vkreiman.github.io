@@ -26,11 +26,13 @@ body {
 }
 
 header {
+    top: 0; /* needed for sticky position */
+    position: sticky;
 /*    border-top: 1px solid #e7e7e7; */
-    border-bottom: 4px solid #1f7090;
+    border-bottom: 4px solid #1f6a87;
     min-height: 64px;
     background-color: black;
-    position: relative;
+/*    position: relative; */
 }
 
 .wrapper-header {
@@ -38,8 +40,8 @@ header {
     margin: 0 auto;
     padding-top: 12px;
     padding-bottom: 0px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 /* Navbar container */
@@ -57,7 +59,7 @@ header {
 }
 
 .try {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400;
     font-family: Inter, sans-serif;
     flex-grow: 1;
