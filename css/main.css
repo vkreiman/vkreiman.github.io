@@ -28,11 +28,12 @@ body {
 header {
     top: 0; /* need for sticky position */
     position: sticky; /* need for sticky position */
-    border-top: 4px solid black;
+/*    border-top: 4px solid black;*/
     border-bottom: 2px solid #e7e7e7;
     min-height: 64px;
-    background-color: white; /* need for sticky position */
+/*    background-color: white; */
 /*    background-color: #f4f6f6;*/
+    background-color: #f6f8fa;
 /*    position: relative; */
 }
 
@@ -148,7 +149,7 @@ header {
 .dropdown-content a:hover {
     text-decoration-line: none;
     color: black;
-    background-color: #dbdbdb94;
+    background-color: #ededed;
 }
 
 /* Show the dropdown menu on hover */
