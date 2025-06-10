@@ -352,10 +352,6 @@ hr.thin {
 }
 
 
-
-
-
-
 /*
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -364,15 +360,20 @@ hr.thin {
 */
 
 
-/* @media print { */
+/* @media print {
     @page{
 	magin-top: 2cm;
 	magin-bottom: 2cm;
 	magin-left: 2cm;
 	magin-right: 2cm;
-    }   
-    
+    }
+*/
 
+/* Remove header and footer from printouts */    
+@media print{
+    header, footer { display: none};
+}
+    
 
 /* The rest of this file is for tables */
     
