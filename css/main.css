@@ -140,7 +140,7 @@ header {
   display: block;
   text-align: left;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 /* Add a grey background color to dropdown links on hover */
