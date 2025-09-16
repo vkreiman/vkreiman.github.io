@@ -390,7 +390,9 @@ hr.thin {
 table {
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
- font-size: 0.8rem;
+  font-size: 0.8rem;
+  table-layout: auto;
+  width: 100%;
 }
 
 caption {
