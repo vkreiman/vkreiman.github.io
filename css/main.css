@@ -162,7 +162,7 @@ header {
     padding: 60px 30px 60px 30px;
 }
 
-h3 { 
+h1 { 
     font-size: 2.0rem; /* 2.2 rem */
     margin: 0 0 60px 0;
     font-family: Inter, sans-serif;
@@ -279,8 +279,10 @@ a:hover { text-decoration: underline; }
 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
+/*
 h1 { font-size: 2.42rem; }
 h2 { font-size: 1.86rem; }
+*/
 p, h4, ul { font-size: 1rem; }
 
 
@@ -310,16 +312,17 @@ li.res:first-of-type {
 }
 
 
+/*
 h1, h2 { 
-  /*  font-family: 'Helvetica', ''Times New Roman', Times, serif', 'Sans-Serif'; */
     border: .26em;
     margin: .44em 1em 0; 
 }
-
+ 
 h1 {
     margin: 24pt 0pt 4pt 0pt;
     text-align: center;
 }
+*/
 
 
 hr {
@@ -327,10 +330,12 @@ hr {
 }
 
 
+/*
 h1.Header {
     text-align: center;
     font-family: Georgia, serif;
 }
+*/
 
 .cent {
     width: 100%;
