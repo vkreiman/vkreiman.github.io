@@ -293,8 +293,9 @@ p, h4, ul, ol { font-size: 1rem; }
 ol {
     /* list-style-type: none; */
     border: .26em; 
-    margin: 2rem 1rem 1.5rem 1rem;
+    margin: 2rem 0 1.5rem 0;
     padding: 0em 0em 0em 0em;
+    list-style-position: inside; /* forces numbers to not be in the margin */
 }
 
 ul {
@@ -307,7 +308,7 @@ ul {
 ol li { 
     color: #333; 
 /*    border: .24rem .24rem 1rem .24rem;*/
-    margin: .24rem .24rem .8rem .24rem;
+    margin: .24rem .24rem .5rem .24rem;
 }
 
 .nested-list {
