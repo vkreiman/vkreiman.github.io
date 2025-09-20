@@ -26,11 +26,15 @@ body {
 }
 
 header {
-/*    border-top: 1px solid #e7e7e7; */
-    border-bottom: 4px solid #1f7090;
+    top: 0; /* need for sticky position */
+    position: sticky; /* need for sticky position */
+/*    border-top: 4px solid black;*/
+    border-bottom: 2px solid #e7e7e7;
     min-height: 64px;
-    background-color: black;
-    position: relative;
+/*    background-color: white; */
+/*    background-color: #f4f6f6;*/
+    background-color: #f6f8fa;
+/*    position: relative; */
 }
 
 .wrapper-header {
@@ -38,8 +42,8 @@ header {
     margin: 0 auto;
     padding-top: 12px;
     padding-bottom: 0px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 35px;
+    padding-left: 35px;
 }
 
 /* Navbar container */
@@ -57,12 +61,12 @@ header {
 }
 
 .try {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400;
     font-family: Inter, sans-serif;
     flex-grow: 1;
     text-align: left;
-    color: white;
+    color: black;
 }
 
 .navbar-right {
@@ -82,7 +86,7 @@ header {
 /*  padding: 8px 0;*/
 /*  margin: 0px 8px 0px 8px; */    
 /*  text-decoration: none; */
-  color: white;
+  color: black;
 }
 
 /* The dropdown container */
@@ -102,7 +106,7 @@ header {
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
-    color: white;
+    color: black;
 }
 
 /* Underline navbar links on hover */
@@ -110,7 +114,7 @@ header {
 /*    text-decoration-line: underline;
     text-underline-offset: 6px; */
     text-decoration: none;
-    color: #69a9dd;
+    color: #979da4;
     /* color: #b4c8d8; */
 }
 
@@ -124,7 +128,7 @@ header {
   min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  border: 1px solid black;
+/*  border: 1px solid black; */
 }
 
 /* Links inside the dropdown */
@@ -145,7 +149,7 @@ header {
 .dropdown-content a:hover {
     text-decoration-line: none;
     color: black;
-    background-color: #dbdbdb94;
+    background-color: #ededed;
 }
 
 /* Show the dropdown menu on hover */
@@ -157,7 +161,7 @@ header {
 .wrapper-main {
     max-width: 860px;
     margin: 0 auto;
-    padding: 60px 30px 60px 30px;
+    padding: 60px 35px 60px 35px;
 }
 
 h3 { 
@@ -186,8 +190,8 @@ footer {
     margin: 0 auto;
     padding-top: 0px;
     padding-bottom: 5px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 35px;
+    padding-left: 35px;
 }
 
 .footer-nav {
@@ -348,10 +352,6 @@ hr.thin {
 }
 
 
-
-
-
-
 /*
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -360,15 +360,20 @@ hr.thin {
 */
 
 
-/* @media print { */
+/* @media print {
     @page{
 	magin-top: 2cm;
 	magin-bottom: 2cm;
 	magin-left: 2cm;
 	magin-right: 2cm;
-    }   
-    
+    }
+*/
 
+/* Remove header and footer from printouts */    
+@media print{
+    header, footer { display: none};
+}
+    
 
 /* The rest of this file is for tables */
     
