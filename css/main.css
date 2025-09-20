@@ -12,7 +12,8 @@ html {
 
 body { 
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Times New Roman", Times, serif;
+/*    font-family: 'Open Sans', sans-serif;*/
     text-underline-offset: 3px;
     /* width: 95%; */
  /*   font-family: ''Times New Roman', Times, serif', 'Sans-Serif'; */
@@ -237,6 +238,7 @@ section {
 }
 
 
+
 article {
  /*   padding: .44rem;
     margin: .88rem; */
@@ -306,8 +308,31 @@ ul {
 
 ol li { 
     color: #333; 
-    border: .24em .24em .5em .24 em;
-    margin: .24em .24em .5em .24em;
+    border: .24rem .24rem 1rem .24rem;
+    margin: .24rem .24rem 1rem .24rem;
+}
+
+.nested-list {
+  list-style-type: none; /* Hollow circular bullets */
+  margin: 0 0 0 .3em;
+  /* margin-left: 20px; */ /* Indent the nested list */
+}
+
+.nested-list ol {
+    counter-reset: mycounter;
+}
+
+.nested-list li {
+    border: 0;
+    margin: 0;
+    display: block;
+    counter-increment: mycounter;
+}
+
+
+.nested-list li:before {
+    content: "(" counter(mycounter, lower-alpha) ") ";
+   /* counter-increment: mycounter; */
 }
 
 ul li { 
@@ -376,14 +401,27 @@ hr.thin {
 /* Remove header and footer from printouts */    
 @media print{
     @page{
-	magin-top: 2cm;
-	magin-bottom: 2cm;
-	magin-left: 2cm;
-	magin-right: 2cm;
+	margin-top: 2cm;
+	margin-bottom: 2cm;
+	margin-left: 2cm;
+	margin-right: 2cm;
     }   
 
     header, footer { display: none};
 }
+
+.homework-exercises {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.homework section{
+    margin: 0rem;
+    padding: 3rem 0rem;
+}
+
 
     
 
