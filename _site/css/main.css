@@ -313,7 +313,7 @@ ol li {
 
 .nested-list {
   list-style-type: none; /* Hollow circular bullets */
-  margin: 0 0 0 1.3rem;
+  margin: 0 1.2rem 0 1.2rem;
   /* margin-left: 20px; */ /* Indent the nested list */
 }
 

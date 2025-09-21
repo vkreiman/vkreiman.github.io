@@ -12,13 +12,45 @@
 	  rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
 	  rel="stylesheet">
+<!--
     <script>
       window.MathJax = { output: { font: 'mathjax-tex' } };
     </script>
+-->
+
+    <!--
+    <script>
+      window.MathJax = {
+	  tex: {
+	      inlineMath: [['$', '$'], ['\\(', '\\)']]
+	  }
+      };
+    </script>
+    -->
+
+    <!--
+    <script>
+      MathJax = {
+	  tex: {
+	      inlineMath: {'[+]': [['$', '$']]}
+	  },
+	  svg: {
+	      fontCache: 'global'
+	  }
+      };
+    </script>
+    -->
+   
+    <script defer
+	    src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js">
+    </script>
+    
+    <!--
     <script id="MathJax-script" async
 	    src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
     </script>
-
+    -->
+   
     <script type="text/x-tex-macros">
       \newcommand{\bold}[1]{\mathbf{#1}}
       \newcommand{\bR}{\mathbb{R}}
@@ -30,6 +62,7 @@
       \def\bw{\mathbf{w}}
       \def\bz{\mathbf{0}}
       \def\bzz{\mathbf{z}}
+      \newcommand{\sspan}{\operatorname{Span}}
       \newcommand{\vtwo}[2] 
       {
 	  \left[
@@ -162,14 +195,14 @@
 	  </div> <!-- ftleft -->
 	  <div class="ftright">
             <span class="ft">Website last updated September
-	      20, 2025 at 08:39 pm</span>
+	      21, 2025 at 08:01 am</span>
 	  </div> <!-- ftright -->
 	</div> <!-- footer-nav> -->
       </div>    <!-- wrapper-footer -->
     </footer>
     <!--
 	<li class="right">Website last updated September
-	  20, 2025 at 08:39:50 PM</li>
+	  21, 2025 at 08:01:59 AM</li>
 	-->
     </div>  <!-- flex-wrapper -->
   </body>
