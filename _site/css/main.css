@@ -293,7 +293,7 @@ p, h4, ul, ol { font-size: 1rem; }
 ol {
     /* list-style-type: none; */
     border: .26em; 
-    margin: 2rem 0 1.5rem 0;
+    margin: 2rem .5em 1.5rem .5em;
     padding: 0em 0em 0em 0em;
     list-style-position: inside; /* forces numbers to not be in the margin */
 }
@@ -313,7 +313,7 @@ ol li {
 
 .nested-list {
   list-style-type: none; /* Hollow circular bullets */
-  margin: 0 0 0 .3em;
+  margin: 0 0 0 1.3rem;
   /* margin-left: 20px; */ /* Indent the nested list */
 }
 

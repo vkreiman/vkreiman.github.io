@@ -16,7 +16,59 @@
       window.MathJax = { output: { font: 'mathjax-tex' } };
     </script>
     <script id="MathJax-script" async
-	    src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+	    src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
+    </script>
+
+    <script type="text/x-tex-macros">
+      \newcommand{\bold}[1]{\mathbf{#1}}
+      \newcommand{\bR}{\mathbb{R}}
+      \def\pe{\phantom{-}}
+      \def\bx{\mathbf{x}}
+      \def\by{\mathbf{y}}
+      \def\bu{\mathbf{u}}
+      \def\bv{\mathbf{v}}
+      \def\bw{\mathbf{w}}
+      \def\bz{\mathbf{0}}
+      \def\bzz{\mathbf{z}}
+      \newcommand{\vtwo}[2] 
+      {
+	  \left[
+	      \begin{smallmatrix}
+                    #1\\ #2
+	      \end{smallmatrix}
+	  \right]
+      }
+      \newcommand{\vthree}[3] 
+      {
+	  \left[
+	      \begin{smallmatrix}
+                  #1\\ #2 \\ #3
+	      \end{smallmatrix}
+	      \right]
+      }
+      \newcommand{\vfour}[4] 
+      {
+	  \left[
+	      \begin{smallmatrix}
+                  #1\\ #2 \\ #3 \\ #4
+	      \end{smallmatrix}
+	      \right]
+      }
+      \let\star=\ast
+    </script>
+    <script>
+      window.MathJax = {
+	  startup: {
+	      ready() {
+		  MathJax.startup.defaultReady();
+		  const {STATE} = MathJax._.core.MathItem;
+		  const defs = document.querySelector('script[type="text/x-tex-macros"]');
+		  MathJax.tex2mml(defs?.textContent || '');
+	      }
+	  }
+      };
+    </script>
+
   </head>
 
   <body>
@@ -352,14 +404,14 @@
 	  </div> <!-- ftleft -->
 	  <div class="ftright">
             <span class="ft">Website last updated September
-	      20, 2025 at 09:06 am</span>
+	      20, 2025 at 08:39 pm</span>
 	  </div> <!-- ftright -->
 	</div> <!-- footer-nav> -->
       </div>    <!-- wrapper-footer -->
     </footer>
     <!--
 	<li class="right">Website last updated September
-	  20, 2025 at 09:06:07 AM</li>
+	  20, 2025 at 08:39:50 PM</li>
 	-->
     </div>  <!-- flex-wrapper -->
   </body>
