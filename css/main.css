@@ -12,8 +12,7 @@ html {
 
 body{ 
     margin: 0;
-    font-family: "Latin Modern Serif";
-/*    font-family: "Times New Roman", Times, serif;*/
+    font-family: "Times New Roman", Times, serif;
 /*    font-family: 'Open Sans', sans-serif;*/
     text-underline-offset: 3px;
 }
