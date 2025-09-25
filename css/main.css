@@ -402,16 +402,6 @@ hr.thin {
     margin: 0rem;
 }
 
-/* @media print { */
-/*
-@page{
-	margin-top: 2cm;
-	margin-bottom: 2cm;
-	margin-left: 2cm;
-	margin-right: 2cm;
-    }   
-*/  
-
 
 /* Remove header and footer from printouts */    
 @media print{
@@ -423,7 +413,7 @@ hr.thin {
     }   
 
     html {
-	font-size: 14pt;
+	font-size: 14px;
         line-height: 80%; /* Example: set line height to 1.2 times the font size */
     }
 
