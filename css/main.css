@@ -377,11 +377,6 @@ hr.thin {
     margin: .88em;
 }
 
-
-
-
-
-
 /*
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -400,6 +395,11 @@ hr.thin {
 
 .homework section{
     margin: 0rem;
+}
+
+homework p {
+    margin: 2rem 0 0 0;
+   /*  padding: 0.44rem 0.44rem 0.44rem 0rem; */
 }
 
 
