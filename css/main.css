@@ -184,7 +184,7 @@ main a {
 
 main{
     flex: 1;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 }
 
 footer { 
@@ -295,7 +295,7 @@ p, h4, ul, ol { font-size: 1rem; }
 ol {
     /* list-style-type: none; */
     border: .26em; 
-    margin: 2rem .5em 1.6rem .5em;
+    margin: 1rem .5em 1.6rem .5em;
     padding: 0em 0em 0em 0em;
     list-style-position: inside; /* forces numbers to not be in the margin */
 }
