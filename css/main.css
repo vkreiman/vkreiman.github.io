@@ -43,7 +43,7 @@ header {
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    font-family: Lato, sans-serif;
+    font-family: Inter, sans-serif;
 }
    
 
@@ -57,7 +57,7 @@ header {
 .try {
     font-size: 1.2rem;
     font-weight: 500;
-    font-family: Lato, sans-serif;
+    font-family: Inter, sans-serif;
     flex-grow: 1;
     text-align: left;
     color: white;
