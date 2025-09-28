@@ -310,7 +310,6 @@ ol li {
 .nested-list {
   list-style-type: none; /* Hollow circular bullets */
   margin: 0 1.2rem 0 1.2rem;
-  /* margin-left: 20px; */ /* Indent the nested list */
 }
 
 .nested-list ol {
@@ -323,7 +322,6 @@ ol li {
     display: block;
     counter-increment: mycounter;
 }
-
 
 .nested-list li:before {
     content: "(" counter(mycounter, lower-alpha) ") ";
@@ -371,14 +369,6 @@ hr.thin {
     margin: .88em;
 }
 
-/*
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-*/
-
-
 .homework-exercises {
     display: flex;
     align-items: center;
@@ -393,7 +383,6 @@ hr.thin {
 
 .homework p {
     margin: 2rem 0 0 0;
-   /*  padding: 0.44rem 0.44rem 0.44rem 0rem; */
 }
 
 
@@ -406,12 +395,15 @@ hr.thin {
 	margin-right: 2cm;
     }   
 
+    main {
+	line-height: 1.2em;
+    }
+
     header, footer { 
 	display: none
     }
 }
 
-    
 
 /* The rest of this file is for tables */
     
