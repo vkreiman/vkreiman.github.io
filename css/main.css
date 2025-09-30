@@ -390,7 +390,7 @@ hr.thin {
     margin: 0;
 }
 
-.homework section:fist-of-type {
+.homework section:first-of-type {
     padding-top: 0;
     border-top: 0;
 }    
