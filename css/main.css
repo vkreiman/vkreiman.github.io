@@ -289,7 +289,7 @@ p, h4, ul, ol { font-size: 1rem; }
 ol {
     /* list-style-type: none; */
     border: .26em; 
-    margin: 1rem .5em 1.6rem .5em;
+    margin: 1.2rem .5em 1.6rem .5em;
     padding: 0em 0em 0em 0em;
     list-style-position: inside; /* forces numbers to not be in the margin */
 }
@@ -299,6 +299,10 @@ ul {
     border: .26em; 
     margin: 0.26em 0em;
     padding: 0em 0em 0em 0em;
+}
+
+ol br {
+    margin-bottom: .8em;
 }
 
 ol li { 
@@ -405,8 +409,9 @@ hr.thin {
 	margin-right: 2cm;
     }   
 
-    main {
-	line-height: 1.2em;
+    p, li, body {
+	font-size: 15px;
+	line-height: 1.3rem;
     }
 
     header, footer { 
