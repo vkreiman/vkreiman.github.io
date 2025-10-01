@@ -8,53 +8,82 @@ date: October 1, 2025
 <div class="homework">
   
 <section>
-  <h2>Homework 6: Bayes' Theorem </h2>
+  <h2>Homework 7: Independence </h2>
 
   <ol>
-    <li>A desk has three drawers. The first contains two gold
-      coins, the second contains two silver coins, and the third contains
-      one gold and one silver coin. A coin is drawn from a drawer selected
-      at random. Suppose the selected coin is silver. What is the
-      probability that the other coin in the drawer is gold?
+    <li>Two dice, one red and one green, are rolled. Define the
+      events
+      <ul>
+	<li>\(A\): The red die lands on a 3, 4, or 5</li>
+	<li>\(B\): The sum of the two dice is 9</li>
+      </ul>
+      <ol class="nested-list">
+	<li> Compute \(P(A\mid B)\). </li>
+	<li> Compute \(P(B\mid A)\). </li>
+	<li> Are \(A\) and \(B\) independent events? Justify
+	  your answer. </li>
+      </ol>
     </li>
 
-    <li>English and American spellings are <i>rigour</i>
-      and <i>rigor</i>, respectively. A man staying at a Parisian
-      hotel writes this word, and a letter taken at random from his
-      spelling is found to be a vowel. If 40% of the English-speaking
-      men at the hotel are English and 60% are American, what is the
-      probability that the writer is an Englishman?
+
+    <li>
+      Recall that three events \(A\), \(B\), and \(C\)
+      are <i>independent</i> if
+      \begin{equation}
+      \begin{split}
+      & P(A\cap B)=P(A)\cdot P(B)\\
+      & P(B\cap C)=P(B)\cdot P(C)\\
+      & P(A\cap C)=P(A)\cdot P(C)
+      \end{split}
+      \end{equation}
+
+      and
+
+      \begin{equation}
+      P(A\cap B\cap C)=P(A)\cdot P(B)\cdot P(C)
+      \end{equation}
+      
+      Two dice, one red and one green, are
+	  rolled. Define the events
+      <ul>
+	<li>  \(A\): The red die lands on a 1, 2, or 3</li>
+	<li> \(B\): The red die lands on a 3, 4, or 5</li>
+	<li> \(C\): The sum of the two dice is 9</li>
+      </ul>
+      
+      Do these three events satisfy the first three equations
+      above? Do they satisfy the fourth?
     </li>
 
-    <li>Draw a card. If it's diamonds, place it back in the deck and
-      draw another card. If the first card is not diamonds, then draw
-      a second card without replacing the first card.  If one knows
-      only that the second card drawn was the two of clubs, find the
-      probability that the first card was diamonds.
-    </li>
+    <li>
+      A roulette wheel has thirty-six numbers colored red or black
+      according to the pattern indicated below:
 
-    <li>Next semester, Wisconsin Tech will offer 6 sections of a
-      course called Advanced Probability. Professor X will teach 1 of
-      the 6 sections; Professor Y will teach 2; and Professor Z will
-      teach the remaining 3. Alice needs to take the course in order
-      to graduate in May. She will choose a section randomly by
-      rolling a 6-sided die.  She estimates that her probability of
-      passing the course is 80% with Professor X, 60% with Professor
-      Y, and 40% with Professor Z. Suppose that after the semester
-      ends, we learn that Alice did, indeed, pass the course. What is
-      the probability that she was enrolled in Professor X's section?
-    </li>
+      \begin{array}{cccccccccccccccccc}
+      \hline
+      1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16
+      & 17 & 18\\
+      R & R & R & R & R & B & B & B & B & R & R & R & R & B & B & B & B &
+      B\\
+      36 & 35 & 34 & 33 & 32 & 31 & 30 & 29 & 28 & 27 & 26 & 25 & 24 & 23
+      & 22 & 21 & 20 & 19\\
+      \hline
+      \end{array}
 
-    <li>At a card table in a casino in Reno, Nevada, a dealer deals
-      from a standard deck of cards on weekdays and from a double deck
-      (i.e., two standard decks combined) on weekends.  A man named
-      Ace chose a day at random last summer to visit this casino. He
-      sat down at the card table and was dealt four cards off the top
-      of a shuffled stack of cards. All four were aces. What is the
-      probability that it was a Tuesday?
+      Define the events
+      <ul>
+	<li> \(A\): Red number appears</li>
+	<li> \(B\): Even number appears</li>
+	<li> \(C\): Number is less than or equal to 18</li>
+      </ul>
+      
+      Do these three events satisfy the first three equations
+      of Problem 2 above? Do they satisfy the fourth?
     </li>
-  </ol>
+  </ol> 
 
+
+  
 </section>
 
 </div>

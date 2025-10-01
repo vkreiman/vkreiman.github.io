@@ -12,7 +12,7 @@ html {
 
 body{ 
     margin: 0;
-    font-family: serif;
+    font-family: "STIX Two Text";
 /*    font-family: 'Open Sans', sans-serif;*/
     text-underline-offset: 3px;
 }
@@ -37,10 +37,7 @@ header {
 .wrapper-header {
 /*    max-width: 860px; */
     margin: 0 auto;
-    padding-top: 12px;
-    padding-bottom: 0px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding: 10px 40px 0px 40px;
 }
 
 /* Navbar container */
@@ -58,7 +55,7 @@ header {
 }
 
 .try {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     font-weight: 400;
     font-family: Inter, sans-serif;
     flex-grow: 1;
@@ -77,7 +74,7 @@ header {
 
 /* Links inside the navbar */
 .navbar a {
-  font-size: .9rem;
+  font-size: 1.0rem;
   font-weight: 500;
   text-align: center;
 /*  padding: 8px 0;*/
@@ -94,7 +91,7 @@ header {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 500;
     border: none;
     outline: none;
@@ -134,12 +131,12 @@ header {
   color: black;
   margin: 0px;
   border-radius: 0px;
-  padding: 6px 11.2px;
+  padding: 5px 11.2px;
   text-decoration: none;
   display: block;
   text-align: left;
-  font-weight: 400;
-  font-size: .7rem;
+  font-weight: 350;
+  font-size: .8rem;
 }
 
 /* Add a grey background color to dropdown links on hover */
@@ -162,9 +159,9 @@ header {
 }
 
 h1 { 
-    font-size: 1.9rem; /* 2.2 rem */
+    font-size: 1.7rem; /* 2.2 rem */
     margin: 50px 0 50px 0;
-    font-family: Inter, sans-serif;
+    font-family: "STIX Two Text", sans-serif;
     font-weight: 500;
     text-align: center;
 }
@@ -184,7 +181,7 @@ main a {
 
 main{
     flex: 1;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 }
 
 footer { 
@@ -195,9 +192,7 @@ footer {
 /*    max-width: 860px; */
     margin: 0 auto;
     padding-top: 0px;
-    padding-bottom: 5px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 2px 30px 2px 30px;
 }
 
 .footer-nav {
@@ -209,9 +204,8 @@ footer {
 }
 
 footer span {
-    font-family: serif;
-/*    font-family: "Times New Roman", Times, serif;*/
-    font-size: .769rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: .74rem;
 /*    line-height: 1.7rem; */
     font-weight: 300;
 /*    padding: 30px 0;*/
@@ -259,7 +253,7 @@ p {
     padding: 0 .9rem 2.3rem 0rem ;
     margin: 0 0 2.6rem 0;
     font-size: 1rem;
-    font-family: serif;
+    font-family: "STIX Two Text";
 /*    font-family: "Times New Roman", Times, serif;*/
 /*    border-top: 4px groove; */
     border-bottom: 2px solid #e7e7e7;
@@ -295,7 +289,7 @@ p, h4, ul, ol { font-size: 1rem; }
 ol {
     /* list-style-type: none; */
     border: .26em; 
-    margin: 2rem .5em 1.6rem .5em;
+    margin: 1.2rem .5em 1.6rem .5em;
     padding: 0em 0em 0em 0em;
     list-style-position: inside; /* forces numbers to not be in the margin */
 }
@@ -307,6 +301,10 @@ ul {
     padding: 0em 0em 0em 0em;
 }
 
+ol br {
+    margin-bottom: .4em;
+}
+
 ol li { 
     color: #333; 
 /*    border: .24rem .24rem 1rem .24rem;*/
@@ -316,7 +314,6 @@ ol li {
 .nested-list {
   list-style-type: none; /* Hollow circular bullets */
   margin: 0 1.2rem 0 1.2rem;
-  /* margin-left: 20px; */ /* Indent the nested list */
 }
 
 .nested-list ol {
@@ -325,11 +322,10 @@ ol li {
 
 .nested-list li {
     border: 0;
-    margin: 0;
+    margin: 0 0 .3rem 0;
     display: block;
     counter-increment: mycounter;
 }
-
 
 .nested-list li:before {
     content: "(" counter(mycounter, lower-alpha) ") ";
@@ -377,30 +373,35 @@ hr.thin {
     margin: .88em;
 }
 
-
-
-
-
-
-/*
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-*/
-
-
 .homework-exercises {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 11px 0 10px 0;
+    padding: 11px 0 0 0;
+    border-bottom: 1px solid black;
+}
+
+.homework ul {
+    margin: 0 0 0 2em;
+}
+
+.homework h2 {
+    margin: 3.1rem 0 2.8rem 0;
 }
 
 .homework section{
     margin: 0rem;
 }
+
+.homework p {
+    margin: 0;
+}
+
+.homework section:first-of-type {
+    padding-top: 0;
+    border-top: 0;
+}    
 
 
 /* Remove header and footer from printouts */    
@@ -412,9 +413,9 @@ hr.thin {
 	margin-right: 2cm;
     }   
 
-    html {
-	font-size: 14px;
-        line-height: 80%; /* Example: set line height to 1.2 times the font size */
+    p, li, body {
+	font-size: 15px;
+	line-height: 1.3rem;
     }
 
     header, footer { 
@@ -422,7 +423,6 @@ hr.thin {
     }
 }
 
-    
 
 /* The rest of this file is for tables */
     

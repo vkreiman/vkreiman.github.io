@@ -1,0 +1,81 @@
+---
+layout: exercises
+title: Linear Algebra
+number: Math 301
+date: September 26, 2025
+---
+
+
+<div class="homework">
+  <section>
+    <h2>Homework 5: Linear Independence</h2>
+
+<!--
+    <p><i>Instructions. All answers to textbook problems should be
+      justified.  For problems 5 and 6 (except 6(c)), you may not Theorems
+      1.2 or 1.3 from the study guide.  Assignments should be
+      <b>stapled</b> and written clearly and legibly. Problem 7 is
+      optional.</i>
+    </p>
+-->    
+    
+    <p>
+      <i>Instructions. In Problems 2 and 3, make sure to use the study
+    guide's definition of linear independence. It is different from
+    the textbook's definition.</i>
+    </p>
+
+    
+    
+    <ol>
+
+  <li>Section 4.3, #3(a), 4(a), 15(b), 16(a)(c). Try to solve
+    15(b) and 16(a) with as few computations as possible, and try to be
+    fairly rigorous for 16(c).
+  </li>
+
+
+  <li>
+    Let \(\{\bv_1,\bv_2,\bv_3,\bv_4\}\) be a linearly independent
+    set of vectors in a vector space \(V\). Using only the definition of
+    linear independence, prove that \(\{\bv_1,\bv_2,\bv_3\}\) is linearly
+    independent as well.<br>
+
+    <i> Hint. Begin the proof as follows: ``Suppose that
+    \(k_1\bv_1+k_2\bv_2+k_3\bv_3=\mathbf{0}\) for some scalars \(k_1,
+    k_2, k_3\). I must show that
+      \(k_1=k_2=k_3=0\).''
+    </i>
+  </li>
+
+  <li>
+    Using only the definition of linear independence, prove that if
+    \(\{\bu,\bv,\bw\}\) is linearly independent, then so is
+    \(\{\bu+\bv,\bu+\bw,\bv+\bw\}\).<br>
+
+    <i> Hint. Begin the proof as follows: ``Suppose that \(c(\bu+\bv)+
+      d(\bu+\bw)+ e(\bv+\bw)=\mathbf{0}\) for some scalars \(c, d,
+      e\). I must show that \(c=d=e=0\).''
+    </i>
+  </li>
+
+    <!--    
+    <li>
+      Let \(\bu\), \(\bv\), \(\bw\) be vectors in a vector space
+      \(V\).  Show directly that \(\sspan\{\bu,\bv\}\) is a <i>subset</i>
+      of \(\sspan\{\bu,\bv,\bw\}\). <br>
+	  <i>(Hint. You need to show that every vector in
+	    \(\sspan\{\bu,\bv\}\) can be expressed as a linear
+	    combination of the vectors \(\bu\), \(\bv\), and \(\bw\).)
+	  </i>
+    </li>
+    -->
+    
+  </ol>
+
+
+  
+
+</section>
+
+</div>
