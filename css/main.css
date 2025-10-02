@@ -408,11 +408,11 @@ hr.thin {
 @media print{
     @page{
 	size: Letter portrait;
-	margin: 1in;
+	margin: .7in;
     }   
 
     .homework h2 {
-	margin: 2.6rem 0 2.3rem 0;
+	margin: 2.6rem 0 2.1rem 0;
     }
     
     p, li, body {
