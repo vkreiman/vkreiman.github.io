@@ -1,0 +1,64 @@
+---
+layout: exercises
+title: Advanced Probability
+number: Math 310
+date: October 13, 2025
+---
+
+<div class="homework">
+  
+<section>
+  <h2>Homework 11: The Cumulative Distribution Function</h2>
+
+  <ol>
+
+    <li> Section 3.3, #2.</li>
+
+    <li> Let \(X\) be the lifetime of a certain electronic device
+      (measured in hours). Suppose that the probability density
+      function of \(X\) is given by
+      $$ f_X(x)=
+      \begin{cases}
+      \frac{10}{x^2}, & x \gt 10\\
+      0, & x\leq 10
+      \end{cases}
+      $$
+      <ol class="nested-list">
+	<li> Find and sketch \(F_X(x)\).</li>
+	<li> Find \(P(X \gt 20)\) using the cdf.</li>
+      </ol>
+    </li>
+
+    <li> A continuous random variable \(X\) has pdf given by 
+      $$
+      f_X(x)=
+      \begin{cases}
+      1 - |x|, &|x|\leq 1\\
+      0, & |x| \gt 1
+      \end{cases}
+      $$
+      <ol class="nested-list">
+	<li> Find and sketch \(F_X(x)\).</li>
+	<li> Find \(P(X \lt 1.5)\) using the cdf.</li>
+      </ol>
+    </li>
+    
+    <li> A continuous random variable \(X\) has cdf given by
+      $$
+      F_X(x)= \begin{cases} 0, & x\leq 0\\
+      \frac{1}{9}x^2, & 0 \lt x\leq 3\\
+      1, & x\gt 3 \end{cases}
+      $$
+      <ol class="nested-list">
+	<li> Find and sketch \(f_X(x)\).</li>
+	<li> Find \(P(1 \lt X\leq 2)\) using the cdf.</li>
+      </ol>
+    </li>
+  </ol>
+  
+</section>
+
+</div>
+
+<!-- <ol class="nested-list"> -->
+	  
