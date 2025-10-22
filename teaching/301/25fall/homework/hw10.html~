@@ -1,0 +1,85 @@
+---
+layout: exercises
+title: Linear Algebra
+number: Math 301
+date: October 15, 2025
+---
+
+
+<div class="homework">
+  <section>
+    <h2>Homework 9: Linear Transformations</h2>
+
+    <p>
+      <i>Instructions. Assignments should be stapled and
+	written clearly and legibly.</i>
+    </p>
+    
+    <ol>
+      <li>Let \(T:V\to W\) be a linear transformation, and let
+	\(\{\bv_1,\bv_2,\ldots,\bv_n\}\) be a set of vectors that
+	spans \(V\). Prove that if $$
+	T(\bv_1)=T(\bv_2)=\cdots=T(\bv_n)=\mathbf{0}, $$ then
+	\(T(\bu)=\mathbf{0}\) for all vectors \(\bu\) in \(V\).<br>
+
+	<i> Hint. Use Theorem 2.1.</i>
+      </li>
+
+      <li>
+	Let \(T:V\to W\) be a linear transformation.
+	<ol class="nested-list">
+	  <li>
+	    Suppose that \(\{\bv_1,\ldots,\bv_p\}\) is a linearly
+	    dependent set of vectors in \(V\). Using the definition of
+	    linear dependence and Theorem 2.1, prove that
+	    \(\{T(\bv_1),\ldots,T(\bv_p)\}\) is linearly dependent in
+	    \(W\).<br>
+
+	    <i> Hint. Begin the proof as follows: ``Since
+	      \(\{\bv_1,\ldots,\bv_p\}\) is linearly dependent, there
+	      exist scalars \(c_1,\ldots,c_p\) which are not all zero
+	      for which \(c_1\bv_1+\cdots+c_p\bv_p=\mathbf{0}\).''</i>
+	  </li>
+
+	  <li>
+	    Suppose that \(\{\bv_1,\ldots,\bv_p\}\) is a linearly
+	    independent set of vectors in \(V\). Is
+	    \(\{T(\bv_1),\ldots,T(\bv_p)\}\) necessarily linearly
+	    independent in \(W\)? Is yes, prove it. If no, give a
+	    counterexample.
+	  </li>
+	</ol>
+      </li>
+      
+      <li> Determine whether each of the following transformations
+	\(T\) is linear. Prove your answers.
+	<ol class="nested-list">
+	  <li> \(T:\bR^2\to \bR^2\) defined by
+	    \(T(\vtwo{x_1}{x_2})=\vtwo{4x_1-2x_2}{3|x_2|}\).</li>
+	  <li> \(T:\bR^2\to \bR^3\) defined by
+	    \(T(\vtwo{x_1}{x_2})=\vthree{x_1-2x_2}{x_1+3x_2}{3x_1-4x_2}\).</li>
+	  <li> \(T:P_2\to P_2\) defined by \(T(a+bx+cx^2)=a +
+	    b(x+1)+b(x+1)^2\).</li>
+	</ol>
+      </li>
+      
+      <li>
+	Show that each of the following transformations \(T:\bR^2\to
+	\bR^2\) is linear by finding a matrix \(A\) such that
+	\(T(\bx)=A\bx\). Describe geometrically what each
+	transformation does.
+	<ol class="nested-list">
+	  <li> \(T(\vtwo{x_1}{x_2})=\vtwo{-x_1}{\pe x_2}\)</li>
+	  <li> \(T(\vtwo{x_1}{x_2})=\vtwo{x_2}{x_1}\)</li>
+	  <li> \(T(\vtwo{x_1}{x_2})=\vtwo{0}{x_2}\)</li>
+	  <li> \(T(\bx)=-\bx\)</li>
+	  <li> \(T(\bx)=\frac{1}{2}\bx\)</li>
+	</ol>
+      </li>
+      
+      <!-- <ol class="nested-list"> -->
+      </ol>
+
+</section>
+
+</div>
