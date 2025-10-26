@@ -5,7 +5,7 @@
   }
 
 html {
-    font-size: 16px;
+    font-size: 18px;
     overflow-y: scroll; /* Adds scrollbar to all screen. 
 			   Prevents content shifting on screens w/o scrollbar */
 }
@@ -431,7 +431,7 @@ hr.thin {
 table {
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   table-layout: auto;
   width: 100%;
 }
