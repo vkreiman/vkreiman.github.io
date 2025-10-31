@@ -1,0 +1,67 @@
+---
+layout: exercises
+title: Linear Algebra
+number: Math 301
+date: October 27, 2025
+---
+
+
+<div class="homework">
+  <section>
+    <h2>Homework 11: One-to-One, Onto</h2>
+
+    <ol>
+      <li>Section 8.2, #6, 7, 19(a)(c).  Make sure to justify your
+	answer to the question asked in Exercise 7.
+      </li>
+
+      <li> Determine whether the mappings given in Problems 3 and 4
+	of
+	<a href="https://vkreiman.github.io/teaching/301/25fall/homework/hw10.html">
+	  Homework 10</a> are one-to-one. Justify your answers.</li>
+
+      <li> Let \(T\colon V\to W\) be linear transformation, and let
+	\(\{\bv_1,\ldots,\bv_p\}\) be linearly independent in \(V\).
+	<ol class="nested-list">
+	  <li> Prove that if \(T\) is one-to-one, then
+	    \(\{T(\bv_1),\ldots,T(\bv_p)\}\) is linearly independent
+	    in \(W\).<br>
+
+	    <i> Hint. Begin the proof as follows: ``Suppose that \(c_1
+	      T(\bv_1)+\cdots + c_p T(\bv_p)=\bz\). I must show
+	      \(c_1=\cdots =c_p=0\).''</i>
+	  </li>
+	  
+	  <li> Give an example showing that if \(T\) is not
+	    one-to-one, then \(\{T(\bv_1),\ldots,T(\bv_p)\}\) need not
+	    be linearly independent in \(W\).
+	  </li>
+	</ol>
+      </li>
+
+      <li> Let \(T\colon V\to W\) be a linear transformation, with
+	\(\dim V=n\), \(\dim W=m\). Prove the following:
+	<ol class="nested-list">
+	  <li> \(\dim (R(T))\leq n\).</li>
+	  <li> \(\dim (R(T))= n\) if and only if \(T\) is
+	  one-to-one.</li>
+	  <li> \(\dim (R(T))=m\) if and only if \(T\) is onto.</li>
+	</ol>
+      </li>
+
+
+      <li>(GRE Math Subject Test) Let \(V\) be the vector space of all
+	\(2\times 3\) matrices, and let \(W\) be the vector space of
+	all \(4\times 1\) column vectors. If \(T\) is a linear
+	transformation from \(V\) <i>onto</i> \(W\), find the
+	dimension of the subspace \(\{ \bv \in V: T(\bv)=\bz \}\).
+	Make sure to justify your answer.
+      </li>
+      
+    </ol>     
+    
+  </section>
+  
+</div>
+
+      <!-- <ol class="nested-list"> -->
