@@ -81,6 +81,7 @@ header {
 /*  margin: 0px 8px 0px 8px; */    
 /*  text-decoration: none; */
   color: white;
+  transition-duration: .4s;
 }
 
 /* The dropdown container */
@@ -101,6 +102,7 @@ header {
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
     color: white;
+    transition-duration: .4s;
 }
 
 /* Underline navbar links on hover */
