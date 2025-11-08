@@ -10,6 +10,30 @@ html {
 			   Prevents content shifting on screens w/o scrollbar */
 }
 
+/* Begin link light show */
+/*
+,navbar a {
+        position: relative;
+}
+
+.navbar :not(dropdown) a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #36c;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+    width: 100%; 
+}
+*/
+/* End link light show */
+
+
 body{ 
     margin: 0;
     font-family: "STIX Two Text";
