@@ -68,7 +68,7 @@ header {
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    font-family: Inter, sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
    
 
@@ -82,7 +82,7 @@ header {
 .try {
     font-size: 1.2rem;
     font-weight: 400;
-    font-family: Inter, sans-serif;
+    font-family: "Open Sans", sans-serif;
     flex-grow: 1;
     text-align: left;
     color: white;
@@ -195,7 +195,7 @@ h1 {
 h2 { 
     font-size: 1.2rem; /* 2.2 rem */
     margin: 0 0 0px 0;
-   /* font-family: Inter, sans-serif;*/
+   /* font-family: "Open Sans", sans-serif;*/
     font-weight: 600;
     text-align: center;
 }
