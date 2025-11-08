@@ -148,6 +148,7 @@ header {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border: 1px solid black;
+  overflow: hidden;
 }
 
 /* Links inside the dropdown */
@@ -174,7 +175,7 @@ header {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
-    border-radius: 6.4px; 
+    border-radius: 12px; 
 } 
 
 .wrapper-main {
