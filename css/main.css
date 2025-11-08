@@ -24,6 +24,29 @@ body{
 /*  justify-content: flex-start; */
 }
 
+
+/* Begin link light show */
+a {
+        position: relative;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #36c;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+a:hover::after {
+    width: 100%; /* Expands the underline on hover */
+}
+/* End link light show */
+    
+
 header {
     top: 0; /* needed for sticky position */
     position: sticky;
