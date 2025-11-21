@@ -1,0 +1,78 @@
+---
+layout: exercises
+title: Advanced Probability
+number: Math 310
+date: November 18, 2025
+---
+
+<div class="homework">
+  
+<section>
+  <h2>Homework 22: Hypergeometric and Geometric Distributions</h2>
+
+  <ol>
+
+    <li> To demonstrate his benevolence, Darth Vader decides to use
+      the Death Star to randomly destroy six of the twelve planets of
+      the Dagobah system (rather than all twelve, as suggested by the
+      Emperor). Four of the twelve planets harbor life.
+
+      <ol class="nested-list">
+	<li> Find the probability that at least three of the four
+	  planets harboring life are destroyed.</li>
+
+	<li> Find the expected number of planets harboring life that
+	  will be destroyed.</li>
+
+      </ol>
+
+      For both parts, you should ignore the fact that Yoda lives in
+      the Dagobah system.</li>
+
+    <li> Because of his past convictions for fraud, Greeedo has a 20%
+      chance each year of having his tax returns audited. What is the
+      probability that he will not be audited for the next three
+      years?
+    </li>
+
+    <li> Mad Max is applying for a driver's license.  Assume that his
+      probability of passing the driving test on any attempt is
+      \(0.20\). Let \(X\) be the number of tries that he needs in
+      order to pass the driving test.
+      <ol class="nested-list">
+	
+	<li>  Find \(f_X(x)\) and \(E(X)\).</li>
+
+	<li> Find \(y\) such that the probability of Max not passing
+	the test after taking it \(y\) times is under 5%.</li>
+	
+      </ol>
+    </li>
+    
+    <li> Country A launches ten missiles at country B. Six of the ten
+      are armed with nuclear warheads. To intercept the missiles,
+      country B launches seven antiballistic missiles, each of which
+      will destroy exactly one of the incoming rockets. The
+      antiballistic missiles are unable to detect which of the ten
+      rockets are carrying nuclear warheads.
+      
+      <ol class="nested-list">
+
+	<li> Find the probability that country B will be hit by at
+	  least two nuclear missiles.</li>
+
+	<li> Find the expected number of nuclear missiles that will
+	  hit country B.</li>
+
+      </ol>
+
+    </li>
+
+  </ol>
+
+</section>
+
+</div>
+
+<!-- <ol class="nested-list"> -->
+	  
