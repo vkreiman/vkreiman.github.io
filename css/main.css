@@ -346,14 +346,14 @@ ol li {
     counter-reset: mycounter;
 }
 
-.nested-list li {
+ol.nested-list>li {
     border: 0;
     margin: 0 0 .3rem 0;
     display: block;
     counter-increment: mycounter;
 }
 
-.nested-list li:before {
+ol.nested-list>li:before {
     content: "(" counter(mycounter, lower-alpha) ") ";
    /* counter-increment: mycounter; */
 }
