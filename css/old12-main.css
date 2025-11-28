@@ -4,19 +4,35 @@
      box-sizing: border-box; 
   }
 
-  :root{
-    --blue-border: #1f6a87;
-    --blue-nav-letters: #69a9dd;
-    --blue-nav-hover: #a7ccee94; 
-    --links: #36c;
-    --blue-table-header: rgb(228 240 245);
-  }
-
 html {
     font-size: 18px;
     overflow-y: scroll; /* Adds scrollbar to all screen. 
 			   Prevents content shifting on screens w/o scrollbar */
 }
+
+/* Begin link light show */
+/*
+,navbar a {
+        position: relative;
+}
+
+.navbar :not(dropdown) a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #36c;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+    width: 100%; 
+}
+*/
+/* End link light show */
+
 
 body{ 
     margin: 0;
@@ -37,7 +53,7 @@ header {
     top: 0; /* needed for sticky position */
     position: sticky;
 /*    border-top: 1px solid #e7e7e7; */
-    border-bottom: 4px solid var(--blue-border);
+    border-bottom: 4px solid #1f6a87;
 /*    min-height: 64px;*/
     background-color: black;
 /*    position: relative; */
@@ -117,7 +133,7 @@ header {
 /*    text-decoration-line: underline;
     text-underline-offset: 6px; */
     text-decoration: none;
-    color: var(--blue-nav-letters);
+    color: #69a9dd;
     /* color: #b4c8d8; */
 }
 
@@ -153,7 +169,7 @@ header {
 .dropdown-content a:hover {
     text-decoration-line: none;
     color: black;
-    background-color: var(--blue-nav-hover);
+    background-color: #a7ccee94;
 }
 
 /* Show the dropdown menu on hover */
@@ -164,7 +180,6 @@ header {
 
 .wrapper-main {
     max-width: 710px; /* 860 px */
-    /* display: inline-flex; */
     margin: 0 auto;
     padding: 0 30px 60px 30px;
 }
@@ -187,7 +202,7 @@ h2 {
 
 
 main a {
-    color: var(--links);
+    color: #36c;
 }
 
 main{
@@ -240,9 +255,6 @@ section {
     border: .26em;
     margin: 1.2rem 0em .26em 0em; 
 }
-
-
-
 
 
 /*
@@ -450,7 +462,7 @@ caption {
 
 thead,
 tfoot {
-  background-color: var(--blue-table-header);
+  background-color: rgb(228 240 245);
 }
 
 th,
@@ -478,4 +490,4 @@ tfoot th {
 tfoot td {
   font-weight: bold;
 }
-
+    
