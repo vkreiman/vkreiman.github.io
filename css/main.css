@@ -253,14 +253,7 @@ section:first-of-type {
 
 section {
     border: .26em;
-    margin: 1.2rem .28em .26em 0em; 
-}
-
-
-
-article {
- /*   padding: .44rem;
-    margin: .88rem; */
+    margin: 1.2rem 0em .26em 0em; 
 }
 
 
