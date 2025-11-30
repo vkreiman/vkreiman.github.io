@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="alternate stylesheet" type="text/css"
-	  href="/css/topborder.css" title="Bar on Top">
+    <link rel="stylesheet" type="text/css" href="cal.css">
+    <!-- <link rel="alternate stylesheet" type="text/css"
+	  href="/css/topborder.css" title="Bar on Top"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
@@ -112,65 +113,85 @@
 
   <body>
     <div class="flex-wrapper">
-    <header>
-      <div class="wrapper-header">
-	<div class="navbar">
-	  <span class="try">Victor Kreiman</span>
-	  <div class="navbar-right">
-	  <a href="/">Home</a>
-	  <!--  <a href="/links">LINKS</a> -->
-	  <div class="dropdown">
-	    <button class="dropbtn">Teaching
-	    </button>
-	    <div class="dropdown-content">
-	      <a href="/teaching/114/25fall">Math 114 (Fall 25)</a>
-	      <a href="/teaching/221/25spring">Math 221</a>
-	      <a href="/teaching/222/24spring">Math 222</a>
-	      <a href="/teaching/301/25fall">Math 301 (Fall 25)</a>
-	      <a href="/teaching/310/25fall">Math 310 (Fall 25)</a>
-	      <a href="/teaching/350/25spring">Math 350</a>
-	      <a href="/teaching/451/24spring">Math 451</a>
-	    </div> <!-- dropdown-content -->
-	  </div> <!-- dropdown -->
-	  <a href="/research">Research</a>
-	  </div>
-	</div> <!-- navbar -->
-      </div>  <!-- wrapper-header -->
-    </header>
-    
-    <main>
-      <div class="wrapper-main">
-	<article> 
-	  {{ content }}
-	</article> 
-      </div>  <!-- wrapper-main -->
-    </main>
+      <header>
+	<div class="wrapper-header">
+	  <div class="navbar">
+	    <span class="try">Victor Kreiman</span>
+	    <div class="navbar-right">
+	      <a href="/">Home</a>
+	      <!--  <a href="/links">LINKS</a> -->
+	      <div class="dropdown">
+		<button class="dropbtn">Teaching
+		</button>
+		<div class="dropdown-content">
+		  <a href="/teaching/114/25fall">Math 114 (Fall 25)</a>
+		  <a href="/teaching/221/25spring">Math 221</a>
+		  <a href="/teaching/222/24spring">Math 222</a>
+		  <a href="/teaching/301/25fall">Math 301 (Fall 25)</a>
+		  <a href="/teaching/310/25fall">Math 310 (Fall 25)</a>
+		  <a href="/teaching/350/25spring">Math 350</a>
+		  <a href="/teaching/451/24spring">Math 451</a>
+		</div> <!-- dropdown-content -->
+	      </div> <!-- dropdown -->
+	      <a href="/research">Research</a>
+	    </div>
+	  </div> <!-- navbar -->
+	</div>  <!-- wrapper-header -->
+      </header>
+      
+      <main>
+	<div class="wrapper-main">
+	  <article> 
+	    {{ content }}
+	  </article> 
+	</div>  <!-- wrapper-main -->
+      </main>
 
-    <footer>
-      <div class="wrapper-footer"> 
-	<div class="footer-nav">
-	  <div class="ftleft">
-            <span class="ft">
-              <a href="mailto:kreiman@uwp.edu">kreiman@uwp.edu</a>
-            </span>
-	    <!--
-		<span>&#8226;</span>
-		<span class="ft">(262) 595-2231</span>
-		<span>&#8226;</span>
-		<span class="ft">GRNQ 331</span>
-		-->
-	  </div> <!-- ftleft -->
-	  <div class="ftright">
-            <span class="ft">Website last updated {{ "now" | date: "%B
-	      %d, %Y at %I:%M %P" }}</span>
-	  </div> <!-- ftright -->
-	</div> <!-- footer-nav> -->
-      </div>    <!-- wrapper-footer -->
-    </footer>
-    <!--
-	<li class="right">Website last updated {{ "now" | date: "%B
-	  %d, %Y at %r" }}</li>
-	-->
+      <footer>
+	<div class="wrapper-footer"> 
+	  <div class="footer-nav">
+	    <div class="ftleft">
+              <span class="ft">
+		<a href="mailto:kreiman@uwp.edu">kreiman@uwp.edu</a>
+              </span>
+	      <!--
+		  <span>&#8226;</span>
+		  <span class="ft">(262) 595-2231</span>
+		  <span>&#8226;</span>
+		  <span class="ft">GRNQ 331</span>
+		  -->
+	    </div> <!-- ftleft -->
+	    <div class="ftright">
+              <span class="ft">Website last updated {{ "now" | date: "%B
+		%d, %Y at %I:%M %P" }}</span>
+	    </div> <!-- ftright -->
+	  </div> <!-- footer-nav> -->
+	</div>    <!-- wrapper-footer -->
+      </footer>
+      <!--
+	  <li class="right">Website last updated {{ "now" | date: "%B
+	    %d, %Y at %r" }}</li>
+	  -->
     </div>  <!-- flex-wrapper -->
+
+    <script>
+      console.log("Hello there");
+      calId = document.getElementById("cal");
+      if (calId != null) {
+	  console.log("Cal exists");
+	  let wm = document.getElementsByClassName("wrapper-main")[0];
+	  if (wm != null) {
+              console.log("wm exists");
+              // console.log(wm[0]);
+              wm.style.maxWidth = "810px";
+	  }
+	  else {
+              console.log("wm doesn't exist");
+	  }
+      } else {
+	  console.log("Cal does not exist");
+      }
+    </script>
+
   </body>
 </html>

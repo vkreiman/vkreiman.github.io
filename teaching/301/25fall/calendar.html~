@@ -1,0 +1,77 @@
+---
+layout: course
+title: Linear Algebra
+number: Math 301
+semester: Fall 2025
+---
+
+<section>
+
+  <h4>Assignments</h4>
+  <!--
+      <ul>
+	<li>Coming soon</li>
+      </ul>
+      -->
+      <ul>
+	<li> <a href="homework/hw17.html">Homework 17</a>:
+	Gram-Schmidt Orthogonalization, Determinants
+	</li>
+	<li> <a href="homework/hw16.html">Homework 16</a>: Inner
+	Product Spaces
+	</li>
+	<li> <a href="homework/hw15.html">Homework 15</a>: The Change
+	  of Basis Formula
+	</li>
+	<li> <a href="homework/hw14.html">Homework 14</a>: The Matrix
+	  of a Linear Transformation
+	</li>
+	<li> <a href="homework/hw13.html">Homework 13</a>: Standard
+	  Matrices, Compositions
+	</li>
+	<li> <a href="homework/hw12.html">Homework 12</a>:
+            Compositions, Inverse Transformations, Isomorphisms
+	</li>
+	<li> <a href="homework/hw11.html">Homework 11</a>: One-to-One,
+	Onto
+	</li>
+	<li> <a href="homework/hw10.html">Homework 10</a>: Kernel,
+	Range
+	</li>
+	<li> <a href="homework/hw9.html">Homework 9</a>: Linear
+	Transformations
+	</li>
+	<li> <a href="homework/hw8.html">Homework 8</a>: Null Space and
+	  Column Space of a Matrix
+	</li>
+	<li> <a href="homework/hw7.html">Homework 7</a>: Basis and
+	  Coordinates</li>
+	<li> <a href="homework/hw6.html">Homework 6</a>: Linear Independence
+	  (Part 2)</li>
+	<li> <a href="homework/hw5.html">Homework 5</a>: Linear Independence
+	  (Part 1)</li>
+	<li> <a href="homework/hw4.html">Homework 4</a>: Subspace, Linear
+	  Combination, Span</li>
+	<li> <a href="homework/hw3.html">Homework 3</a>: Vector Spaces</li>
+	<li> <a href="homework/hw2.html">Homework 2</a>: Systems of Linear
+	  Equations (Part 2)</li>
+	<li> <a href="homework/hw1.html">Homework 1</a>: Systems of Linear
+	  Equations (Part 1)</li> 
+      </ul>
+</section>
+
+<section>
+  <h4>Course Resources</h4>
+  <!--
+      <ul>
+	<li>Coming soon</li>
+      </ul>
+      -->
+      <ul>
+	<li> <a href="25fall-301cal.pdf">Calendar</a> </li>
+	<li> <a href="defsthrms.pdf">Study Guide</a></li>
+	<li><a href="syllabus.html">Syllabus</a></li>
+	<li><a href="https://www.uwp.edu/explore/offices/campustechnologyservices/innovationsinlearning/canvas-login.cfm">Canvas</a></li>
+      </ul>
+</section>
+
