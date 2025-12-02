@@ -1,6 +1,7 @@
     /* Basic CSS for styling the calendar */
     #cal table {
-      width: 710px; 
+/*      width: 710px;*/
+        width: 100%; 
         table-layout: fixed;
        border-collapse: collapse;
        margin: auto;
@@ -29,7 +30,7 @@
     #cal td {
         padding: 0pt 5pt 0pt 5pt;
         width: 8em;
-        height: 8em;
+        height: 142px; /* minimum height */
         vertical-align: top;
     }
 

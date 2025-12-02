@@ -459,9 +459,11 @@ td {
   padding: 8px 10px;
 }
 
+/*
 td:last-of-type {
   text-align: center;
 }
+*/
 
 td:nth-child(4) {
   text-align: left;
@@ -471,6 +473,7 @@ tbody > tr:nth-of-type(even) {
   background-color: rgb(237 238 242);
 }
 
+/*
 tfoot th {
   text-align: right;
 }
@@ -478,4 +481,4 @@ tfoot th {
 tfoot td {
   font-weight: bold;
 }
-
+*/
