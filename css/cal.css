@@ -1,16 +1,17 @@
     /* Basic CSS for styling the calendar */
     #cal table {
-/*      width: 710px;*/
-        width: 100%; 
+        /*      width: 710px;*/
+        width: 100%;
         table-layout: fixed;
-       border-collapse: collapse;
-       margin: auto;
-       padding: 0 30px 0 30px;
-       line-height: 1rem;
+        border-collapse: collapse;
+        margin: auto;
+        padding: 0 30px 0 30px;
+        line-height: 1rem;
+        font-size: .7rem;
     }
 
     /* Will this work? */
-/*
+    /*
     .cal {
     max-width: 810px;
         text-align: center;
@@ -18,7 +19,7 @@
         position: absolute;
     padding: 0 30px 60px 30px;
     }
-  */  
+  */
 
     #cal th {
         font-weight: 300;
@@ -30,13 +31,18 @@
     #cal td {
         padding: 0pt 5pt 0pt 5pt;
         width: 8em;
-        height: 142px; /* minimum height */
+        height: 142px;
+        /* minimum height */
         vertical-align: top;
     }
 
-    #caldate {
+    #cal tr {
+        background-color: rgb(248, 248, 246);
+    }
+
+    .caldate {
         font-size: 9pt;
-        margin-bottom: .3em;
+        margin-bottom: .5em;
         font-weight: 600;
     }
 

@@ -62,3 +62,33 @@ semester: Fall 2025
 
 </section>
 
+<script>
+  function isSameDay(date1, date2) { // Compare year, month,
+      and day return date1.getFullYear() ===
+          date2.getFullYear() && date1.getMonth() ===
+          date2.getMonth() && date1.getDate() === date2.getDate();
+  }
+
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+		  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  tds = document.getElementsByTagName("td");
+  let classDay = new Date("December 1, 2025");
+  let currentDate = new Date();
+
+  for (let i = 0; i < tds.length; i++) {
+
+      a = months[classDay.getMonth()] + " " +
+          classDay.getDate();
+      tds[i].insertAdjacentHTML("afterbegin",
+				`<div class='caldate'>${a}</div>`);
+
+      if (isSameDay(currentDate, classDay)) {
+          tds[i].style.backgroundColor = "#dddddd"; }
+
+
+      if ((i + 1) % 5 == 0) {
+          classDay.setDate(classDay.getDate() + 3); } else {
+              classDay.setDate(classDay.getDate() + 1); }
+  }
+  
+  </script>
