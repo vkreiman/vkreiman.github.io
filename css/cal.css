@@ -51,7 +51,18 @@
         background-color: var(--blue-table-header);
     }
 
-    #cal .event {
-        background-color: #e0f7fa;
-        font-weight: bold;
+    #cal .exam {
+        /* background-color: #e0f7fa; */
+        font-size: 1.0rem;
+        color: #6b1010;
+        border: 1px solid #333;
+        /* Sets a 1px solid dark gray border */
+        padding: 15px;
+        /* Adds 15px of space between the text and the border */
+        margin: 20px;
+        /* Adds 20px of space outside the border */
+        background-color: #f0f0f0;
+        /* Sets a light gray background color */
+        border-radius: 8px;
+        /* Rounds the corners of the box */
     }
