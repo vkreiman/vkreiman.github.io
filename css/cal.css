@@ -37,12 +37,13 @@
     }
 
     #cal tr {
-        background-color: rgb(248, 248, 246);
+        background-color: #f9fafb;
+      /*  background-color: rgb(248, 248, 246);*/
     }
 
     .caldate {
-        font-size: 9pt;
-        margin-bottom: .5em;
+        font-size: .7rem;
+        margin-bottom: .5rem;
         font-weight: 600;
     }
 
@@ -52,17 +53,11 @@
     }
 
     #cal .exam {
-        /* background-color: #e0f7fa; */
-        font-size: 1.0rem;
-        color: #6b1010;
-        border: 1px solid #333;
-        /* Sets a 1px solid dark gray border */
-        padding: 15px;
-        /* Adds 15px of space between the text and the border */
-        margin: 20px;
-        /* Adds 20px of space outside the border */
-        background-color: #f0f0f0;
-        /* Sets a light gray background color */
-        border-radius: 8px;
-        /* Rounds the corners of the box */
+        font-size: 1.2rem;
+        font-weight: bold;
+        display: inline-block;
+        color: rgb(139, 71, 128);
+        margin: 1rem 0;
+        padding: .1rem;
+        border: 2px ridge black;
     }
