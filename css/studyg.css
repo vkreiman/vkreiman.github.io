@@ -1,0 +1,81 @@
+
+.sec-label {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+body {
+    /* Initialize or reset the theorem counter in the body or a main container */
+    counter-reset: theorem definition sect;
+}
+
+.sec-label {
+    counter-set: theorem 0 definition 0;
+}
+
+.sec-label:before {
+    counter-increment: sect;
+    content: counter(sect) ". ";
+}
+
+
+.theorem, .definition {
+   display: block;
+/*    font-style: italic; */
+    margin: 1rem 0; /* Adds spacing around the theorem */
+}
+
+.theorem:before {
+    counter-increment: theorem; /* Increments the counter for each .theorem element */
+    content: "Theorem " counter(sect) "." counter(theorem) ". ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.theorem[title]:before {
+    counter-increment: theorem;
+    content: "Theorem " counter(sect) "." counter(theorem) " (" attr(title) "). ";
+}
+
+.definition:before {
+    counter-increment: definition; /* Increments the counter for each .theorem element */
+    content: "Definition " counter(sect) "." counter(definition) ". ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.definition[title]:before {
+    counter-increment: definition;
+    content: "Definition " counter(sect) "." counter(definition) " (" attr(title) "). ";
+}
+
+.stdg p {
+    text-indent: 18px;
+}
+
+
+.ilist ol {
+  list-style: none;
+}
+
+.ilist ol>li:before {
+  content: attr(seq) ". ";
+}
+
+
+.stdg {
+line-height: 1.5rem;
+}
+
+.stdg ol {
+    border: 0;
+    margin: 0 0 .5rem 0;
+    display: block;
+}
+
+.stdg li {
+    border: 0;
+    margin: 0 0 .3rem 1em;
+    display: block;
+}

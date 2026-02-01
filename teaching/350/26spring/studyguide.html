@@ -1,0 +1,103 @@
+---
+layout: course
+title: Advanced Calculus
+number: Math 350
+semester: Spring 2026
+---
+
+
+<div class="stdg">
+
+  <section> This study guide will give the main definitions, theorems,
+    etc.  covered in the course.
+  </section>
+
+
+  <section>
+    <div class="sec-label">Properties of Real Numbers</div>
+    <p>
+      Consider the following sets of numbers:
+
+      \begin{align} \mathbb{N} &= \{1, 2, 3, \ldots \}\ \text{
+      (natural numbers)}\\ \mathbb{Z} &= \{\ldots,-3,-2,-1,0,1, 2, 3,
+      \ldots \}\ \text{ (integers)}\\ \mathbb{Q} &= \left\{\frac{a}{b}
+      : a,b\in \mathbb{Z}, b\neq 0 \right\}\ \text{ (rational
+      numbers)}\\ <!-- \mathbb{R} &= \{\text{numbers corresponding to
+      all points on the number line} \}\ \text{ (real numbers)}\\ -->
+      \end{align}
+
+      We see that \(\mathbb{N} \subset \mathbb{Z} \subset
+      \mathbb{Q}\).
+    </p>
+
+    <div class="theorem">
+      There does not exist \(p\in \mathbb{Q}\) such that \(p^2=2\).
+    </div>
+
+    <p>In other words, \(\sqrt{2}\notin \mathbb{Q}\). A larger set of
+      numbers which contains \(\sqrt{2}\) is needed: \(\mathbb{R}\),
+      the set of real numbers. The next few definitions will lead us
+      to an axiomatic, non-geometric definition of \(\mathbb{R}\).</p>
+
+    <div class="definition" title="Field">
+      A <b>field</b> is a set \(F\) together with two binary
+      operations, denoted by \(+\) and \(\cdot\), which satisfy the
+      following axioms:
+      <div class="ilist">
+        <ol>
+          <li seq="F1">For all \(a,b\in F\), \(a+b = b+a\) and
+            \(a\cdot b=b\cdot a\). </li>
+          <li seq="F2">For all \(a,b,c\in F\), \((a+b)+c = a+(b+c)\)
+            and \((a\cdot b)\cdot c = a\cdot (b\cdot c)\). </li>
+          <li seq="F3">For all \(a,b,c\in F\), \(a\cdot (b + c) =
+            a\cdot b + a\cdot c\). </li>
+          <li seq="F4">There exist elements \(0,1\in F\) for which
+            \(0+a=0\) and \(1\cdot a = a\) for all \(a\in F\).</li>
+          <li seq="F5">For every \(a\in F\), there exists an element
+            \(-a\in F\) for which \(a + (-a)=0\). </li>
+          <li seq="F6">For every \(a\in F\), \(a\neq 0\), there exists
+            \(a^{-1}\in F\) for which \(a\cdot a^{-1}=1\).</li>
+        </ol>
+      </div> <!-- ilist -->
+    </div>
+
+    <div class="definition" title="Total Order">
+      Let \(S\) be any set. A <b>total order</b> (or <b>linear
+      order</b>) on \(S\) is a relation \(\lt \) on \(S\) satisfying
+      the following two axioms:
+      <div class="ilist">
+        <ol>
+          <li seq="TO1">For all \(a,b\in S\), exactly one holds:
+            \(a=b\), \(a \lt b\), or \(a\gt b\).</li>
+          <li seq="TO2">For all \(a,b,c\in S\), if \(a\lt b\) and
+            \(b\lt c\) then \(a\lt c\).
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="definition" title="Ordered Field">
+      Let \(F\) be a field. Then \(F\) is an <b>ordered field</b> if
+        there exists a total order \(\lt \) of \(F\) satisfying the
+        following two axioms:
+      <div class="ilist">
+        <ol>
+          <li seq="OF1">For all \(a,b,c\in F\), if \(a\lt b\), then
+            \(a+c\lt b+c\).</li>
+          <li seq="OF1">For all \(a,b,c\in F\), if \(a\lt b\) and \(c
+            \gt 0\), then \(a\cdot c\lt b\cdot c\).</li>
+
+        </ol>
+
+
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+
+
+</div> <!-- class stdg -->
