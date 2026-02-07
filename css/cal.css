@@ -51,3 +51,14 @@
         padding: .1rem;
         border: 2px ridge black;
     }
+
+
+    #cal .quiz {
+	font-size: 0.7rem;
+	font-weight: bold;
+	display: inline-block;
+	color: blue; /* rgb(8, 84, 151); */
+	margin: 1rem 0;
+	padding: .1rem;
+	border: 2px ridge black;
+    }
