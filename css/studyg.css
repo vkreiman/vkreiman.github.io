@@ -54,6 +54,38 @@ body {
     text-indent: 18px;
 }
 
+.stdg {
+line-height: 1.5rem;
+}
+
+/*
+.stdg li {
+    border: 0;
+    margin: 0 0 .3rem 3rem; 
+}
+*/
+
+.stdg ol {
+    border: 0;
+    margin: 0 0 .5rem 0;
+    display: block;
+}
+
+.stdg ol {
+    counter-reset: mycounter;
+}
+
+.stdg ol>li {
+    border: 0;
+    margin: 0 0 .3rem 1rem;
+    display: block;
+    counter-increment: mycounter;
+}
+
+.stdg ol>li:before {
+    content: "(" counter(mycounter, lower-roman) ") ";
+    /* or lower-alpha */
+}
 
 .ilist ol {
   list-style: none;
@@ -64,18 +96,4 @@ body {
 }
 
 
-.stdg {
-line-height: 1.5rem;
-}
 
-.stdg ol {
-    border: 0;
-    margin: 0 0 .5rem 0;
-    display: block;
-}
-
-.stdg li {
-    border: 0;
-    margin: 0 0 .3rem 1em;
-/*    display: block; */
-}
