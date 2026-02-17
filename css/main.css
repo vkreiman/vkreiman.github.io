@@ -9,9 +9,12 @@
     --blue-nav-letters: #69a9dd;
     --blue-nav-hover: #a7ccee94; 
     --links: #36c;
-    --blue-table-header: rgb(228 240 245);
+    --blue-table-header: #a7ccee94;
   }
 
+/*    --blue-table-header: rgb(228 240 245);*/
+
+  
 html {
     font-size: 18px;
     overflow-y: scroll; /* Adds scrollbar to all screen. 
