@@ -6,8 +6,8 @@
 
   :root{
     --blue-border: #1f6a87;
-    --blue-nav-letters: #69a9dd;
-    --blue-nav-hover: #a7ccee94; 
+    --blue-nav-letters: #c0c0c0; /* #69a9dd;*/
+    --blue-nav-hover: #dadada;   /* #a7ccee94;*/ 
     --links: #36c;
     --blue-table-header: #a7ccee94;
   }
