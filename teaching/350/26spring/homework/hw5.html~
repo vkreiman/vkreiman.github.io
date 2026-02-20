@@ -1,0 +1,40 @@
+---
+layout: exercises
+title: Advanced Calculus
+number: Math 350
+date: February 17, 2026
+---
+
+
+<div class="homework">
+  <section>
+    <h2>Homework 4: Functions, Proofs of Quantified Statements</h2>
+
+    <p><i>Instructions.  Assignments should be
+	<b>stapled</b> and written clearly and legibly. </i>
+    </p>
+
+    <ol>
+      <li> Section 2.3, #5(a)(b), 7(b)(c)(e), 8.</li>
+      
+      <li> Section 1.2, #8, 9(d), 10(c), 11(f).</li>
+
+      <li> Section 1.4, #11.</li>
+
+      <li> Prove that for every integer \(b\), there exists a positive
+	integer \(a\) such that \(|a-|b||\leq 1\).</li>
+
+      <li> Prove that for every positive real number \(e\), there
+	exists a positive real number \(d\) such that if \(x\) is a
+	real number with \(|x| \lt d\), then \(2|x|\lt e\).</li>
+
+      <li> Prove that for every positive real number \(\epsilon\),
+	there exists a natural number \(N\) such that if \(n \gt N\),
+	then \(\frac{1}{n^2+1} \lt \epsilon\).</li>
+		   
+    </ol>
+    
+    
+  </section>
+  
+</div>
