@@ -101,6 +101,8 @@ line-height: 1.5rem;
 .stdg-index ol {
     border: 0;
     margin: .5em 0 3rem 0;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #e7e7e7;
     display: block;
 }
 
