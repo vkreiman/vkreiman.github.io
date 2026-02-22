@@ -96,4 +96,45 @@ line-height: 1.5rem;
 }
 
 
+/* style ol and h2 for stdg-index */
+
+.stdg-index ol {
+    border: 0;
+    margin: .5em 0 3rem 0;
+    display: block;
+}
+
+.stdg-index ol {
+    counter-reset: mycounter;
+}
+
+.stdg-index ol>li {
+    border: 0;
+    margin: 0 0 .3rem 1rem;
+    display: block;
+    counter-increment: mycounter;
+}
+
+.stdg-index ol>li:before {
+    content: counter(mycounter, decimal) ". ";
+    /* or lower-alpha */
+}
+
+.stdg-index h2 { 
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 1.5rem 0 .5rem 0;
+   /* margin: 0 0 0px 0; */
+   /* font-family: "Source Sans 3", sans-serif;*/
+   font-weight: 400;
+    /* text-align: center; */
+}
+
+.section-anchor {
+    scroll-margin-top: 90px; /* Adjust this value to the height of
+				your fixed header */
+}
+
+
 
