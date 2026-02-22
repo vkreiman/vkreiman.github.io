@@ -254,5 +254,49 @@ semester: Spring 2026
   </section>
 
   
+  <section>
+    <div class="sec-label">Convergence of a Sequence</div>
+
+    <p> Informally, a sequence is an infinite list of real numbers \(
+      (a_1, a_2, a_3,\ldots)\). We sometimes express a sequence as \(
+      (a_n) \), where \(a_n\) is the \(n\)-th term of the sequence.
+      Then \(n \mapsto a_n\) gives a mapping (or function) from
+      \(\mathbb{N}\) to \(\mathbb{R}\). This suggests the following
+      formal definition.
+    </p>
+
+    <div class="definition" title="Sequence">
+      A <b>sequence</b> is a function from \(\mathbb{N}\) to
+      \(\mathbb{R}\).
+    </div>
+
+    <div class="definition" title="Neighborhood">
+      Let \(L,\epsilon \in \mathbb{R}\) with \(\epsilon>0\). The
+      <b>\(\epsilon\)-neighborhood</b> of \(L\) is \( N_{\epsilon}(L)
+      = (L-\epsilon,L+\epsilon) = \{x\in\mathbb{R} : |x - L| \lt
+      \epsilon\} \).
+    </div>
+
+    <div class="definition" title="Convergence of a Sequence">
+      A sequence \(a_n\) <b>converges</b> to a real number \(L\) if,
+      for every positive real number \(\epsilon\), there exists \(N
+      \in \mathbb{N}\) such that: whenever \(n\geq N, \ |a_n - L| \lt
+      \epsilon\).
+    </div>
+
+    <p>
+      In other words, a sequence \( (a_n) \) converges to \(L\) if,
+      for every \( \epsilon \gt 0\), however small, there is a point
+      in the sequence beyond which all of the terms lie in the
+      \(\epsilon\)-neighborhood \(N_{\epsilon}(L)\). We sometimes
+      express convergence of \( (a_n) \) to \(L\) symbolically by
+      writing \( (a_n) \to L\) or, alternatively, \(\lim\limits_{n\to
+      \infty} a_n = L\).
+    </p>
+
+
+  </section>
+  
+  
 
 </div> <!-- class stdg -->
