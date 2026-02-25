@@ -272,9 +272,10 @@ semester: Spring 2026
     <p> Informally, a sequence is an infinite list of real numbers \(
       (a_1, a_2, a_3,\ldots)\). We sometimes express a sequence as \(
       (a_n) \), where \(a_n\) is the \(n\)-th term of the sequence.
-      Then \(n \mapsto a_n\) gives a mapping (or function) from
-      \(\mathbb{N}\) to \(\mathbb{R}\). This motivates the following
-      formal definition.
+      Expressing a sequence this way, we see that \(n \mapsto a_n\)
+      gives a mapping (or function) from \(\mathbb{N}\) to
+      \(\mathbb{R}\). In fact, this is the formal definition of
+      a sequence:
     </p>
 
     <div class="definition" title="Sequence">
@@ -290,10 +291,12 @@ semester: Spring 2026
     </div>
 
     <div class="definition" title="Convergence of a Sequence">
-      A sequence \( (a_n) \) <b>converges</b> to a real number \(L\) if,
-      for every positive real number \(\epsilon\), there exists \(N
-      \in \mathbb{N}\) such that: whenever \(n\geq N, \ |a_n - L| \lt
-      \epsilon\).
+      A sequence \( (a_n) \) <b>converges</b> to a real number \(L\)
+      if, for every positive real number \(\epsilon\), there exists
+      \(N \in \mathbb{N}\) such that
+      \[ \text{whenever } n\geq N, \
+      |a_n - L| \lt \epsilon
+      \]
     </div>
 
     <p>
@@ -306,6 +309,26 @@ semester: Spring 2026
       \infty} a_n = L\).
     </p>
 
+    <div class="theorem" title="Uniqueness of Limits">
+      If a sequence converges, then its limit is unique.
+    </div>
+
+    <div class="definition" title="Bounded Sequence">
+      A sequence \( (a_1, a_2, a_3, \ldots) \) is said to
+      be <b>bounded</b> if the set of terms \( \{ a_1, a_2, a_3,
+      \ldots\} \) is bounded.
+    </div>
+
+    <div class="theorem" title="Convergent Sequences are Bounded">
+      If a sequence converges, then it is bounded.
+    </div>
+
+    <div class="theorem" title="Squeeze Theorem">
+      Let \( (a_n) \), \( (b_n) \), and \( (c_n) \) be sequences such
+      that \(a_n \leq b_n \leq c_n \) for all \(n\in \mathbb{N}\). If
+      \( (a_n) \to L\) and \( (c_n) \to L\), then \( (b_n) \to L\).
+    </div>
+    
 
   </section>
   
