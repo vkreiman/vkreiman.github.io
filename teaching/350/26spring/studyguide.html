@@ -272,10 +272,10 @@ semester: Spring 2026
     <p> Informally, a sequence is an infinite list of real numbers \(
       (a_1, a_2, a_3,\ldots)\). We sometimes express a sequence as \(
       (a_n) \), where \(a_n\) is the \(n\)-th term of the sequence.
-      Expressing a sequence this way, we see that \(n \mapsto a_n\)
+      For any sequence \( (a_n) \), we see that \(n \mapsto a_n\)
       gives a mapping (or function) from \(\mathbb{N}\) to
-      \(\mathbb{R}\). In fact, this is the formal definition of
-      a sequence:
+      \(\mathbb{R}\). In fact, this is the formal definition of a
+      sequence:
     </p>
 
     <div class="definition" title="Sequence">
@@ -294,13 +294,13 @@ semester: Spring 2026
       A sequence \( (a_n) \) <b>converges</b> to a real number \(L\)
       if, for every positive real number \(\epsilon\), there exists
       \(N \in \mathbb{N}\) such that
-      \[ \text{whenever } n\geq N, \
+      \[  n\geq N \implies
       |a_n - L| \lt \epsilon
       \]
     </div>
 
     <p>
-      In other words, a sequence \( (a_n) \) converges to \(L\) if,
+      In other words, \( (a_n) \) converges to \(L\) if,
       for every \( \epsilon \gt 0\), however small, there is a point
       in the sequence beyond which all of the terms lie in the
       \(\epsilon\)-neighborhood \(N_{\epsilon}(L)\). We sometimes
