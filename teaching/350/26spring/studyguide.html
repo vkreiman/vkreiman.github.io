@@ -327,10 +327,49 @@ semester: Spring 2026
       that \(a_n \leq b_n \leq c_n \) for all \(n\in \mathbb{N}\). If
       \( (a_n) \to L\) and \( (c_n) \to L\), then \( (b_n) \to L\).
     </div>
-    
+
+    <div class="theorem" title="Limit Laws">
+      Supppose that \(a_n\) and \(b_n\) are convergent sequences and
+      \(c\in \mathbb{R}\). Then
+      <ol>
+        <li> \(\lim (c a_n) = c \lim (a_n)\).
+        </li>
+        <li>
+          \(\lim (a_n + b_n) = \lim (a_n) + \lim (b_n)\).
+        </li>
+        <li>
+          \(\lim (a_n \cdot b_n) = \lim (a_n) \cdot \lim (b_n)\).
+        </li>
+        <li>
+          \(\lim (a_n / b_n) = \lim (a_n) / \lim (b_n)\), provided
+          \(b_n \neq 0\) for all \(n\) and \( \lim (b_n) \neq 0\).
+        </li>
+      </ol>
+    </div>
+
+    <div class="definition" title="Monotone Sequence">
+      A sequence \( (a_n) \) of real numbers is
+      <ol>
+        <li> <b>increasing</b> if \(a_n \leq a_{n+1}\) for all \(n\in
+          \mathbb{N}\) and is <b>decreasing</b> if \(a_n \geq
+          a_{n+1}\) for all \(n\in \mathbb{N}\).
+        </li>
+
+        <li> <b>monotone</b> if it is increasing or decreasing.</li>
+
+        <li> <b>strictly increasing</b> if \(a_n \lt a_{n+1}\) for all
+          \(n\in \mathbb{N}\) and is
+          <b>strictly decreasing</b> if \(a_n \gt a_{n+1}\) for all
+          \(n\in \mathbb{N}\).
+        </li>
+      </ol>
+    </div>
+
+    <div class="theorem" title="Monotone Convergence Theorem">
+      If a sequence is monotone and bounded, then it converges.
+    </div>
 
   </section>
-  
   
 
 </div> <!-- class stdg -->
