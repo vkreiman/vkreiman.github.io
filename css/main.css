@@ -5,7 +5,7 @@
   }
 
   :root{
-    --blue-border: #1f6a87;
+      --blue-border: #c0c0c0;    /* #1f6a87; */
     --blue-nav-letters: #c0c0c0; /* #69a9dd;*/
     --blue-nav-hover: #dadada;   /* #a7ccee94;*/ 
     --links: #36c;
