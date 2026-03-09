@@ -1,0 +1,58 @@
+---
+layout: exercises
+title: Advanced Calculus
+number: Math 350
+date: March 2, 2026
+---
+
+
+<div class="homework">
+  <section>
+    <h2>Homework 7: Monotone Sequences</h2>
+
+    <p><i>Instructions.  Assignments should be
+	<b>stapled</b> and written clearly and legibly. </i>
+    </p>
+
+    <ol>
+
+      <li> Prove that the sequence \((a_n)\) converges, where \(a_n =
+	\dfrac{1\cdot 3\cdot 5\cdots (2n - 1) }{2\cdot 4 \cdot 6\cdots
+	(2n)}\).  <!-- (Hint: Compute \(a_{n+1}/a_n\).) -->
+      </li>
+      
+      <li> In this problem, we give an algorithm for computing
+	\(\sqrt{2}\).  Let \(a_1=2\), and define \begin{equation*}
+	a_{n+1}=\frac{1}{2}\left(a_n+\frac{2}{a_n}\right), \text{ for
+	}n\geq 1.  \end{equation*}
+	<ol class="nested-list">
+	  <li> Prove that \(a_n^2\geq 2\) for all \(n\).</li>
+	  <li> Use part (a) and the recursive equation above to prove
+	    that \(a_n-a_{n+1}\geq 0\) for all \(n\).</li>
+	  <li> Conclude that the sequence \((a_n)\) converges.</li>
+	  <li> Prove that \(\lim\limits_{n\to
+	  \infty}a_n=\sqrt{2}\).</li>
+	  <li> Modify the sequence \((a_n)\) so that it converges to
+	    \(\sqrt{c}\). No formal proof is required for this part,
+	    but you should give a brief justification.</li>
+	</ol>
+      </li>
+      
+      <li>
+	<ol class="nested-list">
+	  <li> Prove that if \(0\lt a\lt 2\), then \(a\lt \sqrt{2a}
+	  \lt 2\).</li>
+	  <li> Use part (a) to prove that the sequence
+	    \begin{equation*} \left(\sqrt{2}, \sqrt{2\sqrt{2}},
+	    \sqrt{2\sqrt{2\sqrt{2}}},
+	    \sqrt{2\sqrt{2\sqrt{2\sqrt{2}}}},\ldots\right)
+	    \end{equation*} converges.</li>
+	  <li> Find the limit.</li>
+	</ol>
+      </li>
+
+    </ol>
+    
+  </section>
+  
+</div>
