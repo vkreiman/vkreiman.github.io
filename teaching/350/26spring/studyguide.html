@@ -23,6 +23,8 @@ semester: Spring 2026
       Sequence</a></li>
       <li><a href="#topology-of-R">Topology of \( \mathbb{R}
           \)</a></li>
+      <li><a href="#topology-of-metric">Topology of Metric
+          Spaces</a></li>
     </ol>
   </div>
   
@@ -488,6 +490,42 @@ semester: Spring 2026
     </div>
     
   </section>
+  
 
+  <section id="topology-of-metric" class="section-anchor">
+    <div class="sec-label">Topology of Metric Spaces</div>
 
+    <div class="definition" title="Metric">
+      Let \( X \) be a nonempty set. A <b>metric</b> is function \( d
+      : X\times X \to \mathbb{R} \) which satisfies the following four
+      conditions: For all \( x, y, z \in X \),
+      <ol>
+        <li> \( d(x,y) \geq 0 \).</li>
+
+        <li> \(d(x,x) = 0 \), and \( d(x,y) = 0 \) only if \(x =
+        y\). </li>
+
+        <li> \( d(x,y) = d(y,x) \).</li>
+
+        <li> \( d(x,y) \leq d(x,z) + d(z,y) \) (<b>Triangle
+          Inequality</b>).</li>
+
+      </ol>
+    </div>
+
+    <div class="definition" title="Metric Space">
+      A <b>metric space</b> is a nonempty set \(X\) together with a
+      metric \(d\). The metric space is denoted by \( (X,d)\).
+    </div>
+
+    <div class="definition" title="Neighborhood">
+      Let \( (X,d ) \) be a metric space, let \(x\in X\), and let \(
+      \epsilon>0 \).  The <b>\( \epsilon\)-neighborhood</b> of \(x\),
+      denoted by \(N_{\epsilon} (x) \), is \( \{y \in X : d(y,x) \lt
+      \epsilon\} \).
+    </div>
+
+  </section>
+    
+  
 </div> <!-- class stdg -->
