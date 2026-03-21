@@ -118,9 +118,10 @@ header {
 
 /* Underline navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-/*    text-decoration-line: underline;
-    text-underline-offset: 6px; */
-    text-decoration: none;
+    text-decoration-line: underline;
+    text-underline-offset: 17px;
+    text-decoration-thickness: 2px;
+/*    text-decoration: none; */
     color: var(--blue-nav-letters);
     /* color: #b4c8d8; */
 }
