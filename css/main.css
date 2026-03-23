@@ -110,7 +110,7 @@ header {
     border: none;
     outline: none;
     color: #000000;
-    padding: 11.6px 0;
+    padding: 12.4px 0;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
@@ -121,7 +121,7 @@ header {
 .navbar a:hover, .dropdown:hover .dropbtn {
     text-decoration-line: underline;
     text-underline-offset: 17px;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 4px;
 /*    text-decoration: none; */
     color: var(--blue-nav-letters);
     /* color: #b4c8d8; */
