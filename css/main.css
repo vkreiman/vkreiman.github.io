@@ -81,9 +81,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 60px;
+    /* column-gap: 60px; */
     flex-wrap: wrap;
     /*    min-width: 100px; */
+    gap: 0;
+}
+
+.navbar a, .dropdown {
+    box-sizing: border-box;
+    padding: 0 30px;
 }
 
 /* Links inside the navbar */
