@@ -130,20 +130,19 @@ header {
 
 /* Underline navbar links on hover */
 .navbar-right > a:hover, .dropdown:hover, .dropdown:hover .dropbtn {
-      border-bottom-color: var(--blue-nav-letters); /* Creates the underline effect */
- /* padding-bottom: 8px; */            /* Adds space between text and the border */
-  display: inline;          /* Ensures the element wraps its content correctly */
-        text-decoration: none;
+    border-bottom-color: var(--blue-nav-letters); /* Creates the
+						     underline effect */
+    display: inline; /* Ensures the element wraps its content correctly */
+    text-decoration: none;
     font-weight: 500;
     color: var(--blue-nav-letters);
-    /* color: #b4c8d8; */
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 109%;
+   /* top: 108%; */
     left: 0px;
     right: -25px;
     border-radius: 0px;
@@ -152,7 +151,7 @@ header {
     min-width: 120px;
    /* border: 1px solid black; */
     overflow: hidden;
-/*    margin-top: 9.5px; */
+    margin-top: 9.5px;
 }
 
 /* Links inside the dropdown */
