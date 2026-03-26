@@ -8,7 +8,7 @@
       --header-border: #003ac2;    /* #1f6a87; */
       --header-main: #09073d;
       --blue-nav-letters: #2fffff; /* lightgray; #c0c0c0; */
-      --blue-nav-hover: #444444;   /* #a7ccee94;*/ 
+      --blue-nav-hover: #dadada;   /* #a7ccee94;*/ 
       --dropdown-background: #f2f2f2;
       --links: #36c;
       --blue-table-header: #ccd7f2;  /* #ccd7f2 for light blue  #99b0e6 for darker */
@@ -42,7 +42,7 @@ header {
     top: 0; /* needed for sticky position */
     position: sticky;
 /*    border-top: 1px solid #e7e7e7; */
-    /*! border-top: 4px solid var(--header-border); */
+    border-bottom: 4px solid var(--header-border);
 /*    min-height: 64px;*/
     background-color: var(--header-main);
 /*    position: relative; */
@@ -56,7 +56,7 @@ header {
 
 /* Navbar container */
 .navbar {
-  /*  overflow: hidden; */
+    overflow: hidden;
     font-family: "Source Sans 3", sans-serif;
 }
    
@@ -66,7 +66,6 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    box-sizing: border-box;
 }
 
 .try {
@@ -88,10 +87,9 @@ header {
     gap: 0;
 }
 
-.navbar-right > a, .dropdown {
+.navbar a, .dropdown {
     box-sizing: border-box;
-    padding: 10px 30px 6px 30px;
-        border-bottom: 4px solid transparent;
+    padding: 0 30px;
 }
 
 /* Links inside the navbar */
@@ -103,14 +101,12 @@ header {
 /*  margin: 0px 8px 0px 8px; */    
 /*  text-decoration: none; */
   color: white;
-/*    box-sizing: border-box; */
 }
 
 /* The dropdown container */
 .dropdown {
-/*  float: left; */
-/*  overflow: hidden; */
-    position: relative;
+  float: left;
+  overflow: hidden;
 }
 
 /* Dropdown button */
@@ -120,21 +116,19 @@ header {
     border: none;
     outline: none;
     color: #000000;
-    padding: 0px 0;
+    padding: 12.4px 0;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
     color: white;
-    /*! position: absolute; */
 }
 
 /* Underline navbar links on hover */
-.navbar-right > a:hover, .dropdown:hover, .dropdown:hover .dropbtn {
-      border-bottom-color: var(--blue-nav-letters); /* Creates the underline effect */
- /* padding-bottom: 8px; */            /* Adds space between text and the border */
-  display: inline;          /* Ensures the element wraps its content correctly */
-        text-decoration: none;
-    font-weight: 500;
+.navbar a:hover, .dropdown:hover .dropbtn {
+    text-decoration-line: underline;
+    text-underline-offset: 17px;
+    text-decoration-thickness: 4px;
+/*    text-decoration: none; */
     color: var(--blue-nav-letters);
     /* color: #b4c8d8; */
 }
@@ -143,43 +137,43 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 109%;
-    left: 0px;
-    right: -25px;
     border-radius: 0px;
     margin: 0;
-    background-color: var(--header-main);
+    background-color: var(--dropdown-background);
     min-width: 120px;
+    box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,
+		rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+		rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    z-index: 1;
    /* border: 1px solid black; */
     overflow: hidden;
-/*    margin-top: 9.5px; */
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-    font-weight: 900;
-  color: white;
+  color: black;
   margin: 0px;
   border-radius: 0px;
   padding: 5px 11.2px;
   text-decoration: none;
   display: block;
   text-align: left;
-  font-weight: 650;
+  font-weight: 350;
   font-size: .8rem;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
     text-decoration-line: none;
-    color: white;
+    color: black;
     background-color: var(--blue-nav-hover);
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+    border-top-right-radius: 8px; 
     border-bottom-left-radius: 8px; 
     border-bottom-right-radius: 8px; 
 } 
@@ -505,4 +499,3 @@ tfoot td {
   font-weight: bold;
 }
 */
-
