@@ -5,6 +5,7 @@
   }
 
   :root{
+      --header-border-light: #3b4cd6;
       --header-border: #003ac2;    /* #1f6a87; */
       --header-main: #09073d;
       --blue-nav-letters: #2fffff; /* lightgray; #c0c0c0; */
@@ -26,7 +27,6 @@ html {
 body{ 
     margin: 0;
     font-family: "STIX Two Text";
-/*    font-family: 'Open Sans', sans-serif;*/
     text-underline-offset: 3px;
 }
 
@@ -41,10 +41,10 @@ body{
 header {
     top: 0; /* needed for sticky position */
     position: sticky;
-/*    border-top: 1px solid #e7e7e7; */
     /*! border-top: 4px solid var(--header-border); */
 /*    min-height: 64px;*/
     background-color: var(--header-main);
+    box-shadow: 0 -4px 0 0 var(--header-border-light) inset;
 /*    position: relative; */
 }
 
@@ -99,17 +99,12 @@ header {
   font-size: 1.0rem;
   font-weight: 500;
   text-align: center;
-/*  padding: 8px 0;*/
-/*  margin: 0px 8px 0px 8px; */    
 /*  text-decoration: none; */
   color: white;
-/*    box-sizing: border-box; */
 }
 
 /* The dropdown container */
 .dropdown {
-/*  float: left; */
-/*  overflow: hidden; */
     position: relative;
 }
 
