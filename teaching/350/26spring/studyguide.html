@@ -525,6 +525,78 @@ semester: Spring 2026
       \epsilon\} \).
     </div>
 
+    <div class="definition" title="Open and Closed Sets">
+      Let \( (X,d) \) be a metric space.  A set \( U \subseteq X \) is
+      said to be <b>open</b> if, for every \( a \in U\), there exists
+      \( \epsilon > 0 \) such that \( N_{\epsilon}(a) \subseteq U
+      \). \( U\) is said to be
+      <b>closed</b> if \( U^c \) is open.
+    </div>
+
+    <div class="theorem" title="Unions and Intersections of Open and
+      Closed Sets"> Let \( (X,d) \) be a metric space.
+      <ol>
+        <li> The union of any collection of open sets is open.</li>
+        <li> The intersection of any finite collection of open sets is
+        open.</li>
+        <li> The union of any finite collection of closed sets is
+        closed.</li>
+        <li> The intersection of any collection of closed sets is
+        closed.</li>
+      </ol>
+    </div>
+
+    <div class="theorem" title="Neighborhoods are Open">
+      Let \( (X,d) \) be a metric space. Any neighborhood is open.
+    </div>
+
+    <div class="theorem" title="Characterization of Open Sets">
+      Let \( (X,d) \) be a metric space. A set \( U\subseteq X \) is
+      open if and only if \( U\) is the union of neighborhoods.
+    </div>
+
+    <div class="definition" title="Compact, Bounded">
+      Let \( (X,d) \) be a metric space.
+      <ol>
+        <li> A set \( A \subseteq X \) is <b>compact</b> if every
+          cover of \( A \) has a finite subcover.
+        </li>
+        <li> A set \(A \subseteq X \) is <b>bounded</b> if there
+          exists \(x\in X\) and \(\epsilon > 0\) such that \(
+          A\subseteq N_{\epsilon}(x) \). </li>
+      </ol>
+    </div>
+
+    <div class="theorem" title="Compact implies Closed and Bounded">
+      Let \( (X,d) \) be a metric space.  Let \( A \subseteq X\). If
+      \(A \) is compact, then \( A \) is closed and bounded.
+    </div>
+
+    <p>We note that the converse of the above theorem does not hold in
+      general.  Thus the Heine-Borel Theorem does not hold for general
+      metric spaces.
+    </p>
+
+    <div class="definition" title="Restricted Metric">
+      Let \( (X,d) \) be a metric space, and let \( A \subseteq X\) be
+      a subset of \(X\).  The <b>restriced metric</b> \( d_A:A\times A
+      \to \mathbb{R} \) is defined by \(d_A (a,b) = d (a,b) \). In
+      other words, \( d_A \) is the same metric as \(d\), just
+      restricted to elements of \(A\).
+    </div>
+
+    <div class="theorem" title="Restricted Metric is a Metric">
+      Let \( (X,d) \) be a metric space, and let \( A \subseteq X\) be
+      a subset of \(X\).  Then the restricted metric \( d_A \) is a
+      metric on \(A \). Thus \( (A, d_A) \) is a metric space.
+    </div>
+
+    <div class="definition" title="Metric Subspace">
+      Let \( (X,d) \) be a metric space, and let \( A \subseteq X\) be
+      a subset of \(X\).  Then the metric space \( (A, d_A ) \) is
+      called a <b>subspace</b> of \( (X,d) \).
+    </div>
+    
   </section>
     
   
