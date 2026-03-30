@@ -1,0 +1,47 @@
+---
+layout: exercises
+title: Advanced Calculus
+number: Math 350
+date: March 13, 2026
+---
+
+
+<div class="homework">
+  <section>
+    <h2>Homework 9:  Compact Sets in \( \mathbb{R} \)</h2>
+
+    <p><i>Instructions.  Assignments should be
+	<b>stapled</b> and written clearly and legibly. Problem 5 is
+	optional. </i>
+    </p>
+
+    <ol>
+
+      <li> Section 3.5, #3(a), (c).</li>
+
+      <li> Prove that every compact set has a maximum. (Hint: use the
+	Heine-Borel Theorem.)</li>
+
+      <li> Let \(S=\left\{\frac{1}{n}:n\in \mathbb{N}\right\}\cup
+	\{0\}\).  Prove that \(S\) is compact using the definition of
+	compactness (and not the Heine-Borel Theorem). In other words,
+	prove directly that every open cover of \(S\) has a finite
+	subcover.</li>
+
+      <li> Use the definition of compactness to prove that the union
+	of a finite collection of compact sets is compact. Show by
+	example that the union of an infinite collection of compact
+	sets may not be compact.</li>
+
+      <li>(Challenge) Use the definition of compactness to prove that
+	if \(S\) is compact, then every infinite subset of \(S\) has a
+	limit point in \(S\).</li>
+
+      <li> Use the definition of compactness to prove that \([0,1]\cap
+	\mathbb{Q}\) is not compact.</li>
+
+    </ol>
+    
+  </section>
+  
+</div>
