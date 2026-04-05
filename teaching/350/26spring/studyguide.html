@@ -25,6 +25,7 @@ semester: Spring 2026
           \)</a></li>
       <li><a href="#topology-of-metric">Topology of Metric
           Spaces</a></li>
+      <li><a href="#limit-function">Limit of a Function</a></li>
     </ol>
   </div>
   
@@ -595,9 +596,66 @@ semester: Spring 2026
       Let \( (X,d) \) be a metric space, and let \( A \subseteq X\) be
       a subset of \(X\).  Then the metric space \( (A, d_A ) \) is
       called a <b>subspace</b> of \( (X,d) \).
-    </div>
-    
+    </div> 
   </section>
-    
+
+  <section id="limit-function" class="section-anchor">
+    <div class="sec-label">Limit of a Function</div>
+
+    <div class="definition" title="Limit of a Function">
+      Let \(f: D\to \mathbb{R} \), where \(D\subseteq \mathbb{R} \),
+      and let \(a \) be a limit point of \( D \). We say that \( L\in
+      \mathbb{R} \) is a <b>limit of \(f\) at \(a \)</b>, and write \(
+      \lim\limits_{x\to a} f(x) = L \), if for every \(\epsilon > 0\),
+      there exists \( \delta > 0 \) such that \[0 \lt | x-a | \lt
+      \delta \ (\text{and }x\in D) \implies \ |f(x) - L| \lt
+      \epsilon\]
+    </div>
+
+    <p>
+      In other words, \( \lim\limits_{x\to a} f(x) = L \), if, for
+      every \( \epsilon \gt 0\), however small, there exists \( \delta
+      \gt 0 \) such that all points in the in the domain of \(f \)
+      which lie in the deleted \(\delta\)-neighborhood \(
+      N_{\delta}^{*} (x) \) map under \( f \) to the \( \epsilon
+      \)-neighborhood \( N_{\epsilon} (L) \).
+    </p>
+
+    <div class="theorem" title="Limit Laws for Functions">
+      Let \( f: D\to \mathbb{R} \) and \( g: D\to \mathbb{R} \), where
+      \( D \subseteq \mathbb{R} \), and let \(a\) be a limit point of
+      \(D \). Let \( k\in \mathbb{R} \).Then
+      <ol>
+        <li> \(\lim c f(x) = c \lim f(x) \).
+        </li>
+        <li>
+          \(\lim (f(x) + g(x)) = \lim f(x) + \lim g(x)\).
+        </li>
+        <li>
+          \(\lim (f(x)\cdot g(x)) = \lim f(x) \cdot \lim g(x)\).
+        </li>
+        <li>
+          \(\lim (f(x) / g(x)) = \lim f(x) / \lim g(x)\), provided
+          \(g(x) \neq 0\) for all \(x\in D\) and \( \lim g(x) \neq
+          0\).
+        </li>
+      </ol>
+    </div>
+
+    <div class="theorem" title="Sequential Criterion for Functional Limits">
+      Let \( f: D\to \mathbb{R} \), where \( D \subseteq \mathbb{R}
+      \), and let \(a\) be a limit point of \(D \). Let \(L \in
+      \mathbb{R} \). Then the following are equivalent:
+      <ol>
+        <li>\( \lim\limits_{x\to a} f(x) = L \).</li>
+
+        <li>For every sequence \( (x_n) \) in \( D \setminus \{a \} \)
+          such that \( (x_n) \to a \), we have \( f(x_n) \to L\).
+        </li>
+      </ol>
+    </div>
+
+  </section>
+  
   
 </div> <!-- class stdg -->
