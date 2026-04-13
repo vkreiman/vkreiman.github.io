@@ -26,6 +26,7 @@ semester: Spring 2026
       <li><a href="#topology-of-metric">Topology of Metric
           Spaces</a></li>
       <li><a href="#limit-function">Limit of a Function</a></li>
+      <li><a href="#continuity">Continuity</a></li>
     </ol>
   </div>
   
@@ -656,6 +657,75 @@ semester: Spring 2026
     </div>
 
   </section>
-  
-  
+
+  <section id="continuity" class="section-anchor">
+    <div class="sec-label">Continuity</div>
+
+    <div class="definition" title="Continuity">
+      Let \(f: D\to \mathbb{R} \), where \(D\subseteq \mathbb{R} \),
+      and let \(a\in D \).  We say that \( f \) is a <b>continuous at
+      \(a \)</b>, if for every \(\epsilon > 0\), there exists \(
+      \delta > 0 \) such that \[| x-a | \lt \delta \ (\text{and }x\in
+      D) \implies \ |f(x) - f(a)| \lt \epsilon\] If \(S \) is a subset
+      of \(D\), we say that \(f \) is <b>continuous on \(S\)</b> if it
+      is continuous at all points of \( S\). We say that \(f\)
+      is <b>continuous</b> if it is continuous on \(D\).
+    </div>
+
+    <div class="theorem" title="Continuity in Terms of Limits">
+      Let \(f: D\to \mathbb{R} \), where \(D\subseteq \mathbb{R} \),
+      and let \(a\in D \).
+      <ol>
+        <li>If \(a \) is a limit point of \(D \) (i.e., \(a \) is not
+          an isolated point of \(D \)), then \(f\) is continuous at
+          \(a \) if and only if \(\lim\limits_{x\to a} f(x) = f(a)
+          \).</li>
+
+        <li>If \(a \) is not a limit point of \(D \) (i.e., \(a \) is
+          an isolated point of \(D \)), then \(f\) is continuous at
+          \(a \).</li>
+      </ol>
+    </div>
+
+    <div class="theorem" title="Continuity and Sums, Products, and Quotients">
+      Let \(f, g: D\to \mathbb{R} \), where \(D\subseteq \mathbb{R}
+      \), and let \(a\in D \).  Suppose that \(f\) and \(g\) are both
+      coninuous at \(a\). Then \( f+g\) and \(f\cdot g\) are
+      continuous at \(a\), and \(f/g \) is as well assuming \(g(a)\neq
+      0\).
+    </div>
+
+    <div class="theorem" title="Polynomials are Continuous">
+      Let \(p\) be a polynomial. Then \( p\) is continuous on \(
+      \mathbb{R} \).
+    </div>
+
+    <p>We next generalize the definition of continuity to any metric
+    space.</p>
+
+    <div class="definition" title="Continuity in Metric Spaces">
+      Suppose that \( X \) and \(Y \) are metric spaces. Let \(f:X\to
+      Y \), and let \(a \in X\).  We say that \( f \) is
+      a <b>continuous at \(a \)</b>, if for every neighborhood \(V\)
+      of \(f(a) \), there exists a neighborhood \(U\) of \(a\) such
+      that \(U \subseteq f^{-1}(V) \).  If \(S \) is a subset of
+      \(X\), we say that \(f \) is <b>continuous on \(S\)</b> if it is
+      continuous at all points of \( S\). We say that \(f\)
+      is <b>continuous</b> if it is continuous on \(X\).
+    </div>
+
+    <div class="theorem" title="Topological Characterization of Continuity">
+      Let \(X\) and \(Y\) be metric spaces, and let \(f:X\to Y\). The
+      following are equivalent.
+      <ol>
+        <li>\(f \) is continuous.</li>
+        <li>The preimage of every open set (in \(Y \)) is open (in \(X
+        \)).</li>
+        <li>The preimage of every closed set (in \(Y \)) is closed (in
+        \(X \)).</li>
+      </ol>
+    </div>
+
+  </section>
+    
 </div> <!-- class stdg -->
