@@ -1,0 +1,61 @@
+---
+layout: exercises
+title: Advanced Calculus
+number: Math 350
+date: April 8, 2026
+---
+
+
+<div class="homework">
+  <section>
+    <h2>Homework 12: Continuity</h2>
+    
+    <p>
+      <i>Instructions. Assignments should be <b>stapled</b> and
+	written clearly and legibly.</i>
+    </p>
+    
+    <ol>
+      <li> Section 5.2, #4.</li>
+
+      <li> Let \(f:D\to \mathbb{R}\). Use the definition of continuity
+	to prove that if \(c\) is an isolated point of \(D\), then
+	\(f\) is continuous at \(c\).</li>
+
+      <li> Suppose \(f:\mathbb{R}\to \mathbb{R}\) is a function which
+	satisfies \(|f(x)|\leq |x|\) for all \(x\in
+	\mathbb{R}\). Using the definition of continuity, prove that
+	\(f\) is continuous at \(0\).
+      </li>
+
+      <li> Suppose that \(f,g,h\) are three functions which are
+	defined on \((a,b)\) and continuous at \(c\in (a,b)\).
+	<ol class="nested-list">
+	  <li> Use the definition of continuity to prove that if
+	    \(f(c)\neq 0\), then there exists a neighborhood \(U\) of
+	    \(c\) such that \(f(x)\neq 0\) for every \(x\in U\).</li>
+
+	  <li> Prove that if \(g(c)\neq h(c)\), then there exists a
+	    neighborhood \(U\) of \(c\) such that \(g(x)\neq h(x)\)
+	    for every \(x\in U\). (Hint: consider the function
+	    \(p(x)=g(x)-h(x)\), and apply part (a)).</li>
+	</ol>
+      </li>
+
+      <li> Let \(D\) be a subset of \(\mathbb{R}\) containing \(0\),
+	and let \(f:D\to \mathbb{R}\) be bounded on \(D\) (i.e.,
+	\(f(D)\) is a bounded subset of \(\mathbb{R}\)). Define a new
+	function \(g:D\to \mathbb{R}\) by \(g(x)=xf(x)\).
+	<ol class="nested-list">
+	  <li> Use the definition of continuity to prove that \(g\) is
+	    continuous at \(x=0\).</li>
+	  <li> Suppose \(c\neq 0\). Prove that \(g\) is continuous at
+	    \(c\) if and only if \(f\) is continuous at \(c\). (Hint:
+	    Use a theorem on continuity.)</li>
+	</ol>
+      </li>
+    </ol>
+
+</section>
+  
+</div>
