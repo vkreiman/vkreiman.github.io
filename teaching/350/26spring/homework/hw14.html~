@@ -1,0 +1,54 @@
+---
+layout: exercises
+title: Advanced Calculus
+number: Math 350
+date: April 13, 2026
+---
+
+
+<div class="homework">
+  <section>
+    <h2>Homework 13: Continuity in Metric Spaces</h2>
+    
+    <p>
+      <i>Instructions. Assignments should be <b>stapled</b> and
+	written clearly and legibly.</i>
+    </p>
+    
+    <ol>
+
+      <li> Section 5.3, #3(a), (b).</li>
+
+      <li> Section 5.5, #15.</li>
+
+      <li> Let \((X,d)\) be a metric space and suppose that \(f:X\to
+	\bR\) is continuous on \(X\). If \(D\subseteq X\) and
+	\(f(x)=0\) for all \(x\in D\), prove that \(f(x)=0\) for all
+	\(x\in \overline{D}\).</li>
+
+      <li> Let \((X,d)\) be a metric space and suppose that \(f:X\to
+	\bR\) is continuous on \(X\). Let \(Z(f)\), the <b>zero
+	set</b> of \(f\), be the set of all \(x\in X\) for which
+	\(f(x)=0\). Prove that \(Z(f)\) is closed.<br>
+
+	<i>Hint: The zero set of \(f\) can be identified as a
+	pre-image. Use a theorem concerning pre-images of continuous
+	functions.</i>
+      </li>
+      
+      <li> Suppose that \(f:\mathbb{R}\to \mathbb{R}\) is continuous
+	and that \(f(x) = 0\) for all \(x\in \mathbb{Q}\).
+	<ol class="nested-list">
+	  <li> Use Problem 4(a) of Homework 12 to prove that
+	    \(f(x)=0\) for all \(x\in \mathbb{R}\).</li>
+	  <li> Use Homework 8 and Problem 3 of this assignment to
+	    prove that \(f(x)=0\) for all \(x\in \mathbb{R}\).</li>
+	</ol>
+
+      </li>
+
+    </ol>
+
+</section>
+  
+</div>
