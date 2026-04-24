@@ -1,0 +1,49 @@
+---
+layout: exercises
+title: Advanced Calculus
+number: Math 350
+date: April 20, 2026
+---
+
+
+<div class="homework">
+  <section>
+    <h2>Homework 14: The Intermediate Value Theorem</h2>
+    
+    <p>
+      <i>Instructions. Assignments should be <b>stapled</b> and
+	written clearly and legibly. Problems 4 and 5 are
+	optional.</i>
+    </p>
+    
+    <ol>
+
+      <li> Section 5.3, #5, 7, 10.</li>
+
+      <li> Let \(f\) be continuous on \([0,1]\) with \(f(0) =
+	f(1)\). Prove that there exists \(c\in [0,\frac{1}{2}]\) such
+	that \(f(c) = f(c + \frac{1}{2})\).</li>
+
+      <li> Prove that there exists a real number \(x\) such that
+	\begin{equation} x^{177}+\frac{165}{1+x^{8}+\sin^2x} = 125.
+	\end{equation}
+      </li>
+
+      <li> Prove that if \(f:[a,b]\to \mathbb{R}\) is injective and
+	continuous, then the inverse function \(f^{-1}\) is also
+	continuous.
+      </li>
+      
+      <li> (Putnam Competition) Suppose that the real numbers \(a_0,
+	a_1, \dots, a_n\) and \(x\), with \(0 \lt x \lt 1\), satisfy
+	\[ \frac{a_0}{1-x} + \frac{a_1}{1-x^2} + \cdots + \frac{a_n}{1
+	- x^{n+1}} = 0.  \] Prove that there exists a real number
+	\(y\) with \(0 \lt y \lt 1\) such that \[ a_0 + a_1 y + \cdots
+	+ a_n y^n = 0.  \]
+      </li>
+      
+    </ol>
+
+  </section>
+  
+</div>
