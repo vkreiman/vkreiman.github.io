@@ -27,6 +27,7 @@ semester: Spring 2026
           Spaces</a></li>
       <li><a href="#limit-function">Limit of a Function</a></li>
       <li><a href="#continuity">Continuity</a></li>
+      <li><a href="#differentiation">Differentiation</a></li>
     </ol>
   </div>
   
@@ -789,5 +790,59 @@ semester: Spring 2026
     </div>
     
   </section>
-    
+
+
+  <section id="differentiation" class="section-anchor">
+    <div class="sec-label">Differentiation</div>
+
+    <div class="definition" title="The Derivative">
+      Let \(f: I\to \mathbb{R} \), where \(I \) is an interval in
+      \(\mathbb{R}\), and let \( c\in I \).  We say that \( f \) is
+      a <b>differentiable at \(a \)</b> if the limit \[ \lim\limits_{x
+      \to c} \frac{f(x) - f(c)}{x-c} \] exists. In this case, the
+      limit is called the <b>derivative</b> of \(f \) at \(c\) and
+      denoted by \( f'(c) \). If \( f\) is differentiable at all
+      points of some subset \( S \subseteq I\), then we say that \(
+      f\) is <b>differentiable on \(S\)</b>. If \(f \) is
+      differentiable on \( I \), we say that \(f \)
+      is <b>differentiable</b>.
+    </div>
+
+    <div class="theorem" title="Differentiable Implies Continuous">
+      Let \(f: I\to \mathbb{R} \), where \(I \) is an interval in
+      \(\mathbb{R}\), and let \( c\in I \). If \( f\) is
+      differentiable at \( c\), then \(f \) is continuous at \(c \).
+    </div>
+
+    <div class="theorem" title="The Constant Multiple, Sum, Product,
+				and Quotient Rules">
+      Let \(f,g : I\to \mathbb{R} \), where \(I \) is an interval in
+      \(\mathbb{R}\), and let \( c\in I \). Suppose that \( f\) and \(
+      g\) are both differentiable at \( c\). Then \( f+g\), \( fg\),
+      and \( f/g \) are differentiable at \(c \) (the quotient
+      requires \(g(c) \neq 0 \)), and
+      <ol>
+        <li> \((f+g)'(c) = f'(c) + g'(c)\).</li>
+        <li> \((fg)'(c) =f'(c) g(c) + f(c) g'(c)\).</li>
+        <li> \( \left(\dfrac{f}{g}\right)'(c) = \dfrac{f'(c) g(c) -
+          f(c) g'(c)}{[g(c)]^2}\ \) if \( g(c) \neq 0\).
+        </li>
+      </ol>
+    </div>
+
+    <div class="theorem" title="Power Rule">
+      Let \( f:\mathbb{R} \to \mathbb{R} \) be given by \( f(x) = x^n
+      \). Then \(f \) is differentiable and \( f'(c) = nc^{n-1} \) for
+      all \( c\in \mathbb{R}\).
+    </div>
+
+    <div class="theorem" title="Interior Extremum Theorem">
+      Let \(f: (a,b) \to \mathbb{R} \) be differentiable. If \(f \)
+      attains a maximum or minumum at a point \(c \in (a,b) \), then
+      \( f'(c) = 0 \).
+    </div>
+
+  </section>
+
+  
 </div> <!-- class stdg -->
