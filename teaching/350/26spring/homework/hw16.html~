@@ -1,0 +1,60 @@
+---
+layout: exercises
+title: Advanced Calculus
+number: Math 350
+date: April 24, 2026
+---
+
+
+<div class="homework">
+  <section>
+    <h2>Homework 16: Mean Value Theorem</h2>
+    
+    <p>
+      <i>Instructions. Assignments should be <b>stapled</b> and
+	written clearly and legibly.</i>
+    </p>
+    
+    <ol>
+
+      <li> Secion 6.2, #16.</li>
+
+      <li> Find a twice differentiable function \(f(x)\) such that
+	\(f'(1)=-1\), \(f'(4)=7\), and \(f''(x)>3\) for all \(x\), or
+	prove that such a function cannot exist.</li>
+
+      <li> Suppose that \(f:[a,b]\to \mathbb{R}\) has continuous
+	derivatives \(f'\) and \(f''\), and assume there exists \(c\in
+	(a,b)\) such that \(f(a)=f(c)=f(b)\). Prove that there exists
+	\(d\) in \((a,b)\) such that \(f''(d)=0\).
+
+	Hint. First prove that there exist \(x_1\) and \(x_2\) such
+	that \(a \lt x_1 \lt x_2 \lt b\) and
+	\(f'(x_1)=f'(x_2)=0\).</li>
+
+      <li> Recall that a number \(c\) is called a <b>fixed point</b>
+	of a function \(f\) if \(f(c)=c\). Prove that if \(f\) is a
+	differentiable function and \(f'(x)\neq 1\) for all real
+	numbers \(x\), then \(f\) has at most one fixed point.
+      </li>
+				
+      <li> Suppose that \(f\) and \(g\) are differentiable functions
+	such that \(f'=g\) and \(g'=-f\). Prove that
+	\(h(x)=(f(x))^2+(g(x))^2\) is a constant function. (Hint: Use
+	the chain rule.)
+      </li>
+      
+      <li> Let \(h\) be <b>Thomae's function</b>: \begin{equation} h(x)=
+	\begin{cases} 1 & \text{if }x=0\\ 1/n & \text{if }x =
+	m/n\text{ and }x=m/n\text{ in lowest terms with }n>0\\ 0 &
+	\text{if }x\notin \mathbb{Q} \end{cases} \end{equation} Prove
+	that \(h\) is continuous at every \(x\notin \mathbb{Q}\) and
+	discontinuous at every \(x\in \mathbb{Q}\).
+      </li>
+
+      
+    </ol>
+
+  </section>
+  
+</div>
