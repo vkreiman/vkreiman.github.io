@@ -285,7 +285,7 @@ semester: Spring 2026
     </div>
 
     <p>
-      The mapping of this defintion is \(n \mapsto a_n \), where
+      The mapping of this definition is \(n \mapsto a_n \), where
       \(a_n\) is the \(n\)-th term of the sequence. We often denote
       the sequence by \((a_n)\).
     </p>
@@ -337,7 +337,7 @@ semester: Spring 2026
     </div>
 
     <div class="theorem" title="Limit Laws">
-      Supppose that \( (a_n) \) and \( (b_n) \) are convergent sequences and
+      Suppose that \( (a_n) \) and \( (b_n) \) are convergent sequences and
       \(c\in \mathbb{R}\). Then
       <ol>
         <li> \(\lim (c a_n) = c \lim (a_n)\).
@@ -428,7 +428,7 @@ semester: Spring 2026
       Let \(A\) be a subset of \( \mathbb{R}\). A point \( x\in
       \mathbb{R} \) is called a <b>limit point</b> of \(A\)
       (or <b>accumulation point</b> of \(A\) ) if every deleted
-      neighborhoood of \(x \) contains a point of \(A\).
+      neighborhood of \(x \) contains a point of \(A\).
     </div>
 
     <div class="theorem" title="Limit Points and Limits">
@@ -583,7 +583,7 @@ semester: Spring 2026
 
     <div class="definition" title="Restricted Metric">
       Let \( (X,d) \) be a metric space, and let \( A \subseteq X\) be
-      a subset of \(X\).  The <b>restriced metric</b> \( d_A:A\times A
+      a subset of \(X\).  The <b>restricted metric</b> \( d_A:A\times A
       \to \mathbb{R} \) is defined by \(d_A (a,b) = d (a,b) \). In
       other words, \( d_A \) is the same metric as \(d\), just
       restricted to elements of \(A\).
@@ -692,7 +692,7 @@ semester: Spring 2026
     <div class="theorem" title="Continuity and Sums, Products, and Quotients">
       Let \(f, g: D\to \mathbb{R} \), where \(D\subseteq \mathbb{R}
       \), and let \(a\in D \).  Suppose that \(f\) and \(g\) are both
-      coninuous at \(a\). Then \( f+g\) and \(f\cdot g\) are
+      continuous at \(a\). Then \( f+g\) and \(f\cdot g\) are
       continuous at \(a\), and \(f/g \) is as well assuming \(g(a)\neq
       0\).
     </div>
@@ -839,7 +839,7 @@ semester: Spring 2026
 
     <div class="theorem" title="Interior Extremum Theorem">
       Let \(f: (a,b) \to \mathbb{R} \) be differentiable. If \(f \)
-      attains a maximum or minumum at a point \(c \in (a,b) \), then
+      attains a maximum or minimum at a point \(c \in (a,b) \), then
       \( f'(c) = 0 \).
     </div>
 
@@ -920,10 +920,10 @@ semester: Spring 2026
           [x_{i-1},x_i]\}\), for \(i = 1,\ldots,n\)</li>
         <li> \(m_i = \operatorname{Inf}\, \{f(x) : x\in
           [x_{i-1},x_i]\}\), for \(i = 1,\ldots,n\)</li>
-        <li>\(U(f,P) = \sum\limits_{i=1}^n M_i \Delta x_i \)
-            (the <b>upper Darbeaux sum</b>)</li>
-        <li>\(L(f,P) = \sum\limits_{i=1}^n m_i \Delta x_i \)
-            (the <b>lower Darbeaux sum</b>)</li>
+        <li>\(U(f,P) = \sum\limits_{i=1}^n M_i \Delta x_i \) (<b>upper
+            Darbeaux sum</b>)</li>
+        <li>\(L(f,P) = \sum\limits_{i=1}^n m_i \Delta x_i \) (<b>lower
+            Darbeaux sum</b>)</li>
       </ul>
     </div>
 
@@ -942,11 +942,12 @@ semester: Spring 2026
     <div class="definition" title="The Riemann Integral">
       Let \(f \) be a bounded function on \( [a,b]\). If the upper and
       lower integrals of \(f\) on \( [a,b] \) are equal, then we say
-      that \(f\) is <b>Riemann integrable</b> on \([a,b]\). We denote
-      the common value of the upper and lower integrals by \( \int_a^b
-      f\) or by \(\int_a^b f(x)\, dx\). In other words, \[ \int_a^b f
-      := \overline{\int_a^b} f = \underline{\int_a^b} f\] This value
-      is called the <b>Riemann integral</b> of \(f\) on \([a,b]\).
+      that \(f\) is <b>Riemann integrable</b> on \([a,b]\). In this
+      case, we denote the common value of the upper and lower
+      integrals by \( \int_a^b f\). In other words, \[ \int_a^b f :=
+      \overline{\int_a^b} f = \underline{\int_a^b} f\] This common
+      value is called the <b>Riemann integral</b> of \(f\) on
+      \([a,b]\).
     </div>
 
   </section>
