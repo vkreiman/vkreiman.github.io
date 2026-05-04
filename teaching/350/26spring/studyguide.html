@@ -28,6 +28,7 @@ semester: Spring 2026
       <li><a href="#limit-function">Limit of a Function</a></li>
       <li><a href="#continuity">Continuity</a></li>
       <li><a href="#differentiation">Differentiation</a></li>
+      <li><a href="#integration">Integration</a></li>
     </ol>
   </div>
   
@@ -842,7 +843,113 @@ semester: Spring 2026
       \( f'(c) = 0 \).
     </div>
 
+    <div class="theorem" title="Rolle's Theorem">
+      Let \(f \) be continuous on \( [a, b]\) and differentiable on \(
+      (a, b) \).  If \(f(a) = f(b) \), then there exists at least one
+      point \( c\in (a, b) \) such that \( f'(c) = 0 \).
+    </div>
+
+    <div class="theorem" title="Mean Value Theorem">
+      Let \(f \) be continuous on \( [a, b]\) and differentiable on \(
+      (a, b) \).  Then there exists at least one point \( c\in (a,b)
+      \) such that \[ f'(c) = \dfrac{f(b) - f(a)}{b-a}.  \]
+    </div>
+
+    <div class="definition" title="Increasing Function">
+      A function \( f\) is said to be <b>increasing</b>
+      (resp. <b>strictly increasing</b>) on an interval \( I\) if
+      \(x_1 \lt x_2 \) in \( I\) implies that \( f(x_1) \leq f(x_2) \)
+      (resp. \( f(x_1) \lt f(x_2) \)).
+    </div>
+
+    <div class="theorem" title="Increasing Function">
+      Let \(f \) be continuous on \( [a, b]\) and differentiable on \(
+      (a, b) \).
+      <ol>
+        <li> If \(f'(x) = 0\) for all \(x \in (a,b)\), then \(f\) is
+          constant on \( [a,b] \).</li>
+        <li> If \(f'(x) \geq 0\) for all \(x \in (a,b)\), then \(f\)
+          is increasing on \( [a,b] \).</li>
+        <li> If \(f'(x) \gt 0\) for all \(x \in (a,b)\), then \(f\) is
+          strictly increasing on \( [a,b] \).</li>
+      </ol>
+    </div>
+
+
+    <div class="theorem" title="Two Functions with the Same Derivative Differ by 
+				a Constant"> Let \(F,G \) both be
+      continuous on \( [a,b] \) and differentiable on \( (a,b) \).  If
+      \(F'(x) = G'(x)\) for all \(x\in (a,b) \), then there exists a
+      constant \( C\) such that \( F = G + C \) on \( [a,b]\).
+    </div>
+
+    <div class="definition" title="Antiderivative">
+      Let \(f \) be defined on an interval \(
+      I\). An <b>antiderivative</b> of \(f\) is a function \(F \) on
+      \(I \) such that \(F' = f\).
+    </div>
+
+    <div class="theorem" title="Two Antiderivatives Differ by a 
+				Constant"> Let \(f \) be defined on an
+      interval \( I\).  If \(F\) and \(G\) are both antiderivatives of
+      \(f\), then there exists a constant \(C\) such that \(F = G +
+      C\) on \( I \).
+    </div>
+    
   </section>
 
+
+  <section id="integration" class="section-anchor">
+    <div class="sec-label">Integration</div>
+
+    <div class="definition" title="Partition">
+      Let \( [a,b] \) be a partition in \( \mathbb{R}
+      \). A <b>partition</b> \(P \) of \( [a,b]\) is a finite set of
+      points \( \{x_0, x_1, \ldots, x_n \} \) in \( [a,b]\) such that
+      \[ a = x_0 \lt x_1 \lt \cdots \lt x_n=b\]
+    </div>
+
+    <div class="definition" title="Upper and Lower Darbeaux Sums">
+      Let \(f \) be a bounded function on \( [a,b]\). For any
+      partition \( P = \{x_0, x_1, \ldots, x_n \} \) of \( [a,b] \),
+      define
+      <ul>
+        <li>\( \Delta x_i = x_i - x_{i-1}\), for \(i = 1,\ldots,n
+        \)</li>
+        <li> \(M_i = \operatorname{Sup}\, \{f(x) : x\in
+          [x_{i-1},x_i]\}\), for \(i = 1,\ldots,n\)</li>
+        <li> \(m_i = \operatorname{Inf}\, \{f(x) : x\in
+          [x_{i-1},x_i]\}\), for \(i = 1,\ldots,n\)</li>
+        <li>\(U(f,P) = \sum\limits_{i=1}^n M_i \Delta x_i \)
+            (the <b>upper Darbeaux sum</b>)</li>
+        <li>\(L(f,P) = \sum\limits_{i=1}^n m_i \Delta x_i \)
+            (the <b>lower Darbeaux sum</b>)</li>
+      </ul>
+    </div>
+
+    <div class="definition" title="Upper and Lower Integrals">
+      Let \(f \) be a bounded function on \( [a,b]\). Define the
+      <b>upper</b> and <b>lower integrals</b> of \(f\) on \([a,b]\) as
+      follows:
+      <ul>
+        <li>\(\displaystyle\overline{\int_a^b} f = \operatorname{Inf}
+          \{U(f,P) : P \text{ a partition of } [a,b] \} \)</li>
+        <li>\(\displaystyle\underline{\int_a^b} f = \operatorname{Sup}
+          \{L(f,P) : P \text{ a partition of } [a,b] \} \)</li>
+      </ul>
+    </div>
+
+    <div class="definition" title="The Riemann Integral">
+      Let \(f \) be a bounded function on \( [a,b]\). If the upper and
+      lower integrals of \(f\) on \( [a,b] \) are equal, then we say
+      that \(f\) is <b>Riemann integrable</b> on \([a,b]\). We denote
+      the common value of the upper and lower integrals by \( \int_a^b
+      f\) or by \(\int_a^b f(x)\, dx\). In other words, \[ \int_a^b f
+      := \overline{\int_a^b} f = \underline{\int_a^b} f\] This value
+      is called the <b>Riemann integral</b> of \(f\) on \([a,b]\).
+    </div>
+
+  </section>
+  
   
 </div> <!-- class stdg -->

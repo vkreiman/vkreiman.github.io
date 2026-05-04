@@ -122,6 +122,19 @@ line-height: 1.5rem;
     /* or lower-alpha */
 }
 
+.stdg ul {
+    border: 0;
+    margin: .5rem 0 .5rem 0;
+    display: block;
+}
+
+.stdg ul>li {
+    border: 0;
+    margin: 0 0 .3rem 3rem;
+    display: block;
+/*    counter-increment: mycounter; */
+}
+
 .stdg-index h2 { 
     font-size: 1rem;
     text-transform: uppercase;
@@ -134,8 +147,8 @@ line-height: 1.5rem;
 }
 
 .section-anchor {
-    scroll-margin-top: 90px; /* Adjust this value to the height of
-				your fixed header */
+    scroll-margin-top: 93px; /* Adjust this value to the height of
+				the fixed header */
 }
 
 
