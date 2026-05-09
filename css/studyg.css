@@ -11,7 +11,7 @@ body {
 }
 
 .sec-label {
-    counter-set: theorem 0 definition 0;
+    counter-set: theorem 0 definition 0 lemma 0;
 }
 
 .sec-label:before {
@@ -20,7 +20,7 @@ body {
 }
 
 
-.theorem, .definition {
+.theorem, .definition, .lemma {
    display: block;
 /*    font-style: italic; */
     margin: 1rem 0; /* Adds spacing around the theorem */
@@ -48,6 +48,18 @@ body {
 .definition[title]:before {
     counter-increment: definition;
     content: "Definition " counter(sect) "." counter(definition) " (" attr(title) "). ";
+}
+
+.lemma:before {
+    counter-increment: lemma; /* Increments the counter for each .theorem element */
+    content: "Lemma " counter(sect) "." counter(lemma) ". ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.lemma[title]:before {
+    counter-increment: lemma;
+    content: "Lemma " counter(sect) "." counter(lemma) " (" attr(title) "). ";
 }
 
 .stdg p {
