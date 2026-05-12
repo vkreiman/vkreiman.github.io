@@ -942,12 +942,12 @@ semester: Spring 2026
     <div class="definition" title="The Riemann Integral">
       Let \(f \) be a bounded function on \( [a,b]\). If the upper and
       lower integrals of \(f\) on \( [a,b] \) are equal, then we say
-      that \(f\) is <b>Riemann integrable</b> on \([a,b]\). In this
-      case, we denote the common value of the upper and lower
-      integrals by \( \int_a^b f\). In other words, \[ \int_a^b f :=
-      \overline{\int_a^b} f = \underline{\int_a^b} f\] This common
-      value is called the <b>Riemann integral</b> of \(f\) on
-      \([a,b]\).
+      that \(f\) is <b>Riemann integrable</b> (or
+      just <b>integrable</b>) on \([a,b]\). In this case, we denote
+      the common value of the upper and lower integrals by \( \int_a^b
+      f\). In other words, \[ \int_a^b f := \overline{\int_a^b} f =
+      \underline{\int_a^b} f\] This common value is called
+      the <b>Riemann integral</b> of \(f\) on \([a,b]\).
     </div>
 
     <div class="definition" title="Refinement of a Partition">
@@ -979,6 +979,55 @@ semester: Spring 2026
       Riemann integrable on \([a,b] \) if and only for every \(
       \epsilon \gt 0 \), there exists a partition \( P \) of \([a,b]\)
       such that \( U(f,P) - L(f,P) \lt \epsilon \).
+    </div>
+
+    <div class="theorem" title="Fundamental Theorem of Calculus II">
+      If \(f\) be integrable on \([a,b]\) and \( F \) is an
+      antiderivative of \(f\), then \[\int_a^b f = F(b) - F(a) \]
+    </div>
+
+
+    <div class="theorem" title="Properties of Riemann Integrals">
+      Let \( f,g\) be integrable on \( [a,b]\) and \( c,m,M \in
+      \mathbb{R}\).
+      <ol>
+        <li> \( f+g\) is integrable on \( [a,b] \), and \( \int_a^b
+          f+g = \int_a^b f + \int_a^b g\).</li>
+
+        <li> \(cf \) is integrable on \([a,b]\), and \( \int_a^b cf =
+          c\int_a^b f\).
+        </li>
+
+        <li> If \(m \leq f(x) \leq M\) for all \(x\in [a,b]\), then \(
+          m(b-a) \leq \int_a^b f \leq M(b-a) \).</li>
+
+        <li> If \(f(x) \leq g(x) \) for all \(x\in [a,b] \), then \(
+          \int_a^b f \leq \int_a^b g\).
+        </li>
+
+        <li> \( | f |\) is Riemann integrable on \([a,b]\), and \(
+          |\int_a^b f| \leq \int_a^b |f|\) (<b>Triangle
+          Inequality</b>).
+        </li>
+      </ol>
+    </div>
+
+    <div class="theorem" title="Another Property of Riemann Integrals">
+      Let \( f\) be bounded on \( [a,b] \) and \(c\in (a,b) \). Then
+      \( f\) is integrable on \([a,b]\) if and only if \( f\) is
+      integrable on both \([a,c]\) and on \( [c,b] \). In this case,
+      \( \int_a^b f = \int_a^c f + \int_c^b f \).
+    </div>
+
+    <div class="theorem" title="Continuity implies Integrability">
+      If \( f \) is continuous on \([a,b]\), then \( f\) is integrable
+      on \([a,b]\).
+    </div>
+
+    <div class="theorem" title="Fundamental Theorem of Calculus I">
+      Let \( f \) be continuous on \([a,b]\). Then \( \int_a^x f\) is
+      differentiable on \([a,b]\), and \[ \left(\int_a^x f\right)'(c)
+      = f(c) \] for all \( c \in [a,b] \).
     </div>
     
   </section>
