@@ -5,7 +5,7 @@
   }
 
   :root{
-      --header-border-light: #003ac2;
+      --header-border-light: #245ae3; /* dark blue #003ac2; */
       --header-border: #003ac2;    /* #1f6a87; */
       --header-main: #000000; /* dark navy #09073d; */
       --blue-nav-letters: #80b9c2; /* yellow #edba00 neon blue #2fffff; lightgray; #c0c0c0; */
