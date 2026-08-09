@@ -5,7 +5,7 @@
   }
 
   :root{
-      --header-border-light: #4a7be6; /* slightly darker blue: #3d6edb; more neony blue: #245ae3; dark blue
+      --header-border-light: #787888; /* slightly darker blue: #3d6edb; more neony blue: #245ae3; dark blue
  #003ac2; */
       --header-border: #003ac2;    /* #1f6a87; */
       --header-main: #000000; /* dark navy #09073d; */
@@ -47,7 +47,7 @@ header {
     /*! border-top: 4px solid var(--header-border); */
 /*    min-height: 64px;*/
     background-color: var(--header-main);
-/*    box-shadow: 0 -5px 0 0 var(--header-border-light) inset; */
+    box-shadow: 0 -5px 0 0 var(--header-border-light) inset;
 }
 
 .wrapper-header {
