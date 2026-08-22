@@ -8,7 +8,7 @@
       --header-border-light: #787888; 
       /* slightly darker blue: #3d6edb; more neony blue: #245ae3; dark blue
  #003ac2; */
-      --header-border: #003ac2;    /* #1f6a87; */
+      --header-border: #003ac2;    /* this is not used */ /* #1f6a87; */
       --header-main: #000000; /* dark navy #09073d; */
       --blue-nav-letters: #cdcddd;
       /* yellow #edba00 neon blue #2fffff; lightgray;
@@ -17,7 +17,8 @@
       
       --dropdown-background: #f2f2f2;
       --links: #36c;
-      --blue-table-header: #d9e2ec;  /* #e8f0fe for light blue  #99b0e6 for darker */
+      --blue-table-header: #d6cdb6;
+      /* #d9e2ec #e8f0fe for light blue  #99b0e6 for darker */
       --table-background-cal: #f0f0f0; /* #f9fafb #fcfcfc; #f9fafb; */
   }
   
@@ -485,13 +486,14 @@ td:last-of-type {
 }
 */
 
-td:nth-child(4) {
-  text-align: left;
+td:nth-child(4) { text-align: left;
 }
 
 tbody > tr:nth-of-type(even) {
-  background-color: rgb(237 238 242);
+    background-color: var(--table-background-cal);
+    /* rgb(237 238 242)*/
 }
+
 
 /*
 tfoot th {
