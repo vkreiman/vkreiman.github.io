@@ -159,7 +159,7 @@ semester: Fall 2026
   const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
 		  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   tds = document.getElementsByTagName("td");
-  let classDay = new Date("September 2, 2026");
+  let classDay = new Date("August 31, 2026");
   let currentDate = new Date();
 
   for (let i = 0; i < tds.length; i++) {
@@ -170,7 +170,7 @@ semester: Fall 2026
 				`<div class='caldate'>${a}</div>`);
 
       if (isSameDay(currentDate, classDay)) {
-          tds[i].style.backgroundColor = "#f0f0f0"; }
+          tds[i].style.backgroundColor = "#dddddd"; }
 
 
       if ((i + 1) % 5 == 0) {

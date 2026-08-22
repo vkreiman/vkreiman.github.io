@@ -27,8 +27,7 @@
     }
 
     #cal tr {
-        background-color: #f9fafb;  /* #fcfcfc; #f9fafb; */
-      /*  background-color: rgb(248, 248, 246);*/
+        background-color: var(--table-background-cal);
     }
 
     .caldate {
