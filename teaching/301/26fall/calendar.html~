@@ -1,0 +1,192 @@
+---
+layout: course
+title: Advanced Calculus
+number: Math 350
+semester: Spring 2026
+---
+
+<section>
+
+  <div id="cal">
+    <center>
+      <table>
+        <caption>Calendar</caption>
+        <thead>
+          <tr>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THURSDAY</th>
+            <th>FRIDAY</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Week 1 --  Jan 26 -->
+          <tr>
+            <td>No Class</td>
+            <td>No Class</td>
+            <td>No Class</td>
+            <td></td>
+            <td>The Natural Numbers, Integers, and
+	      Rational Numbers</td>
+          </tr>
+          <!-- Week 2 -- Feb 2 -->
+          <tr>
+            <td>Ordered Fields</td>
+            <td>Supremums, Infimums, Axiom of Completeness</td>
+            <td>Archimedean Principle of the Reals</td>
+            <td></td>
+            <td>Density of Rationals in the Reals</td>
+          </tr>
+          <!-- Week 3 -- Feb 9 -->
+          <tr>
+            <td>Absolute Value</td>
+            <td>Triangle Inequality</td>
+            <td>Cardinality</td>
+            <td></td>
+            <td>Countable Sets</td>
+          </tr>
+          <!-- Week 4 -- Feb 16 -->
+          <tr>
+            <td>Uncountable Sets</td>
+            <td>Proofs of Quantified Statements</td>
+            <td>Convergence of a Sequence</td>
+            <td></td>
+            <td>Proving Convergence</td> <!-- <div class="exam">Exam
+            1</div> -->
+          </tr>
+          <!-- Week 5 -- Feb 23 -->
+          <tr>
+            <td>Uniqueness of a Limit, Squeeze Theorem
+	      <br> <div class="quiz">Quiz 1</div></td>
+            <td>Theorem: Convergent Sequences are Bounded</td>
+            <td>Limit Laws</td>
+            <td></td>
+            <td>Limit Laws</td>
+          </tr>
+          <!-- Week 6 -- Mar 2 -->
+          <tr>
+            <td>Monotone Convergence Theorem, Subsequences</td>
+            <td>Open Sets in \( \mathbb{R} \)</td>
+            <td>Unions and Intersections of Open Sets, Limit
+            Points</td>
+            <td></td>
+            <td>Closed Sets</td>
+          </tr>
+          <!-- Week 7 -- Mar 9 -->
+          <tr>
+            <td>Characterizations of Closed Sets, Closure</td>
+            <td>Compactness</td>
+            <td>Heine-Borel Theorem</td> 
+            <td></td>
+            <td>Metric Spaces</td>
+          </tr>
+          <!-- Week 8 Mar -- 16 -->
+          <tr>
+            <td>Class canceled due to weather</td>
+            <td>Metric Spaces</td>
+            <td>Metric Spaces</td>
+            <td></td>
+            <td> <div class="exam">Exam 1</div> </td>
+          </tr>
+          <!-- Week Off -- Mar 23 -->
+          <tr>
+            <td>Spring Break</td>
+            <td>Spring Break</td>
+            <td>Spring Break</td>
+            <td>Spring Break</td>
+            <td>Spring Break</td>
+          </tr>
+          <!-- Week 9 -- Mar 30 -->
+          <tr>
+            <td>Metric Subspaces, Limits of Functions</td>
+            <td>Limit Laws for Functions</td>
+            <td>Sequential Criterion for Functional Limits</td>
+            <td></td>
+            <td>Sequential Criterion for Functional Limits</td>
+          </tr>
+          <!-- Week 10 -- Apr 6 -->
+          <tr>
+            <td>Continuity</td>
+            <td>Continuity</td>
+            <td>Images and Preimages</td>
+            <td></td>
+            <td>Continuity in Metric Spaces</td>
+          </tr>
+          <!-- Week 11 -- Apr 13 -->
+          <tr>
+            <td>Continuity in Metric Spaces</td>
+            <td>Extreme Value Theorem</td>
+            <td>Extreme Value Theorem</td>
+            <td></td>
+            <td>Intermediate Value Theorem</td>
+          </tr>
+          <!-- Week 12 -- Apr 20 -->
+          <tr>
+            <td>Intermediate Value Theorem, the Derivative</td>
+            <td>Differentiability and Continuity</td>
+            <td>Derivatives of Sums, Products, and Quotients</td>
+            <td></td>
+            <td>Interior Extremum Theorem</td>
+          </tr>
+          <!-- Week 13 -- Apr 27 -->
+          <tr>
+            <td>Interior Extremum Theorem, Rolle's Theorem</td>
+            <td>Mean Value Theorem</td>
+            <td>Applications of the Mean Value Theorem</td>
+            <td></td>
+            <td>The Riemann Integral</td>
+          </tr>
+          <!-- Week 14 -- May 4 -->
+          <tr>
+            <td>Properties of the Riemann Integral</td>
+            <td>Properties of the Riemann Integral</td>
+            <td> <div class="exam">Exam 2</div> </td>
+            <td></td>
+            <td>Fundamental Theorem of Calculus</td>
+          </tr>
+          <!-- Week 15 -- May 11 -->
+          <tr>
+            <td>Fundamental Theorem of Calculus</td>
+            <td> <div class="exam">Final Exam 1 PM - 3 PM</div> </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </div> <!-- cal -->
+
+</section>
+
+<script>
+  function isSameDay(date1, date2) {
+      // Compare year, month, and day
+      return date1.getFullYear() === date2.getFullYear() && date1.getMonth() ===
+          date2.getMonth() && date1.getDate() === date2.getDate();
+  }
+
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+		  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  tds = document.getElementsByTagName("td");
+  let classDay = new Date("January 26, 2026");
+  let currentDate = new Date();
+
+  for (let i = 0; i < tds.length; i++) {
+
+      a = months[classDay.getMonth()] + " " +
+          classDay.getDate();
+      tds[i].insertAdjacentHTML("afterbegin",
+				`<div class='caldate'>${a}</div>`);
+
+      if (isSameDay(currentDate, classDay)) {
+          tds[i].style.backgroundColor = "#dddddd"; }
+
+
+      if ((i + 1) % 5 == 0) {
+          classDay.setDate(classDay.getDate() + 3); } else {
+              classDay.setDate(classDay.getDate() + 1); }
+  }
+  
+  </script>
