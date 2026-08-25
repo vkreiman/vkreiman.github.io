@@ -5,21 +5,14 @@
   }
 
   :root{
-      --header-border-light: #787888; 
-      /* slightly darker blue: #3d6edb; more neony blue: #245ae3; dark blue
- #003ac2; */
-      --header-border: #003ac2;    /* this is not used */ /* #1f6a87; */
-      --header-main: #000000; /* dark navy #09073d; */
-      --blue-nav-letters: #cdcddd;
-      /* yellow #edba00 neon blue #2fffff; lightgray;
-#c0c0c0; */
-      --blue-nav-hover: brown;   /* #444444 #a7ccee94;*/
-      
-      --dropdown-background: #f2f2f2;
-      --links: #36c;
-      --blue-table-header: #d6beae; /* blue #aec8d6 */
-      /* #d9e2ec #e8f0fe for light blue  #99b0e6 for darker */
-      --table-background-cal: #faf6f2; /* #f0f0f0 #fcfcfc; #f9fafb; */
+      --header-main: #0f172a; 
+      --header-border-light: #788896; 
+      --blue-nav-letters: #d8e2ef;
+      --blue-nav-hover: #5a5a5a;   
+      --dropdown-background: #f2f2f2;/* not used */
+      --links: #1d4ed8;
+      --blue-table-header: #c2d1c2;
+      --table-background-cal: #faf6f2; 
   }
   
 html {
