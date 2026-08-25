@@ -6,8 +6,8 @@
 
   :root{
       --header-main: #0f172a; 
-      --header-border-light: #788896; 
-      --blue-nav-letters: #d8e2ef;
+      --header-border-light: #cbd5e1; 
+      --blue-nav-letters: #7ba0cc; /* or #74889e for grayer tone */
       --blue-nav-hover: #5a5a5a;   
       --dropdown-background: #f2f2f2;/* not used */
       --links: #1d4ed8;
