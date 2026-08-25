@@ -12,7 +12,8 @@
       --dropdown-background: #f2f2f2;/* not used */
       --links: #1d4ed8;
       --blue-table-header: #c2d1c2;
-      --table-background-cal: #faf6f2; 
+      --table-background-cal: #faf6f2;
+      --body-text: #0f172a;
   }
   
 html {
@@ -25,6 +26,7 @@ body{
     margin: 0;
     font-family: "STIX Two Text";
     text-underline-offset: 3px;
+    color: var(--body-text);
 }
 
 .flex-wrapper {
@@ -246,17 +248,13 @@ footer span {
 
 section:first-of-type {
     padding-top: 2.5rem;
-    border-top: 2px solid #787888;
+    border-top: 2px solid var(--header-border-light);
 }
 
 section {
     border: .26em;
     margin: 1.2rem 0em .26em 0em; 
 }
-
-
-
-
 
 /*
 p, ul { max-width: 70ch; }
@@ -454,6 +452,7 @@ table {
   font-size: 0.7rem;
   table-layout: auto;
   width: 100%;
+  color: inherit;
 }
 
 caption {
