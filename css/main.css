@@ -90,7 +90,7 @@ header {
 .navbar-right > a, .dropdown {
     box-sizing: border-box;
     padding: 8px 30px 6px 30px;
-        border-bottom: 5px solid transparent;
+        border-bottom: 5.1px solid transparent;
 }
 
 /* Links inside the navbar */
@@ -145,7 +145,7 @@ header {
     min-width: 120px;
    /* border: 1px solid black; */
     overflow: hidden;
-    margin-top: 10.6px;
+    margin-top: 10.5px;
 }
 
 /* Links inside the dropdown */
