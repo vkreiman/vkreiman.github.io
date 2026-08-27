@@ -14,6 +14,7 @@
       --blue-table-header: #b2c7e1; /* #cbd5e1 */
       --table-background-cal: rgba(203,213,225,.2); /* eff6ff */
       --body-text: #0f172a;
+      --table-background-hwtable: rgba(203,213,225,.6);
   }
   
 html {
@@ -482,7 +483,7 @@ td:nth-child(4) { text-align: left;
 }
 
 tbody > tr:nth-of-type(even) {
-    background-color: var(--table-background-cal);
+    background-color: var(--table-background-hwtable);
     /* rgb(237 238 242)*/
 }
 
