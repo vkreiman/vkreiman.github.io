@@ -8,7 +8,7 @@ semester: Fall 2026
 
 <div class="stdg">
 
-  <section> This study guide gives the main definitions and theorems
+  <section> This study guide will give the main definitions and theorems
     covered in the course.
   </section>
 
@@ -17,63 +17,52 @@ semester: Fall 2026
     <h2>Contents</h2>
 
     <ol>
-      <li><a href="#real-numbers">The Real Numbers</a></li>
+      <li><a href="#vector-spaces">Vector Space, Subspace, Linear
+          Combination, Span, Linear Independence, Basis</a></li>
     </ol>
-  </div>
-  
-  <section id="real-numbers" class="section-anchor">
-    <div class="sec-label">The Real Numbers</div>
-    <p>
-      Consider the following sets of numbers:
+  </div> <!-- class stdg-index -->
 
-      \begin{align} \mathbb{N} &= \{1, 2, 3, \ldots \}\ \text{
-      (natural numbers)}\\ \mathbb{Z} &= \{\ldots,-3,-2,-1,0,1, 2, 3,
-      \ldots \}\ \text{ (integers)}\\ \mathbb{Q} &= \left\{\frac{a}{b}
-      : a,b\in \mathbb{Z}, b\neq 0 \right\}\ \text{ (rational
-      numbers)}\\ <!-- \mathbb{R} &= \{\text{numbers corresponding to
-      all points on the number line} \}\ \text{ (real numbers)}\\ -->
-      \end{align}
-
-      We have that \(\mathbb{N} \subset \mathbb{Z} \subset
-      \mathbb{Q}\).
-    </p>
-
-    <div class="theorem">
-      There does not exist \(p\in \mathbb{Q}\) such that \(p^2=2\).
+  <section id="vector-spaces" class="section-anchor">
+    <div class="sec-label">Vector Space, Subspace, Linear Combination,
+      Span, Linear Independence, Basis</div>
+    <div class="definition" title="Binary and Scalar Operations">
+      <ol>
+        <li> A <b>binary operation</b> on a set \(V\) is a rule which,
+          for any two elements \(u\) and \(v\) in \(V\), produces a
+          third element in \(V\).  (Produced element sometimes denoted
+          by \(u+v\), \(u\oplus v\), \(u\cdot v\), or \(uv\).)</li>
+        <li> A <b>scalar operation</b> on a set \(V\) is a rule which,
+          for any real number \(k\) and any element \(u\) in \(V\),
+          produces an element of \(V\). (Produced element sometimes
+          denoted by \(k\cdot v\) or \(kv\).)</li>
+      </ol>
     </div>
 
-    <p>In other words, \(\sqrt{2}\notin \mathbb{Q}\). We will shortly
-      introduce the set of real numbers, \(\mathbb{R}\), a larger set
-      of numbers than \(\mathbb{Q}\) which contains \(\sqrt{2}\). We
-      will define \(\mathbb{R}\) rigorously as a set satisfying eleven
-      axioms. The first ten of these axioms are given in the following
-      three definitions; the eleventh axiom appears in Definition 1.6.
-    </p>
-
-    <div class="definition" title="Field">
-      A <b>field</b> is a set \(F\) together with two binary
-      operations, denoted by \(+\) and \(\cdot\), which satisfy the
-      following axioms:
-      <div class="ilist">
-        <ol>
-          <li seq="F1">For all \(a,b\in F\), \(a+b = b+a\) and
-            \(a\cdot b=b\cdot a\). </li>
-          <li seq="F2">For all \(a,b,c\in F\), \((a+b)+c = a+(b+c)\)
-            and \((a\cdot b)\cdot c = a\cdot (b\cdot c)\). </li>
-          <li seq="F3">For all \(a,b,c\in F\), \(a\cdot (b + c) =
-            a\cdot b + a\cdot c\). </li>
-          <li seq="F4">There exist elements \(0,1\in F\) for which
-            \(0+a=0\) and \(1\cdot a = a\) for all \(a\in F\).</li>
-          <li seq="F5">For every \(a\in F\), there exists an element
-            \(-a\in F\) for which \(a + (-a)=0\). </li>
-          <li seq="F6">For every \(a\in F\), \(a\neq 0\), there exists
-            \(a^{-1}\in F\) for which \(a\cdot a^{-1}=1\).</li>
-        </ol>
-      </div> <!-- ilist -->
+    <div class="definition" title="Vector Space">
+      A <b>vector space</b> consists of the following:
+      <ul>
+        <li> \(\bullet\ \) A set \(V\) </li>
+        <li> \(\bullet\ \) A binary opertion on \(V\) (called
+        addition, denoted \(+\)) </li>
+        <li> \(\bullet\ \) A scalar operation on \(V\) (called scalar
+          multiplication, denoted \(\cdot\)) </li>
+      </ul>
+      such that for all \(\bu, \bv, \bw\) in \(V\) and \(k,m\) in
+      \(\bR\),
+      <ol>
+        <li> \(\bu+\bv=\bv+\bu\) </li>
+        <li> \((\bu+\bv)+\bw = \bu + (\bv+\bw)\) </li>
+        <li> There exists an element \(\bz\) in \(V\) such that \(\bz
+          + \bu=\bu\) for every \(\bu\) in \(V\). </li>
+        <li> For every \(\bu\) in \(V\), there exists an element
+          \(-\bu\) in \(V\) such that \(\bu + (-\bu) = \bz\). </li>
+        <li> \(k\cdot (\bu + \bv) = k\cdot \bu + k\cdot \bv\) </li>
+        <li> \((k+m)\cdot \bu = k\cdot \bu + m\cdot \bu\) </li>
+        <li> \(k\cdot(m\cdot \bu) = (km)\cdot \bu\) </li>
+        <li> \(1\cdot \bu=\bu\) </li>
+      </ol>
     </div>
-    
   </section>
 
-  
   
 </div> <!-- class stdg -->
