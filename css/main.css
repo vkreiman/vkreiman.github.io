@@ -5,8 +5,8 @@
   }
 
   :root{
-      --header-main: hsl(00 100% 23% / 1); /* #0f172a; */ 
-      --header-border-light: #000000   /* #8993a0 */  
+      --header-main: #4f7942; /* #0f172a; */ 
+      --header-border-light: #000000;   /* #8993a0 */  
       --blue-nav-letters: #cbd5e1; 
       --blue-nav-hover: #5a5a5a;   
       --dropdown-background: #f2f2f2;/* not used */
