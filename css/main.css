@@ -5,14 +5,14 @@
   }
 
   :root{
-      --header-main: #0f172a; 
-      --header-border-light: #8993a0;  /* #74889e; */
-      --blue-nav-letters: #cbd5e1; /* or #b2c7e1 for bluer tone */
+      --header-main: hsl(00 100% 23% / 1); /* #0f172a; */ 
+      --header-border-light: #000000   /* #8993a0 */  
+      --blue-nav-letters: #cbd5e1; 
       --blue-nav-hover: #5a5a5a;   
       --dropdown-background: #f2f2f2;/* not used */
       --links: #1d4ed8;
-      --blue-table-header: #b2c7e1; /* #cbd5e1 */
-      --table-background-cal: rgba(203,213,225,.2); /* eff6ff */
+      --blue-table-header: #b2c7e1;
+      --table-background-cal: rgba(203,213,225,.2); 
       --body-text: #0f172a;
       --table-background-hwtable: rgba(203,213,225,.6);
   }
