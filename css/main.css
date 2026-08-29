@@ -467,12 +467,15 @@ tfoot {
   background-color: var(--blue-table-header);
 }
 
-th,
-td {
+th, td {
   border: 1px solid rgb(160 160 160);
   padding: 8px 10px;
 }
 
+th {
+    font-weight: bold;
+}
+    
 /*
 td:last-of-type {
   text-align: center;
