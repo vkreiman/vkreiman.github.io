@@ -7,10 +7,10 @@
   :root{
       --header-main: #016836; /* #0f172a; */ 
       --header-border-light: #333333;   /* #8993a0 */  
-      --blue-nav-letters: hsl(0 40% 45%); 
-      --blue-nav-hover: #737373;   
+      --blue-nav-letters: #8d8e88; 
+      --blue-nav-hover: #8d8e88;    /* #737373  */ 
       /*   --dropdown-background:  #f2f2f2;  not used */
-      --links: #1d4ed8;
+      --links: #116eb1;     /* #1d4ed8 */
       --blue-table-header: hsl(36 6% 85% / 1);    /* #b2c7e1 */
       --table-background-cal: #f9f9f9;   /* rgba(203,213,225,.2); */ 
       --body-text: #0f172a;
