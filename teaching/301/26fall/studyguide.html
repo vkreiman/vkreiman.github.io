@@ -17,14 +17,12 @@ semester: Fall 2026
     <h2>Contents</h2>
 
     <ol>
-      <li><a href="#vector-spaces">Vector Space, Subspace, Linear
-          Combination, Span, Linear Independence, Basis</a></li>
+      <li><a href="#vector-spaces">Vector Spaces</a></li>
     </ol>
   </div> <!-- class stdg-index -->
 
   <section id="vector-spaces" class="section-anchor">
-    <div class="sec-label">Vector Space, Subspace, Linear Combination,
-      Span, Linear Independence, Basis</div>
+    <div class="sec-label">Vector Spaces</div>
     <div class="definition" title="Binary and Scalar Operations">
       <ol>
         <li> A <b>binary operation</b> on a set \(V\) is a rule which,
@@ -62,7 +60,177 @@ semester: Fall 2026
         <li> \(1\cdot \bu=\bu\) </li>
       </ol>
     </div>
-  </section>
+
+    <div class="definition" title="Additive Identity and Additive Inverse">
+      In Definition 1.2 of a vector space above, \(\bz\) is called the
+      <b>additive identity</b> or the <b>zero vector</b> of \(V\), and
+      for \(\bu\) in \(V\), \(-\bu\) is called the <b>additive
+      inverse</b> of \(\bu\).
+    </div>
+
+    <div class="definition" title="Subspace">
+      A <b>subspace</b> of a vector space \(V\) is a subset \(W\) of
+      \(V\) which is itself a vector space.
+    </div>
+
+    <div class="definition" title="Linear Combination">
+      A <b>linear combination</b> of \(\bv_1,\ldots,\bv_r\) is a
+      vector of the form \(k_1\bv_1+\cdots +k_r\bv_r\), where
+      \(k_1,\ldots,k_r\) are scalars.
+    </div>
+
+    <div class="definition" title="Span">
+      The <b>span</b> of \(\bv_1,\ldots,\bv_r\), denoted
+      \(\sspan\{\bv_1,\ldots,\bv_r\}\), is the set of all linear
+      combinations of \(\bv_1,\ldots,\bv_r\).
+    </div>
+
+    <div class="definition" title="Linearly Independent">
+      Let \(V\) be a vector space and let \(\bv_1,\ldots,\bv_r\) be
+      vectors in \(V\). Then \(\{\bv_1,\ldots,\bv_r\}\) is <b>linearly
+      independent</b> if \(k_1\bv_1+\cdots +k_r\bv_r=\bz\) implies
+      \(k_1=\cdots = k_r=0\).
+    </div>
+
+    <div class="definition" title="Basis">
+      A <b>basis</b> for a vector space \(V\) is a set of vectors
+      \(\cB=\{\bv_1,\ldots,\bv_n\}\) such that
+      <ol>
+        <li> \(\sspan\{\bv_1,\ldots,\bv_n\}=V\), and</li>
+        <li> \(\{\bv_1,\ldots,\bv_n\}\) is linearly independent.</li>
+      </ol>
+    </div>
+
+    <div class="definition" title="Coordinates">
+      Let \(\cB=\{\bv_1,\ldots,\bv_n\}\) be a basis of a vector space
+      \(V\), and let \(\bu\) be a vector in \(V\). Then
+      \(\bu=c_1\bv_1+\cdots+c_n\bv_n\) for unique scalars
+      \(c_1,\ldots,c_n\), by Theorem 1.6. The scalars
+      \(c_1,\ldots,c_n\) are called the
+      <b>coordinates</b> of \(\bu\) relative to \(\cB\), and the
+      vector \begin{equation} \begin{bmatrix} c_1\\ \vdots\\ c_n
+      \end{bmatrix}, \end{equation} denoted by \([\bu]_\cB\), is
+      called the <b>coordinate vector</b> of \(\bu\) relative to
+      \(\cB\).
+    </div>
+
+    <div class="definition" title="Dimension">
+      The <b>dimension</b> of a nonzero vector space \(V\) is the
+      number of vectors in a basis for \(V\).
+    </div>
+
+    <div class="definition" title="Product of Matrix and Vector">
+      Let \(A=[\bv_1 \cdots \bv_n]\) be an \(m\times n\) matrix with
+      column vectors \(\bv_1,\ldots,\bv_n\), and let
+      \(\bx=\begin{bmatrix} x_1\\ \vdots\\ x_n \end{bmatrix} \) be a
+      vector in \(\bR^n\). Then \(A\bx = x_1\bv_1+\cdots + x_n\bv_n\).
+    </div>
+
+    <div class="definition" title="Nullspace">
+      Let \(A\) be an \(m\times n\) matrix. The <b>nullspace</b> of
+      \(A\), denoted by \(\nul A\), is the set of all solutions to
+      \(A\bx = \bz\).
+    </div>
+
+    <div class="definition" title="Column Space">
+      Let \(A\) be an \(m\times n\) matrix. The <b>column space</b> of
+      \(A\), denoted by \(\col A\), is the span of the column vectors
+      of \(A\).
+    </div>
+
+    <div class="theorem">
+      Let \(V\) be a vector space, \(\bu\) a vector in \(V\), and
+      \(k\) a scalar. Then
+      <ol>
+        <li> \(0 \bu=\bz\)</li>
+        <li> \(k \bz = \bz\)</li>
+        <li> \((-1) \bu = -\bu\)</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(V\) be a vector space and let \(W\) be a subset of
+      \(V\). Then \(W\) is a subspace of \(V\) if:
+      <ol>
+        <li> for every \(\bu\) and \(\bv\) in \(W\), \(\bu+\bv\) is in
+          \(W\) (i.e., \(W\) is closed under vector addition);
+          and</li>
+        <li> for every \(\bu\) in \(W\) and scalar \(k\), \(k\bu\) is
+          in \(W\) (i.e., \(W\) is closed under scalar
+          multiplication); and</li>
+        <li> the zero vector of \(V\) lies in \(W\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(V\) be a vector space and let \(\bv_1,\ldots,\bv_r\) be
+      vectors in \(V\). Then \(\sspan\{\bv_1,\ldots,\bv_r\}\) is a
+      subspace of \(V\).
+    </div>
+
+    <div class="theorem">
+      A set \(\{\bv_1,\ldots,\bv_r\}\) of two or more vectors is
+      linearly dependent if and only if at least one of the vectors is
+      a linear combination of the others.
+    </div>
+
+    <div class="theorem">
+      Let \(\cB=\{\bv_1,\ldots,\bv_n\}\) be a basis for a vector space
+      \(V\).
+      <ol>
+        <li> If any vector of \(V\) is added to \(\cB\), then \(\cB\)
+          is no longer linearly independent.</li>
+        <li> If any vector is removed from \(\cB\), then \(\cB\) no
+          longer spans \(V\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">%\label{t.expandinbasis} Let
+      \(\cB=\{\bv_1,\ldots\bv_n\}\) be a basis of a vector space
+      \(V\). Then every \(\bu\) in \(V\) can be written in exactly one
+      way as a linear combination of \(\bv_1,\ldots, \bv_n\), that is,
+      can be expressed as \begin{equation*} \bu=c_1\bv_1+\cdots
+      c_n\bv_n, \end{equation*} for unique scalars \(c_1,\ldots,c_n\).
+    </div>
+
+    <div class="theorem">
+      All bases of a vector space \(V\) have the same number of
+      elements.
+    </div>
+
+    <div class="theorem">
+      In \(\bR^n\), the following have the same solutions:
+      <ol>
+        <li> The vector equation \(x_1\bv_1+\cdots
+        +x_p\bv_p=\bu\).</li>
+        <li> The linear system of equations with augmented matrix
+          \([\bv_1\cdots \bv_p\mid \bu]\).</li>
+        <li> The matrix equation \([\bv_1\, \cdots
+        \bv_p]\,\bx=\bu\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(A\) be an \(m\times n\) matrix, let \(\bu,\bv\) be vectors
+      in \(\bR^n\), and let \(c\) be a scalar. Then
+      <ol>
+        <li> \(A(\bu+\bv)=A\bu+A\bv\), and</li>
+        <li> \(A(c\bu)=c(A\bu)\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(A\) be an \(m\times n\) matrix. Then \(\nul A\) is a
+      subspace of \(\bR^n\).
+    </div>
+
+    <div class="theorem">
+      Let \(A\) be a matrix with \(n\) columns. Then \(\dim (\nul A) +
+      \dim (\col A) = n\).
+    </div>
+
+  </section> <!-- Vector Spaces -->
+
 
   
 </div> <!-- class stdg -->
