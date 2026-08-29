@@ -5,16 +5,16 @@
   }
 
   :root{
-      --header-main: #4f7942; /* #0f172a; */ 
-      --header-border-light: #000000;   /* #8993a0 */  
+      --header-main: #016836; /* #0f172a; */ 
+      --header-border-light: #333333;   /* #8993a0 */  
       --blue-nav-letters: #cbd5e1; 
-      --blue-nav-hover: #5a5a5a;   
+      --blue-nav-hover: #737373;   
       --dropdown-background: #f2f2f2;/* not used */
       --links: #1d4ed8;
-      --blue-table-header: #b2c7e1;
-      --table-background-cal: rgba(203,213,225,.2); 
+      --blue-table-header: hsl(36 6% 85% / 1);    /* #b2c7e1 */
+      --table-background-cal: hsl(36 6% 85% / .1);   /* rgba(203,213,225,.2); */ 
       --body-text: #0f172a;
-      --table-background-hwtable: rgba(203,213,225,.6);
+      --table-background-hwtable: hsl(36 6% 85% / .2);  /* rgba(203,213,225,.6); */
   }
   
 html {
