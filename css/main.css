@@ -7,14 +7,14 @@
   :root{
       --header-main: #016836; /* #0f172a; */ 
       --header-border-light: #333333;   /* #8993a0 */  
-      --blue-nav-letters: #cbd5e1; 
+      --blue-nav-letters: hsl(0 40% 45%); 
       --blue-nav-hover: #737373;   
-      --dropdown-background: #f2f2f2;/* not used */
+      /*   --dropdown-background:  #f2f2f2;  not used */
       --links: #1d4ed8;
       --blue-table-header: hsl(36 6% 85% / 1);    /* #b2c7e1 */
-      --table-background-cal: hsl(36 6% 85% / .1);   /* rgba(203,213,225,.2); */ 
+      --table-background-cal: #f9f9f9;   /* rgba(203,213,225,.2); */ 
       --body-text: #0f172a;
-      --table-background-hwtable: hsl(36 6% 85% / .2);  /* rgba(203,213,225,.6); */
+      --table-background-hwtable: #f4f4f4;  /* rgba(203,213,225,.6); */
   }
   
 html {
@@ -174,6 +174,7 @@ header {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+    border-bottom: 5px solid var(--blue-nav-letters);
     border-bottom-left-radius: 8px; 
     border-bottom-right-radius: 8px; 
 } 
