@@ -8,16 +8,20 @@ semester: Fall 2026
 
 <div class="stdg">
 
-  <section> This study guide will give the main definitions and theorems
+  <section> This study guide gives the main definitions and theorems
     covered in the course.
   </section>
 
   <div class="stdg-index">
-
     <h2>Contents</h2>
-
     <ol>
       <li><a href="#vector-spaces">Vector Spaces</a></li>
+      <li><a href="#lin-transf">Linear Transformations</a></li>
+      <li><a href="#mat-lin-trans">The Matrix of a Linear
+      Transformation</a></li>
+      <li><a href="#inner-prod">Inner Product Spaces</a></li>
+      <li><a href="#determinants">Determinants</a></li>
+      <li><a href="#eigen">Eigenvectors and Eigenvalues</a></li>
     </ol>
   </div> <!-- class stdg-index -->
 
@@ -236,5 +240,520 @@ semester: Fall 2026
   </section> <!-- Vector Spaces -->
 
 
+  <section id="lin-transf" class="section-anchor">
+    <div class="sec-label">Linear Transformations</div>
+
+    
+    <div class="definition" title="Linear Transformation">
+      Let \(V\) and \(W\) be vector spaces.  A transformation (or
+      mapping) \(T:V\to W\) is <b>linear</b> if it satisfies the
+      following conditions:
+      <ol>
+	<li> For every \(\bu,\bv\) in \(V\),
+	\(T(\bu+\bv)=T(\bu)+T(\bv)\).</li>
+	<li> For every \(\bu\) in \(V\) and scalar \(c\),
+	\(T(c\bu)=cT(\bu)\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(T:V\to W\) be linear. Then
+      <ol>
+	<li> \(T(\bz)=\bz\).</li>
+	<li> \(T(c_1\bv_1+\cdots
+	  +c_p\bv_p)=c_1T(\bv_1)+\cdots+c_pT(\bv_p)\), for any scalars
+	  \(c_1,\ldots,c_p\) and vectors \(\bv_1,\ldots,\bv_p\) in
+	  \(V\).</li>
+      </ol>
+    </div>
+
+    <div class="definition" title="Matrix Transformation">
+      A <b>matrix transformation</b> is a mapping \(T:\bR^n\to \bR^m\)
+      given by \(T(\bx)=A\bx\), for some fixed \(m\times n\) matrix
+      \(A\).
+    </div>
+
+    <div class="theorem">
+      A matrix transformation is linear.
+    </div>
+
+    <div class="definition" title="Kernel and Range">
+      Let \(T:V\to W\) be linear. Then
+      <ol>
+	<li> The <b>kernel</b> of \(T\), denoted \(\kernel(T)\), is
+	  the set of vectors in \(V\) which \(T\) maps to
+	  \(\bz\).</li>
+	<li> The <b>range</b> of \(T\), denoted \(R(T)\), is the set
+	  of vectors in \(W\) which have at least one vector in \(V\)
+	  mapping to them.</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(T:V\to W\) be linear. Then \(\kernel(T)\) is a subspace of
+      \(V\) and \(R(T)\) is a subspace of \(W\).
+    </div>
+
+    <div class="theorem">
+      Let \(A\) be an \(m\times n\) matrix, and let \(T:\bR^n\to
+      \bR^m\) be the matrix transformation \(T(\bx)=A\bx\). Then
+      \(\kernel(T)=\nul A\) and \(R(T)=\col A\).
+    </div>
+
+    <div class="theorem">
+      Let \(T:V\to W\) be linear. Then \(\dim(\ker T) + \dim (R(T)) =
+      \dim V\).
+    </div>
+
+    <div class="theorem">
+      Let \(T:V\to W\) be linear.
+      <ol>
+	<li> \(T\) is one-to-one if and only if \(\ker
+	T=\{\bz\}\).</li>
+	<li> \(T\) is onto if and only if \(R(T) = W\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(W\) be a subspace of \(V\). If \(\dim W=\dim V\), then
+      \(W=V\).
+    </div>
+
+    <div class="theorem">
+      Let \(T:V\to W\) be linear, and suppose that \(\dim V=\dim
+      W\). Then \(T\) is one-to-one if and only if \(T\) is onto.
+    </div>
+
+    <div class="definition" title="Composition">
+      Let \(T:U\to V\) and \(S:V\to W\) be linear
+      transformations. Then the
+      <b>composition</b> of \(S\) with \(T\), denoted \(S\circ T\), is
+      the map from \(U\) to \(W\) defined by \((S\circ
+      T)(\bu)=S(T(\bu))\) for \(\bu\in U\).
+    </div>
+
+    <div class="theorem">
+      Let \(T:U\to V\) and \(S:V\to W\) be linear
+      transformations. Then the composition \(S\circ T:U\to W\) is a
+      linear transformation.
+    </div>
+
+    <div class="definition" title="Identity Transformation">
+      For any vector space \(V\), the <b>identity transformation</b>
+      \(I:V\to V\) is defined by \(I(\bv)=\bv\) for all \(\bv\) in
+      \(V\).
+    </div>
+
+    <div class="theorem">
+      Let \(T:V\to W\) be a linear transformation. Then \(T\circ
+      I=I\circ T=T\).
+    </div>
+
+    <div class="definition" title="Inverse Transformation">
+      Let \(T:V\to W\) be one-to-one. Then there exists an <b>inverse
+	transformation</b> \(T^{-1}:R(T)\to V\) such that
+	\(T^{-1}(T(\bv))=\bv\) for all \(\bv\) in \(V\).
+    </div>
+
+    <div class="theorem">
+      Let \(T:V\to W\) be one-to-one. Then \(T^{-1}\circ T=I\).
+    </div>
+
+    <div class="definition" title="Isomorphism">
+      An <b>isomorphism</b> is a bijective linear transformation.
+    </div>
+
+    <div class="definition" title="Isomorphic">
+      If \(T:V\to W\) is an isomorphism, then \(V\) and \(W\) are said
+      to
+      <b>isomorphic</b>.
+    </div>
+
+    <div class="theorem">
+      If \(T:V\to W\) is an isomorphism, then \(\dim V=\dim W\).
+    </div>
+
+    <div class="theorem">
+      Suppose that \(V\) is a vector space and
+      \(B=\{\bv_1,\ldots,\bv_n\}\) is a basis for \(V\). Then the
+      mapping \(T:V\to \bR^n\) given by \(T(\bu)=[\bu]_B\) is an
+      isomorphism.
+    </div>
+
+  </section>
+  
+  <section id="mat-lin-trans" class="section-anchor">
+    <div class="sec-label">The Matrix of a Linear Transformation</div>
+
+
+    <div class="theorem">
+      Let \(T:\bR^n\to \bR^m\) be a mapping. Then \(T\) is a linear
+      transformation if and only if \(T\) is a matrix transformation.
+    </div>
+
+    <div class="definition" title="Standard Matrix">
+      Let \(T:\bR^n\to \bR^n\) be a linear transformation. By the
+      above theorem, \(T(\bx) = A\bx\), for some matrix \(A\). This
+      matrix is called the <b>standard matrix</b> for \(T\).
+    </div>
+
+    <div class="theorem">
+      Let \(T:\bR^n\to \bR^m\) be a linear transformation. The
+      standard matrix for \(T\) is \([T(\be_1)\cdots T(\be_n)]\).
+    </div>
+
+    <div class="theorem">
+      Suppose that the standard matrix for \(S\) is \(A\) and the
+      standard matrix for \(T\) is \(B\). Then the standard matrix for
+      \(S\circ T\) is \(AB\).
+    </div>
+
+    <div class="definition" title="Invertible and Inverse">
+      Let \(A\) be an \(n\times n\) matrix. Then \(A\) is said to be
+      <b>invertible</b> if there exists an \(n\times n\) matrix \(B\)
+      such that \(AB=BA=I_n\). In this case, \(B\) is called
+      the <b>inverse</b> of \(A\), and we write \(B=A^{-1}\).
+    </div>
+
+    <div class="theorem">
+      Let \(T:\bR^n\to \bR^n\) be a linear transformation, and let
+      \(A\) be the standard matrix for \(T\). Then \(T\) is an
+      isomorphism if and only if \(A\) is invertible. In this case,
+      the standard matrix for \(T^{-1}\) is \(A^{-1}\).
+    </div>
+
+    <div class="theorem">
+      Let \(A\) be an \(n\times n\) matrix. Then \(A\) is invertible
+      if and only if \(A\) can be row reduced to \(I_n\).
+    </div>
+
+    <div class="theorem">
+      Let \(A\) be an \(n\times n\) matrix, and let \(\bb\) be a
+      vector in \(\bR^n\). If \(A\) is invertible, then \(A\bx=\bb\)
+      has a unique solution, namely, \(\bx=A^{-1}\bb\).
+    </div>
+
+    <div class="theorem">
+      Let \(A\) be an \(n\times n\) matrix, and let \(T\colon \bR^n\to
+      \bR^n\) be given by \(T(\bx)=A\bx\). The following are
+      equivalent:
+      <ol>
+	<li> \(T\) is an isomorphism.</li>
+	<li> \(T\) is one-to-one.</li>
+	<li> \(T\) is onto.</li>
+	<li> \(\ker T = \{\bz\}\).</li>
+	<li> \(R(T) = \bR^n\).</li>
+	<li> \(A\) is invertible.</li>
+	<li> \(A\) row-reduces to \(I_n\).</li>
+	<li> \(\nul A = \{\bz\}\).</li>
+	<li> The columns of \(A\) are linearly independent.</li>
+	<li> \(\col A = \bR^n\).</li>
+	<li> The columns of \(A\) span \(\bR^n\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(T:V\to W\) be linear. Let \(\cB=\{\bu_1,\ldots,\bu_n\}\)
+      be a basis for \(V\) and \(\cB'=\{\bw_1,\ldots,\bw_m\}\) a basis
+      for \(W\). Then there exists a matrix \([T]_{\cB',\cB}\) such
+      that for every \(\bv\) in \(V\),
+      \([T(\bv)]_{\cB'}=[T]_{\cB',\cB}\cdot [\bv]_{\cB}\).
+    </div>
+
+    <div class="theorem">
+      Let \(T:V\to W\) be linear. Let \(\cB=\{\bu_1,\ldots,\bu_n\}\)
+      be a basis for \(V\) and \(\cB'=\{\bw_1,\ldots,\bw_m\}\) a basis
+      for \(W\). Then \begin{equation*}
+      [T]_{\cB',\cB}=\bigg[[T(\bu_1)]_{\cB'}\, \cdots\,
+      [T(\bu_n)]_{\cB'}\bigg] \end{equation*}
+    </div>
+
+    <div class="theorem">
+      Let \(T:U\to V\) and \(S:V\to W\) be linear. Let
+      \(\cB,\cB',\cB''\) be bases for vector spaces \(U,V,W\)
+      respectively. Then \([S\circ
+      T]_{\cB'',\cB}=[S]_{\cB'',\cB'}\cdot [T]_{\cB',\cB}\).
+    </div>
+
+    <div class="definition" title="Change of Coordinates Matrix">
+      Let \(\cB,\cB'\) be bases for a vector space \(V\). Then
+      \([I]_{\cB',\cB}\) is called the <b>change of coordinates
+      matrix</b> from \(\cB\) to \(\cB'\) coordinates.
+    </div>
+
+    <div class="theorem">
+      Let \(\cB,\cB'\) be bases for a vector space \(V\). Then
+      <ol>
+	<li> For any \(\bv\) in \(V\),
+	  \([\bv]_{\cB'}=[I]_{\cB',\cB}\cdot [\bv]_\cB\).</li>
+	<li> \([I]_{\cB,\cB}=I_n\), where \(n=\dim V\).
+	<li> \([I]_{\cB',\cB}\) is invertible.</li>
+	<li> \(([I]_{\cB',\cB})^{-1}=[I]_{\cB,\cB'}\).</li>
+      </ol>
+    </div>
+
+    <div class="notation">
+      \([T]_{\cB,\cB}\) is often denoted by just \([T]_{\cB}\).
+    </div>
+
+    <div class="theorem" title="Change of Basis Formula">
+      Let \(T:V\to V\) be a linear operator. Let \(\cB,\cB'\) be bases
+      for \(V\). Then \begin{equation*} [T]_{\cB'}=[I]_{\cB',\cB}\cdot
+      [T]_{\cB}\cdot [I]_{\cB,\cB'} \end{equation*}
+    </div>
+
+  </section>
+  
+  <section id="inner-prod" class="section-anchor">
+    <div class="sec-label">Inner Product Spaces</div>
+
+    <div class="definition" title="Inner Product Space">
+      Let \(V\) be a vector space. An <b>inner product</b> on \(V\) is
+      a rule which assigns to each pair of vectors \(\bu,\bv\) in
+      \(V\) a scalar, denoted \(\ip{\bu}{\bv}\), such that for all
+      \(\bu,\bv,\bw\) in \(V\) and all scalars \(c\),
+      <ol>
+	<li> \(\ip{\bu}{\bv}=\ip{\bv}{\bu}\).</li>
+	<li> \(\ip{\bu+\bv}{\bw}=\ip{\bu}{\bw}+\ip{\bv}{\bw}\).</li>
+	<li> \(\ip{c\bu}{\bv}=c\ip{\bu}{\bv}\).</li>
+	<li> \(\ip{\bv}{\bv}\geq 0\), with equality if and only if
+	  \(\bv=\bz\).</li>
+      </ol>
+      A vector space with an inner product is called an <b>inner
+	product space</b>.
+    </div>
+
+    <div class="definition" title="Length, Distance, Unit Vector">
+      Let \(V\) be an inner product space.
+      <ol>
+	<li> For \(\bv\) in \(V\), the <b>norm</b> (or <b>length</b>)
+	  of \(\bv\) is defined by
+	  \(\|\bv\|=\sqrt{\ip{\bv}{\bv}}\).</li>
+	<li> For \(\bu,\bv\) in \(V\), the <b>distance</b> between
+	  \(\bu\) and \(\bv\) is \(d(\bu,\bv)=\|\bu-\bv\|\).</li>
+	<li> A <b>unit vector</b> is a vector of norm 1.</li>
+	<li> The set of all unit vectors in \(V\) is called
+	    the <b>unit circle</b> of \(V\).</li>
+      </ol>
+    </div>
+
+    <div class="definition" title="Orthogonal (Two Vectors)">
+      Let \(V\) be an inner product space. Vectors \(\bu\) and \(\bv\)
+      in \(V\) are <b>orthogonal</b> if \(\ip{\bu}{\bv}=0\).
+    </div>
+
+    <div class="definition" title="Orthogonal and Orthonormal (Set of Vectors)">
+      A set \(S\) of two or more vectors in an inner product space is
+      said to be <b>orthogonal</b> if every two distinct vectors in
+      \(S\) are orthogonal. The set \(S\) is <b>orthonormal</b> if
+      \(S\) is orthogonal and consists entirely of unit vectors.
+    </div>
+
+    <div class="definition" title="Orthogonal Complement">
+      Let \(V\) be an inner product space and let \(W\) be a subspace
+      of \(V\).  The <b>orthogonal complement</b> of \(W\), denoted
+      \(W^{\perp}\), is the set of vectors of \(V\) which are
+      orthogonal to all vectors in \(W\).
+    </div>
+
+    <div class="theorem">
+      Let \(V\) be an inner product space. Then
+      <ol>
+	<li> \(\ip{\bv}{\bz}=0\) and \(\ip{\bz}{\bv}=0\), for every
+	  \(\bv\) in \(V\).</li>
+	<li> \(\ip{c_1\bv_1+\cdots
+	  +c_n\bv_n}{\bw}=c_1\ip{\bv_1}{\bw}+\cdots+c_n\ip{\bv_n}{\bw}\),
+	  for all scalars \(c_1,\ldots,c_n\) and vectors
+	  \(\bv_1,\ldots,\bv_n,\bw\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(V\) be an inner product space. Let \(\bu,\bv,\bw\) be in
+      \(V\) and let \(c\) be a scalar. Then
+      <ol>
+	<li> \(\ip{\bu}{\bv+\bw}=\ip{\bu}{\bv}+\ip{\bu}{\bw}\).</li>
+	<li> \(\ip{\bu}{c\bv}=c\ip{\bu}{\bv}\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(V\) be an inner product space. Let \(\bv\) be in \(V\) and
+      let \(c\) be a scalar. Then
+      <ol>
+	<li> \(\|c\bv\|=|c|\|\bv\|\).</li>
+	<li> \(\dfrac{\bv}{\|\bv\|}\) is a unit vector, if \(\bv\neq
+	  \bz\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      If \(S=\{\bu_1,\ldots,\bu_n\}\) is an orthogonal set of nonzero
+      vectors in an inner product space, then \(S\) is linearly
+      independent.
+    </div>
+
+    <div class="theorem">
+      Let \(V\) be an inner product space, and let
+      \(B=\{\bv_1,\ldots,\bv_n\}\) be an orthogonal basis for
+      \(V\). Then for \(\bu\) in \(V\),
+      \(\bu=c_1\bv_1+\cdots+c_n\bv_n\), where \begin{equation*}
+      c_i=\frac{\ip{\bu}{\bv_i}}{\|\bv_i\|^2},\ \text{ for
+      }i=1,\ldots,n.  \end{equation*} If \(B\) is an orthonormal
+      basis, then \begin{equation*} c_i=\ip{\bu}{\bv_i}\ \text{ for
+      }i=1,\ldots,n.  \end{equation*}
+    </div>
+
+    <div class="theorem">
+      Let \(W\) be a subspace of an inner product space \(V\). Then
+      <ol>
+	<li> \(W^{\perp}\) is a subspace of \(V\); and</li>
+	<li> \(W\cap W^{\perp}=\{\bz\}\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(\bu,\bv\) be vectors in an inner product space \(V\) with
+      \(\bv\neq \bz\). Let \({L=\sspan\{\bv\}}\), a one-dimensional
+      subspace of \(V\). The we can uniquely write \({\bu=\by+\bz}\),
+      with \(\by\) in \(L\) and \(\bz\) in \(L^{\perp}\). Explicitly,
+      \begin{equation*} \by = \frac{\ip{\bu}{\bv}}{\|\bv\|^2}\bv,\
+      \text{ and }\ \bz=\bu-\by.  \end{equation*} The vector \(\by\)
+      is called the <b>orthogonal projection of \(\bu\) onto \(L\)</b>
+      and denoted by \(\proj_L\bu\) or \(\proj_{\bv}\bu\).
+    </div>
+
+    <div class="theorem">
+      Let \(\bu\) be a nonzero vector in an inner product space \(V\),
+      and let \(W\) be a finite dimensional subspace of \(V\). Then we
+      can uniquely write \(\bu=\by+\bz\), with \(\by\) in \(W\) and
+      \(\bz\) in \(W^{\perp}\). The vector \(\by\) is called
+      the <b>orthogonal projection of \(\bu\) onto \(W\)</b> and
+      denoted by \(\proj_W\bu\), and \(\bz\) is called the
+      <b>component of \(\bu\) orthogonal to \(W\)</b>.
+    </div>
+
+
+  </section>
+  
+  <section id="determinants" class="section-anchor">
+    <div class="sec-label">Determinants</div>
+
+    <div class="theorem">
+      Let \(A\) be a square matrix.
+      <ol>
+	<li> If two rows of \(A\) are interchanged to produce a matrix
+	  \(B\), then \({\det B=-\det A}\).</li>
+	<li> If one row of \(A\) is multiplied by a constant \(k\) to
+	  produce \(B\), then \({\det B=k\det A}\).</li>
+	<li> If a multiple of one row of \(A\) is added to another row
+	  to produce \(B\), then \({\det B=\det A}\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(A\) be a square matrix. Then \(A\) is invertible if and
+      only if \({\det A\neq 0}\).
+    </div>
+
+  </section>
+  
+  <section id="eigen" class="section-anchor">
+    <div class="sec-label">Eigenvectors and Eigenvalues</div>
+
+    <div class="definition" title="Eigenvector, Eigenvalue">
+      Let \(A\) be an \(n\times n\) matrix. An <b>eigenvector</b> of
+      \(A\) is a nonzero vector \(\bx\) such that \(A\bx=\lambda \bx\)
+      for some scalar \(\lambda\). The scalar \(\lambda\) is called
+      the <b>eigenvalue</b> corresponding to \(\bv\).
+    </div>
+
+    <div class="theorem">
+      Let \(A\) be an \(n\times n\) matrix. Then \(\lambda\) is an
+      eigenvalue of \(A\) if and only if \(\det(\lambda I_n-A)=0\).
+    </div>
+
+    <div class="definition" title="Characteristic Polynomial">
+      Let \(A\) be an \(n\times n\) matrix. The <b>characteristic
+	polynomial</b> of \(A\) is \(\det(\lambda I_n - A)\).
+    </div>
+
+    <div class="theorem">
+      Let \(A\) be an \(n\times n\) matrix, and let \(\lambda\) be an
+      eigenvalue of \(A\). Then \(\bx\) is an eigenvector of \(A\)
+      corresponding to \(\lambda\) if and only if \(\bx\neq \bz\) and
+      \(\bx\) is in \(\nul(\lambda I_n-A)\).
+    </div>
+
+    <div class="definition" title="Eigenspace">
+      Let \(A\) be an \(n\times n\) matrix and let \(\lambda\) be an
+      eigenvalue of \(A\). Then \(\nul(\lambda I_n - A)\) is called
+      the <b>eigenspace</b> of \(A\) corresponding to \(\lambda\) (or
+      sometimes just the \(\lambda\)-<b>eigenspace</b> of \(A\)).
+    </div>
+
+    <!-- % % % <div class="theorem"> % % % Let \(A\) be an \(n\times
+	n\) matrix. The following are equivalent: % % % <ol> % %
+	% <li> \(0\) is an eigenvalue of \(A\).  % % % <li> \(\nul
+	A\neq \{\bz\}\).  % % % <li> \(A\) is not invertible.  % %
+	% </ol> % % % </div> -->
+
+    <div class="theorem">
+      Let \(A\) be an \(n\times n\) matrix, and let \(T:\bR^n\to
+      \bR^n\) be the matrix transformation \(T(\bx)=A\bx\). Suppose
+      that \(B=\{\bv_1,\ldots,\bv_n\}\) is a basis for \(\bR^n\)
+      consisting of eigenvectors for \(A\) (i.e., an <b>eigenbasis</b>
+      for \(A\)). Suppose that the eigenvalues of
+      \(\bv_1,\ldots,\bv_n\) are \(\lambda_1,\ldots,\lambda_n\). Then
+      \([T]_B\) is the following diagonal matrix: \begin{equation*}
+      [T]_B= <!-- % \begin{bmatrix} % \lambda_1 &0 &\dots &0\\ % 0&
+      \lambda_2 & & 0\\ % \vdots& & \ddots & \vdots\\ % 0 & 0 & \dots
+      & \lambda_n % \end{bmatrix} --> \begin{bmatrix} \lambda_1 & &
+      &\\ & \lambda_2 & & \\ & & \ddots & \\ & & & \lambda_n
+      \end{bmatrix} \end{equation*} If \(B'\) is the standard basis
+      for \(\bR^n\), then by the change of basis theorem, \(
+      [T]_{B'}=[I]_{B',B}[T]_B[I]_{B,B'} \).  This is often written
+      \(A=PDP^{-1}\).
+    </div>
+
+    <div class="definition" title="Diagonalizable">
+      An \(n\times n\) matrix is said to be <b>diagonalizable</b> if
+      it has an eigenbasis, i.e., a basis for \(\bR^n\) consisting of
+      eigenvectors for \(A\).
+    </div>
+
+    <div class="theorem">
+      Let \(A\) be an \(n\times n\) matrix. If
+      \(\lambda_1,\ldots,\lambda_k\) are distinct eigenvalues of
+      \(A\), and if \(\bv_1,\ldots,\bv_k\) are corresponding
+      eigenvectors, then \(\{\bv_1,\ldots,\bv_k\}\) is linearly
+      independent.
+    </div>
+
+    <div class="definition" title="Algebraic and Geometric Multiplicities">
+      Let \(\lambda\) be an eigenvalue of \(A\).
+      <ol>
+	<li> The <b>algebraic multiplicity</b> of \(\lambda\) is the
+	  multiplicity of \(A\) as a zero of the characteristic
+	  polynomial of \(A\).</li>
+	<li> The <b>geometric multiplicity</b> of \(\lambda\) is the
+	  dimension of the \(\lambda\) eigenspace of \(A\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(A\) be an \(n\times n\) matrix, and let
+      \(\lambda_1,\ldots,\lambda_k\) be the distinct eigenvalues of
+      \(A\).
+      <ol>
+	<li> The geometric multiplicity of any eigenvalue is less than
+	  or equal to its algebraic multiplicity.</li>
+	<li> \(A\) is diagonalizable if and only if the geometric
+	  multiplicity of each eigenvalue is equal to its algebraic
+	  multplicity.</li>
+      </ol>
+    </div>
+
+  </section>  
   
 </div> <!-- class stdg -->

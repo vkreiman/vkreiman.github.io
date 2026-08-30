@@ -7,11 +7,11 @@
 
 body {
     /* Initialize or reset the theorem counter in the body or a main container */
-    counter-reset: theorem definition sect;
+    counter-reset: theorem definition sect lemma notation;
 }
 
 .sec-label {
-    counter-set: theorem 0 definition 0 lemma 0;
+    counter-set: theorem 0 definition 0 lemma 0 notation 0;
 }
 
 .sec-label:before {
@@ -20,7 +20,7 @@ body {
 }
 
 
-.theorem, .definition, .lemma {
+.theorem, .definition, .lemma, .notation {
    display: block;
 /*    font-style: italic; */
     margin: 1rem 0; /* Adds spacing around the theorem */
@@ -60,6 +60,18 @@ body {
 .lemma[title]:before {
     counter-increment: lemma;
     content: "Lemma " counter(sect) "." counter(lemma) " (" attr(title) "). ";
+}
+
+.notation:before {
+    counter-increment: notation; /* Increments the counter for each .theorem element */
+    content: "Notation " counter(sect) "." counter(notation) ". ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.notation[title]:before {
+    counter-increment: notation;
+    content: "Notation " counter(sect) "." counter(notation) " (" attr(title) "). ";
 }
 
 .stdg p {
