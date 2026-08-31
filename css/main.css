@@ -6,11 +6,11 @@
 
   :root{
       --header-main: #016836; /* #0f172a; */ 
-      --header-border-light: #333333;   /* #8993a0 */  
-      --blue-nav-letters: #8d8e88; 
-      --blue-nav-hover: #8d8e88;    /* #737373  */ 
+      --header-border-light: #0f172a;   /* #8993a0 */  
+      --blue-nav-letters: #cfe2d6; 
+      --blue-nav-hover: rgba(255,255,255,0.14);    /* #737373  */ 
       /*   --dropdown-background:  #f2f2f2;  not used */
-      --links: #116eb1;     /* #1d4ed8 */
+      --links: #8b0000;     /* #1d4ed8 */
       --blue-table-header: hsl(36 6% 85% / 1);    /* #b2c7e1 */
       --table-background-cal: #fafafa;   /* rgba(203,213,225,.2); */ 
       --body-text: #0f172a;
@@ -45,6 +45,7 @@ header {
 /*    min-height: 64px;*/
     background-color: var(--header-main);
     box-shadow: 0 -5px 0 0 var(--header-border-light) inset;
+    z-index: 1000;
 }
 
 .wrapper-header {
