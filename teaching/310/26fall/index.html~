@@ -1,0 +1,96 @@
+---
+layout: course
+title: Advanced Probability
+number: Math 310
+semester: Fall 2025
+---
+
+<section>
+
+<h4>Assignments</h4>
+<ul>
+  <li>Coming soon</li>
+</ul>
+<!-- 
+<ul>
+  <li> <a href="homework/hw27.html">Homework 27</a>: The Central Limit
+  Theorem
+  </li>
+  <li> <a href="homework/hw26.html">Homework 26</a>: The Normal
+    Distribution
+  </li>
+  <li> <a href="homework/hw25.html">Homework 25</a>: The Standard
+    Normal Distribution
+  </li>
+  <li> <a href="homework/hw24.html">Homework 24</a>: The Exponential
+  Distribution
+  </li>
+  <li> <a href="homework/hw23.html">Homework 23</a>: The Poisson
+  Distribution
+  </li>
+  <li> <a href="homework/hw22.html">Homework 22</a>: Hypergeometric
+  and Geometric Distributions
+  </li>
+  <li> <a href="homework/hw21.html">Homework 21</a>: Covariance
+  </li>
+  <li> <a href="homework/hw20.html">Homework 20</a>: Variance and
+  Standard Deviation
+  </li>
+  <li> <a href="homework/hw19.html">Homework 19</a>: Indicator Random
+  Variables
+  </li>
+  <li> <a href="homework/hw18.html">Homework 18</a>: Law of the
+  Unconscious Statistician
+  </li>
+  <li> <a href="homework/hw17.html">Homework 17</a>: Expectation
+  </li>
+  <li> <a href="homework/hw16.html">Homework 16</a>: Convolution
+  </li>
+  <li> <a href="homework/hw15.html">Homework 15</a>: Functions of a
+    Random Variable
+  </li>
+  <li> <a href="homework/hw14.html">Homework 14</a>: Independent
+    Random Variables</li>
+  <li> <a href="homework/hw13.html">Homework 13</a>: Jointly
+    Distributed Continuous Random Variables</li>
+  <li> <a href="homework/hw12.html">Homework 12</a>: Jointly
+    Distributed Discrete Random Variables</li>
+  <li> <a href="homework/hw11.html">Homework 11</a>: The Cumulative
+    Distribution Function</li>
+  <li> <a href="homework/hw10.html">Homework 10</a>: Continuous
+    Random Variables</li>
+  <li> <a href="homework/hw9.html">Homework 9</a>: The Binomial Random
+    Variable</li>
+  <li> <a href="homework/hw8.html">Homework 8</a>: Discrete Random
+    Variables</li>
+  <li> <a href="homework/hw7.html">Homework 7</a>: Independence</li> 
+  <li> <a href="homework/hw6.html">Homework 6</a>: Bayes' Theorem</li> 
+  <li> <a href="homework/hw5.html">Homework 5</a>: Law of Total
+    Probability</li>
+  <li> <a href="homework/hw4.html">Homework 4</a>: Combinatorics and
+    Probability (Part 2)</li>
+  <li> <a href="homework/hw3.html">Homework 3</a>: Combinatorics and
+    Probability (Part 1)</li>
+  <li> <a href="homework/hw2.html">Homework 2</a>: Definition of
+    Probability</li>
+  <li> <a href="homework/hw1.html">Homework 1</a>: Sample Spaces, Events,
+    Set Theory</li>
+</ul>
+-->
+</section>
+
+
+<section>
+  <h4>Course Resources</h4>
+  <!--
+  <ul>
+    <li>Coming soon</li>
+  </ul>
+  -->
+  <ul>
+    <li> <a href="calendar.html">Calendar</a> </li>
+    <li><a href="syllabus.html">Syllabus</a></li>
+    <li><a href="https://www.uwp.edu/explore/offices/campustechnologyservices/innovationsinlearning/canvas-login.cfm">Canvas</a></li>
+  </ul>
+</section>
+
