@@ -1,2 +1,12 @@
 name: Victor Kreiman
 timezone: America/Chicago
+
+# Markdown processor configuration
+markdown: kramdown
+
+# Kramdown specific configurations
+kramdown:
+  input: GFM                 # Allows GitHub Flavored Markdown features (like fenced code blocks)
+  hard_wrap: false           # Prevents accidental line breaks from turning into <br> tags
+  syntax_highlighter: rouge  # Default syntax highlighter for code snippets
+
