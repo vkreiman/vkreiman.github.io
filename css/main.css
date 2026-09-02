@@ -7,7 +7,7 @@
   :root{
       --header-main: #016836; /* #0f172a; */ 
       --header-border-light: #333333;   /* #8993a0 */  
-      --blue-nav-letters: #cfe2d6; 
+      --blue-nav-letters: hsl(35 75% 87%); /* #cfe2d6 */ 
       --blue-nav-hover: rgba(255,255,255,0.14);    /* #737373  */ 
       /*   --dropdown-background:  #f2f2f2;  not used */
       --links: #116eb1;     /* #1d4ed8  #8b0000 */
