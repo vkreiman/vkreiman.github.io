@@ -4,18 +4,30 @@
      box-sizing: border-box; 
   }
 
+  :root{
+      --header-main: #2f211c; /* #0f172a; */ 
+      --header-border-light: #2f211c;   /* #8993a0 */  
+      --blue-nav-letters: #3ee8ff; /* #cfe2d6 */ 
+      --blue-nav-hover: rgba(255,255,255,0.14);    /* #737373  */ 
+      /*   --dropdown-background:  #f2f2f2;  not used */
+      --links: #0066cc;     /* #1d4ed8  #8b0000 */
+      --blue-table-header: hsl(36 6% 85% / 1);    /* #b2c7e1 */
+      --table-background-cal: #fafafa;   /* rgba(203,213,225,.2); */ 
+      --body-text: #212121;
+      --table-background-hwtable: hsl(35 75% 95%);;  /* #f4f4f4 */
+  }
+  
 html {
-    font-size: 16px;
+    font-size: 18px;
     overflow-y: scroll; /* Adds scrollbar to all screen. 
 			   Prevents content shifting on screens w/o scrollbar */
 }
 
-body { 
+body{ 
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "STIX Two Text";
     text-underline-offset: 3px;
-    /* width: 95%; */
- /*   font-family: ''Times New Roman', Times, serif', 'Sans-Serif'; */
+    color: var(--body-text);
 }
 
 .flex-wrapper {
@@ -25,31 +37,27 @@ body {
 /*  justify-content: flex-start; */
 }
 
+
 header {
-    top: 0; /* need for sticky position */
-    position: sticky; /* need for sticky position */
-/*    border-top: 4px solid black;*/
-    border-bottom: 2px solid #e7e7e7;
-    min-height: 64px;
-/*    background-color: white; */
-/*    background-color: #f4f6f6;*/
-    background-color: #f6f8fa;
-/*    position: relative; */
+    top: 0; /* needed for sticky position */
+    position: sticky;
+    /*! border-top: 4px solid var(--header-border); */
+/*    min-height: 64px;*/
+    background-color: var(--header-main);
+    box-shadow: 0 -5px 0 0 var(--header-border-light) inset;
+    z-index: 1000;
 }
 
 .wrapper-header {
 /*    max-width: 860px; */
     margin: 0 auto;
-    padding-top: 12px;
-    padding-bottom: 0px;
-    padding-right: 35px;
-    padding-left: 35px;
+    padding: 3px 40px 0px 40px;
 }
 
 /* Navbar container */
 .navbar {
-    overflow: hidden;
-    font-family: Inter, sans-serif;
+  /*  overflow: hidden; */
+    font-family: "Source Sans 3", sans-serif;
 }
    
 
@@ -58,41 +66,47 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .try {
     font-size: 1.2rem;
     font-weight: 400;
-    font-family: Inter, sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     flex-grow: 1;
     text-align: left;
-    color: black;
+    color: white;
+    padding: 0px 0px 5px 0px;
 }
 
 .navbar-right {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 60px;
+    /* column-gap: 60px; */
     flex-wrap: wrap;
     /*    min-width: 100px; */
+    gap: 0;
+}
+
+.navbar-right > a, .dropdown {
+    box-sizing: border-box;
+    padding: 8px 30px 6px 30px;
+        border-bottom: 5.1px solid transparent;
 }
 
 /* Links inside the navbar */
 .navbar a {
-  font-size: 1rem;
+  font-size: 1.0rem;
   font-weight: 500;
   text-align: center;
-/*  padding: 8px 0;*/
-/*  margin: 0px 8px 0px 8px; */    
 /*  text-decoration: none; */
-  color: black;
+  color: white;
 }
 
 /* The dropdown container */
 .dropdown {
-  float: left;
-  overflow: hidden;
+    position: relative;
 }
 
 /* Dropdown button */
@@ -102,83 +116,101 @@ header {
     border: none;
     outline: none;
     color: #000000;
-    padding: 12px 0;
+    padding: 0px 0;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
-    color: black;
+    color: white;
+    /*! position: absolute; */
 }
 
 /* Underline navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-/*    text-decoration-line: underline;
-    text-underline-offset: 6px; */
+.navbar-right > a:hover, .dropdown:hover, .dropdown:hover .dropbtn {
+    border-bottom-color: var(--blue-nav-letters); /* Creates the
+						     underline effect */
+    display: inline; /* Ensures the element wraps its content correctly */
     text-decoration: none;
-    color: #979da4;
-    /* color: #b4c8d8; */
+    font-weight: 500;
+    color: white;  /* var(--blue-nav-letters); */
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  border-radius: 0px;
-  margin: 0;
-  background-color: white;
-  min-width: 120px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-/*  border: 1px solid black; */
+    display: none;
+    position: absolute;
+   /* top: 108%; */
+    left: 0px;
+    right: -25px;
+    border-radius: 0px;
+    margin: 0;
+    background-color: var(--header-main);
+    min-width: 120px;
+   /* border: 1px solid black; */
+    overflow: hidden;
+    margin-top: 10.5px;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: black;
+    font-weight: 900;
+  color: white;
   margin: 0px;
   border-radius: 0px;
-  padding: 8px 11.2px;
+  padding: 5px 11.2px;
   text-decoration: none;
   display: block;
   text-align: left;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 650;
+  font-size: .8rem;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
     text-decoration-line: none;
-    color: black;
-    background-color: #ededed;
+    color: white;
+    background-color: var(--blue-nav-hover);
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
-    border-radius: 6.4px; 
+    border-bottom: 5px solid var(--blue-nav-letters);
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px; 
 } 
 
 .wrapper-main {
-    max-width: 860px;
+    max-width: 710px; /* 860 px */
+    /* display: inline-flex; */
     margin: 0 auto;
-    padding: 60px 35px 60px 35px;
+    padding: 0 30px 60px 30px;
 }
 
-h3 { 
-    font-size: 2.2rem;
-    margin: 0 0 60px 0;
-    font-family: Inter, sans-serif;
+h1 { 
+    font-size: 1.7rem; /* 2.2 rem */
+    margin: 50px 0 50px 0;
+    font-family: "STIX Two Text", sans-serif;
     font-weight: 500;
     text-align: center;
 }
 
+h2 { 
+    font-size: 1.2rem; /* 2.2 rem */
+    margin: 0 0 0px 0;
+   /* font-family: "Source Sans 3", sans-serif;*/
+    font-weight: 600;
+    text-align: center;
+}
+
+
 main a {
-    color: #36c;
+    color: var(--links);
 }
 
 main{
     flex: 1;
-    line-height: 1.7rem;
+    line-height: 1.6rem;
 }
 
 footer { 
@@ -189,9 +221,7 @@ footer {
 /*    max-width: 860px; */
     margin: 0 auto;
     padding-top: 0px;
-    padding-bottom: 5px;
-    padding-right: 35px;
-    padding-left: 35px;
+    padding: 2px 30px 2px 30px;
 }
 
 .footer-nav {
@@ -203,8 +233,8 @@ footer {
 }
 
 footer span {
-    font-family: 'Open Sans', sans-serif;
-    font-size: .769rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: .74rem;
 /*    line-height: 1.7rem; */
     font-weight: 300;
 /*    padding: 30px 0;*/
@@ -221,20 +251,13 @@ footer span {
 
 section:first-of-type {
     padding-top: 2.5rem;
-    border-top: 2px solid #e7e7e7;
+    border-top: 2px solid var(--header-border-light);
 }
 
 section {
     border: .26em;
-    margin: 1.2rem .28em .26em 0em; 
+    margin: 1.2rem 0em .26em 0em; 
 }
-
-
-article {
- /*   padding: .44rem;
-    margin: .88rem; */
-}
-
 
 /*
 p, ul { max-width: 70ch; }
@@ -251,9 +274,10 @@ p {
     padding: 0 .9rem 2.3rem 0rem ;
     margin: 0 0 2.6rem 0;
     font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "STIX Two Text";
+/*    font-family: "Times New Roman", Times, serif;*/
 /*    border-top: 4px groove; */
-    border-bottom: 2px solid #e7e7e7;
+    border-bottom: 2px solid var(--header-border-light);
 }
 
 #sylldata ul {
@@ -281,16 +305,52 @@ a:hover { text-decoration: underline; }
 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-h1 { font-size: 2.42rem; }
-h2 { font-size: 1.86rem; }
-p, h4, ul { font-size: 1rem; }
+p, h4, ul, ol { font-size: 1rem; }
 
+ol {
+    /* list-style-type: none; */
+    border: .26em; 
+    margin: 1.2rem .5em 1.6rem .5em;
+    padding: 0em 0em 0em 0em;
+    list-style-position: inside; /* forces numbers to not be in the margin */
+}
 
 ul {
     list-style-type: none;
     border: .26em; 
     margin: 0.26em 0em;
     padding: 0em 0em 0em 0em;
+}
+
+ol br {
+    margin-bottom: .4em;
+}
+
+ol li { 
+    color: #333; 
+/*    border: .24rem .24rem 1rem .24rem;*/
+    margin: .24rem .24rem 1rem .24rem;
+}
+
+.nested-list {
+  list-style-type: none; /* Hollow circular bullets */
+  margin: 0 1.2rem 0 1.2rem;
+}
+
+.nested-list ol {
+    counter-reset: mycounter;
+}
+
+ol.nested-list>li {
+    border: 0;
+    margin: 0 0 .3rem 0;
+    display: block;
+    counter-increment: mycounter;
+}
+
+ol.nested-list>li:before {
+    content: "(" counter(mycounter, lower-alpha) ") ";
+   /* counter-increment: mycounter; */
 }
 
 ul li { 
@@ -312,27 +372,10 @@ li.res:first-of-type {
 }
 
 
-h1, h2 { 
-  /*  font-family: 'Helvetica', ''Times New Roman', Times, serif', 'Sans-Serif'; */
-    border: .26em;
-    margin: .44em 1em 0; 
-}
-
-h1 {
-    margin: 24pt 0pt 4pt 0pt;
-    text-align: center;
-}
-
-
 hr {
     margin: .44em 0em 1.76em 0em;
 }
 
-
-h1.Header {
-    text-align: center;
-    font-family: Georgia, serif;
-}
 
 .cent {
     width: 100%;
@@ -351,66 +394,106 @@ hr.thin {
     margin: .88em;
 }
 
-
-/*
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+.homework-exercises {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 11px 0 0 0;
+    border-bottom: 1px solid black;
 }
-*/
 
+.homework ul {
+    margin: 0 0 0 2em;
+}
 
-/* @media print {
-    @page{
-	magin-top: 2cm;
-	magin-bottom: 2cm;
-	magin-left: 2cm;
-	magin-right: 2cm;
-    }
-*/
+.homework h2 {
+    margin: 3.1rem 0 2.8rem 0;
+}
+
+.homework section{
+    margin: 0rem;
+}
+
+.homework p {
+    margin: 0;
+}
+
+.homework section:first-of-type {
+    padding-top: 0;
+    border-top: 0;
+}    
+
 
 /* Remove header and footer from printouts */    
 @media print{
-    header, footer { display: none};
-}
+    @page{
+	size: Letter portrait;
+	margin: .7in;
+    }   
+
+    .homework h2 {
+	margin: 2.6rem 0 2.1rem 0;
+    }
     
+    p, li, body {
+	font-size: 15px;
+	line-height: 1.3rem;
+    }
+
+    header, footer { 
+	display: none
+    }
+}
+
 
 /* The rest of this file is for tables */
     
 table {
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
- font-size: 0.8rem;
+  font-size: 0.7rem;
+  table-layout: auto;
+  width: 100%;
+  color: inherit;
 }
 
 caption {
-  padding: 10px;
+    font-size: 1rem;
+  padding: 1rem 0 1.5rem 0;
   font-weight: bold;
 }
 
 thead,
 tfoot {
-  background-color: rgb(228 240 245);
+  background-color: var(--blue-table-header);
 }
 
-th,
-td {
+th, td {
   border: 1px solid rgb(160 160 160);
   padding: 8px 10px;
 }
 
+th {
+    font-weight: bold;
+}
+    
+/*
 td:last-of-type {
   text-align: center;
 }
+*/
 
-td:nth-child(4) {
-  text-align: left;
+td:nth-child(4) { text-align: left;
 }
 
 tbody > tr:nth-of-type(even) {
-  background-color: rgb(237 238 242);
+    background-color: var(--table-background-hwtable);
+    /* rgb(237 238 242)*/
 }
 
+
+/*
 tfoot th {
   text-align: right;
 }
@@ -418,4 +501,5 @@ tfoot th {
 tfoot td {
   font-weight: bold;
 }
-    
+*/
+
