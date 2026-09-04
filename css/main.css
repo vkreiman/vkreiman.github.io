@@ -14,7 +14,7 @@
       --blue-table-header: hsl(36 6% 85% / 1);    /* #b2c7e1 */
       --table-background-cal: #fafafa;   /* rgba(203,213,225,.2); */ 
       --body-text: #0f172a;
-      --table-background-hwtable: hsl(35 75% 95%);;  /* #f4f4f4 */
+      --table-background-hwtable: hsl(35 75% 95%);  /* #f4f4f4 */
   }
   
 html {
@@ -175,7 +175,7 @@ header {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
-    border-bottom: 5px solid var(--blue-nav-letters);
+   /* border-bottom: 5px solid var(--blue-nav-letters); */
     border-bottom-left-radius: 8px; 
     border-bottom-right-radius: 8px; 
 } 
