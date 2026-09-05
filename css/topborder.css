@@ -15,6 +15,7 @@
       --table-background-cal: hsl(207 85% 99%);   /* rgba(203,213,225,.2); */ 
       --body-text: #212121;
       --table-background-hwtable: hsl(207 85% 93%);  /* #f4f4f4 */
+      --today-cal-color: hsl(207 85% 93%);
   }
   
 html {

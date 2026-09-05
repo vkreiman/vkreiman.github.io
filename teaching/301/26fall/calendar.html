@@ -27,7 +27,7 @@ semester: Fall 2026
             <td>No Class</td>
             <td>Linear Systems</td>
             <td></td>
-            <td>Gauss-Jordan Elimination</td>
+            <td>Gaussian Elimination</td>
 	  </tr>
           <!-- Week 2 --  Sep 7 -->
           <tr>
@@ -150,6 +150,13 @@ semester: Fall 2026
 </section>
 
 <script>
+  // Steps 1 and 2 retrieve calendar today color from css variable.
+  // 1. Get the computed styles of the root element
+  const rootStyles = window.getComputedStyle(document.documentElement);
+
+  // 2. Fetch the specific variable value
+  const todayCalCol = rootStyles.getPropertyValue('--today-cal-color').trim();
+
   function isSameDay(date1, date2) {
       // Compare year, month, and day
       return date1.getFullYear() === date2.getFullYear() && date1.getMonth() ===
@@ -170,7 +177,7 @@ semester: Fall 2026
 				`<div class='caldate'>${a}</div>`);
 
       if (isSameDay(currentDate, classDay)) {
-          tds[i].style.backgroundColor = "#f8e6ce"; }
+          tds[i].style.backgroundColor = todayCalCol; }
 
 
       if ((i + 1) % 5 == 0) {
