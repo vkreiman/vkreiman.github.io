@@ -176,7 +176,7 @@ header {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
-    border-bottom: 5px solid var(--blue-nav-letters);
+  /*  border-bottom: 5px solid var(--blue-nav-letters); */
     border-bottom-left-radius: 8px; 
     border-bottom-right-radius: 8px; 
 } 
