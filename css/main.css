@@ -445,6 +445,11 @@ hr.thin {
     header, footer { 
 	display: none
     }
+
+    .theorem, .definition, .lemma, .notation {
+        break-inside: avoid;
+        page-break-inside: avoid; /* for older browsers */
+    }
 }
 
 

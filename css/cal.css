@@ -45,7 +45,7 @@
         font-size: 1.2rem;
         font-weight: bold;
         display: inline-block;
-        color: rgb(139, 71, 128);
+        color: rgb(164, 42, 42);  /* rgb(139, 71, 128); */
         margin: 1rem 0;
         padding: .1rem;
         border: 2px ridge black;
