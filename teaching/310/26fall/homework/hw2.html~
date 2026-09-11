@@ -1,0 +1,31 @@
+---
+layout: exercises
+title: Advanced Probability
+number: Math 310
+date: September 16, 2025
+---
+
+<div class="homework">
+  
+<section>
+  <h2>Homework 2: Definition of Probability</h2>
+
+  <ol>
+    <li> Section 1.5, #3, 4, 7. 
+    </li>
+
+    <li>
+      Assume that \(P(A\cap B) = 0.3\), \(P(A\cap C) = 0.4\),
+      \(P(B\cap C) = 0.3\), \(P(A^c\cap B^c\cap C) = 0\), \(P(C)= 0.6\),
+      \(P(A\cup C) = 0.8\), and \(P(B^c\cup C) = 0.7\).
+      <ol class="nested-list">
+         <li>Fill in all of the probabilities in the Venn diagram for
+	   \(A\), \(B\), and \(C\).</li>
+	 <li> Find \(P(B^c)\), \(P(A\cap B\cap C)\), and \(P(A)\).</li>
+      </ol>
+    </li>
+  </ol>
+
+</section>
+
+</div>

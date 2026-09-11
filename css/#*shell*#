@@ -1,0 +1,149 @@
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ cd css/
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ ls
+cal.css		   old-main.css    old13main.css  old5-main.css  old9-main.css
+main-parkside.css  old10-main.css  old2-main.css  old6-main.css  studyg.css
+main.css	   old11-main.css  old3-main.css  old7-main.css  topborder.css
+main.css~	   old12-main.css  old4-main.css  old8-main.css
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ cd ../teaching/114/26fall/
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ ls
+calendar.html	homework.html  index.html~    syllabus.html~
+calendar.html~	index.html     syllabus.html
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ cd ../../../
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ cd css/
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ ls
+'#*shell*#'	     old-main.css     old3-main.css   old9-main.css
+'*shell*'	     old10-main.css   old4-main.css   studyg.css
+ cal.css	     old11-main.css   old5-main.css   topborder.css
+ main-parkside.css   old12-main.css   old6-main.css
+ main.css	     old13main.css    old7-main.css
+ main.css~	     old2-main.css    old8-main.css
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ more '*shell*'
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ cd css/
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ ls
+cal.css		   old-main.css    old13main.css  old5-main.css  old9-main.css
+main-parkside.css  old10-main.css  old2-main.css  old6-main.css  studyg.css
+main.css	   old11-main.css  old3-main.css  old7-main.css  topborder.css
+main.css~	   old12-main.css  old4-main.css  old8-main.css
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ ls
+'#*shell*#'	     old-main.css     old3-main.css   old9-main.css
+'*shell*'	     old10-main.css   old4-main.css   studyg.css
+ cal.css	     old11-main.css   old5-main.css   topborder.css
+ main-parkside.css   old12-main.css   old6-main.css
+ main.css	     old13main.css    old7-main.css
+ main.css~	     old2-main.css    old8-main.css
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ rm '*shell*'
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ ls
+'#*shell*#'	     old-main.css     old2-main.css   old7-main.css
+ cal.css	     old10-main.css   old3-main.css   old8-main.css
+ main-parkside.css   old11-main.css   old4-main.css   old9-main.css
+ main.css	     old12-main.css   old5-main.css   studyg.css
+ main.css~	     old13main.css    old6-main.css   topborder.css
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ ls '#*shell*#'
+'#*shell*#'
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ more '#*shell*#'
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website$ cd css/
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ ls
+cal.css		   old-main.css    old13main.css  old5-main.css  old9-main.css
+main-parkside.css  old10-main.css  old2-main.css  old6-main.css  studyg.css
+main.css	   old11-main.css  old3-main.css  old7-main.css  topborder.css
+main.css~	   old12-main.css  old4-main.css  old8-main.css
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ cd ../teaching/114/26fall/
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ ls
+calendar.html	homework.html  index.html~    syllabus.html~
+calendar.html~	index.html     syllabus.html
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/26fall$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/teaching/114/--More--(91%)
+26fall$      
+--More--(91%)q
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ rm '#*shell*#'
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ ls
+cal.css		   old-main.css    old13main.css  old5-main.css  old9-main.css
+main-parkside.css  old10-main.css  old2-main.css  old6-main.css  studyg.css
+main.css	   old11-main.css  old3-main.css  old7-main.css  topborder.css
+main.css~	   old12-main.css  old4-main.css  old8-main.css
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ ls
+cal.css		   old-main.css    old13main.css  old5-main.css  old9-main.css
+main-parkside.css  old10-main.css  old2-main.css  old6-main.css  studyg.css
+main.css	   old11-main.css  old3-main.css  old7-main.css  topborder.css
+main.css~	   old12-main.css  old4-main.css  old8-main.css
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ ls -a
+ .		     main.css~	      old2-main.css   old8-main.css
+'.#*shell*'	     old-main.css     old3-main.css   old9-main.css
+ ..		     old10-main.css   old4-main.css   studyg.css
+ cal.css	     old11-main.css   old5-main.css   topborder.css
+ main-parkside.css   old12-main.css   old6-main.css
+ main.css	     old13main.css    old7-main.css
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ rm '.#shell*'
+rm: cannot remove '.#shell*': No such file or directory
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ ls '.#*shell*'
+'.#*shell*'
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ rm '.#*shell*'
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
+vkreiman@DESKTOP-0OF7I9V:/mnt/c/Users/vkrei/Desktop/github/website/css$ 
