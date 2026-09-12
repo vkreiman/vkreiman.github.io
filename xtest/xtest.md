@@ -1,4 +1,11 @@
-# Here's A Heading {: .test-class}
+---
+layout: default
+title: Test Lab
+---
+
+
+# Here's A Heading 
+{: .test-class}
 
 What does this look like?
 
