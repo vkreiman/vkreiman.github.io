@@ -8,7 +8,7 @@
       --header-main: hsl(16 25% 15%); /* #0f172a; */ 
       --header-border-light: hsl(16 25% 15%);   /* #8993a0 */  
       --blue-nav-letters: hsl(16 10% 80% / 1);  /* hsl(207, 100%, 62%); #cfe2d6 */ 
-      --blue-nav-hover: hsl(16 0% 78%);  /* rgba(255,255,255,0.14)  #737373  */ 
+      --blue-nav-hover: hsl(16 0% 25%);  /* rgba(255,255,255,0.14)  #737373  */ 
       /*   --dropdown-background:  #f2f2f2;  not used */
       --links: #0066cc;     /* #1d4ed8  #8b0000 */
       --blue-table-header: hsl(16 10% 80% / 1);    /* #b2c7e1 */
@@ -132,7 +132,7 @@ header {
     display: inline; /* Ensures the element wraps its content correctly */
     text-decoration: none;
     font-weight: 500;
-    color: hsl(16 0% 25%); /* hsl(16 100% 100% / .6)  var(--blue-nav-letters); */
+    color: hsl(16 0% 78%); /* hsl(16 100% 100% / .6)  var(--blue-nav-letters); */
 }
 
 /* Dropdown content (hidden by default) */
