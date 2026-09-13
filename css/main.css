@@ -127,12 +127,12 @@ header {
 
 /* Underline navbar links on hover */
 .navbar-right > a:hover, .dropdown:hover, .dropdown:hover .dropbtn {
-    border-bottom-color: var(--blue-nav-letters); /* Creates the
+  /*  border-bottom-color: var(--blue-nav-letters); */ /* Creates the
 						     underline effect */
     display: inline; /* Ensures the element wraps its content correctly */
     text-decoration: none;
     font-weight: 500;
-    color: white;  /* var(--blue-nav-letters); */
+    color: hsl(16 100% 100% / .6);  /* var(--blue-nav-letters); */
 }
 
 /* Dropdown content (hidden by default) */
