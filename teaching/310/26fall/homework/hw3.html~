@@ -1,0 +1,41 @@
+---
+layout: exercises
+title: Advanced Probability
+number: Math 310
+date: September 16, 2025
+---
+
+<div class="homework">
+  
+<section>
+  <h2>Homework 3: Combinatorics and Probability (Part 1)</h2>
+
+  <ol>
+    <li> Section 1.5, #7, Section 1.7, #6, 8, 10, Section 1.8, #1, 4.
+    </li>
+
+    <li>
+      Five differently-colored golf balls are randomly thrown into
+      nine different buckets. Find the probability that
+      <ol class="nested-list">
+	<li> none of the golf balls lands in bucket 1.</li>
+	<li> no two golf balls land in the same bucket.</li>
+	<li> the red, white, and blue golf balls land in different buckets.</li>
+      </ol>
+    </li>
+
+
+    <li>
+      A deck of cards is shuffled. Find the probability that
+      <ol class="nested-list">
+	<li> the top five cards are all different denominations. </li>
+	<li> the bottom four cards are all the same denomination. </li>
+	<li> the top card is an ace. </li>
+	<li> the third card from the top is an ace. </li>
+      </ol>
+    </li>
+  </ol>
+
+</section>
+
+</div>
