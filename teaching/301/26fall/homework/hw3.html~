@@ -1,0 +1,60 @@
+---
+layout: exercises
+title: Linear Algebra
+number: Math 301
+date: September 15, 2025
+---
+
+
+<div class="homework">
+  <section>
+    <h2>Homework 3: Vector Spaces</h2>
+
+<!--
+    <p><i>Instructions. All answers to textbook problems should be
+      justified.  For problems 5 and 6 (except 6(c)), you may not Theorems
+      1.2 or 1.3 from the study guide.  Assignments should be
+      <b>stapled</b> and written clearly and legibly. Problem 7 is
+      optional.</i>
+    </p>
+-->    
+
+  <ol>
+    <li> Section 4.1, #2, 7, TF (True-False Exercises). 
+    </li>
+
+    <li>
+      Let \(V\) be the set of all matrices of real numbers with one
+      column and two rows, with addition and scalar multiplication defined
+      as follows:
+      $$
+      \btwo{u_1}{u_2}+\btwo{v_1}{v_2}=\btwo{u_1+v_1}{u_2v_2}\qquad
+      \text{and}\qquad c \btwo{u_1}{u_2}=\btwo{cu_1}{u_2}
+      $$
+      With this addition and scalar multiplication, \(V\) is not a vector
+      space. Identify all vector space axioms which fail, and briefly
+      explain why each of these axioms fail (in most cases, a
+      counterexample will be sufficient).  If axiom 3 holds, then give an
+      explicit additive identity.
+    </li>
+
+    <li>
+      Let \(V\) be a vector space. Let \(\bu,\bv\) and \(\bw\) be
+      vectors in \(V\), and let \(b\) and \(c\) be scalars. Using only
+      the definition of a vector space, prove
+      <ol class="nested-list">
+	<li> \(c\,\bz=\bz\)</li>
+	<li> \((\bu+\bv)+\bw=\bv+(\bw+\bu)\) (Hint: use only the
+	  commutative and associative axioms.)</li>
+	<li> \((b+c)(\bu+\bv)=(c\bu + c\bv) + (b\bu+b\bv)\)</li>
+      </ol>
+    </li>
+
+    <li>(Challenge) Prove that there does not exist a vector space
+      which contains exactly two elements.
+    </li>
+  </ol>
+
+</section>
+
+</div>
