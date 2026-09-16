@@ -53,7 +53,7 @@ header {
 .wrapper-header {
 /*    max-width: 860px; */
     margin: 0 auto;
-    padding: 3px 40px 0px 40px;
+    padding: 0px 40px 0px 40px;
 }
 
 /* Navbar container */
@@ -78,7 +78,6 @@ header {
     flex-grow: 1;
     text-align: left;
     color: white;
-    padding: 0px 0px 5px 0px;
 }
 
 .navbar-right {
@@ -93,8 +92,7 @@ header {
 
 .navbar-right > a, .dropdown {
     box-sizing: border-box;
-    padding: 8px 30px 6px 30px;
-        border-bottom: 5.1px solid transparent;
+    padding: 10px 30px 10px 30px;
 }
 
 /* Links inside the navbar */
@@ -149,7 +147,7 @@ header {
     min-width: 120px;
    /* border: 1px solid black; */
     overflow: hidden;
-    margin-top: 10.5px;
+    margin-top: 9.5px;
 }
 
 /* Links inside the dropdown */
