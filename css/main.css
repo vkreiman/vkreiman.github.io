@@ -9,8 +9,8 @@
       --header-border-light: hsl(16 25% 15%);   /* #8993a0 */  
    /* --blue-nav-letters: hsl(16 10% 80% / 1); not used */ 
       --nav-text: rgba(255,255,255,.85);
-      --nav-text-hover: hsl(16 0% 70%); 
-      --nav-dropdown-hover: hsl(16 0% 26%);  /* rgba(255,255,255,0.14) */ 
+      --nav-text-hover: hsl(207 55% 75%);  /* hsl(16 0% 70%); */ 
+      --nav-dropdown-hover: hsl(207 85% 35%);  /* rgba(255,255,255,0.14) */ 
       /*   --dropdown-background:  #f2f2f2;  not used */
       --links: #0066cc;     /* #1d4ed8  #8b0000 */
       --blue-table-header: hsl(16 10% 80% / 1);    /* #b2c7e1 */
@@ -169,8 +169,8 @@ header {
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
     text-decoration-line: none;
-    color: var(--nav-text-hover);
-   /* background-color: var(--nav-dropdown-hover); */
+    color: var(--nav-text);
+    background-color: var(--nav-dropdown-hover);
 }
 
 /* Show the dropdown menu on hover */
