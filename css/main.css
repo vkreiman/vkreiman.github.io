@@ -169,7 +169,7 @@ header {
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
     text-decoration-line: none;
-    color: var(--nav-text);
+    color: white; /* var(--nav-text); */
     background-color: var(--nav-dropdown-hover);
 }
 
