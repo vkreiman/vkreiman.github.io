@@ -215,7 +215,7 @@ main{
 }
 
 footer { 
-    border-top: 2px solid #e7e7e7;
+    border-top: 1px solid var(--body-text); /* 2px solid #e7e7e7; */
 }
 
 .wrapper-footer {
@@ -252,7 +252,7 @@ footer span {
 
 section:first-of-type {
     padding-top: 2.5rem;
-    border-top: 2px solid var(--header-border-light);
+    border-top: 1px solid var(--body-text);
 }
 
 section {
