@@ -9,7 +9,7 @@ semester: Fall 2026
 
 #### Assignments
 
-
+* [Homework 4](homework/hw4.html): Subspace, Linear Combination, Span
 * [Homework 3](homework/hw3.html): Vector Spaces
 * [Homework 2](homework/hw2.html): Systems of Linear Equations (Part 2)
 * [Homework 1](homework/hw1.html): Systems of Linear Equations (Part 1)
