@@ -456,6 +456,12 @@ hr.thin {
 	break-before: page;
 	page-break-before: always; /* for older browsers */
     }
+
+    .stdg section:first-child {
+	break-before: avoid; /* Prevents a page break
+				before the very first section */
+        page-break-inside: avoid; /* for older browsers */
+    }
 }
 
 
