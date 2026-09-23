@@ -10,6 +10,7 @@ semester: Fall 2026
 #### Assignments
 
 
+* [Homework 5](homework/hw5.html): Law of Total Probability
 * [Homework 4](homework/hw4.html): Combinatorics and Probability (Part 2)
 * [Homework 3](homework/hw3.html): Combinatorics and Probability (Part 1)
 * [Homework 2](homework/hw2.html): Definition of Probability
