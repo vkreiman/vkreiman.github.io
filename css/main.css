@@ -451,6 +451,11 @@ hr.thin {
         break-inside: avoid;
         page-break-inside: avoid; /* for older browsers */
     }
+
+    .stdg section {
+	break-before: page;
+	page-break-before: always; /* for older browsers */
+    }
 }
 
 
