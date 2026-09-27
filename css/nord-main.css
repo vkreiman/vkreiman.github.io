@@ -5,20 +5,52 @@
   }
 
 :root{
-    /* www.nordtheme.com */
-      --header-main: #2e3440; 
-      --nav-text: #e5e9f0;
-      --nav-text-hover: #88c0c0;  
-      --nav-dropdown-hover: #434c5e;  
-      --main-background: #d8dee9;
-      --footer-background: #d8dee9;
-      --links: #a84f57;     /* #a04e56 best; #994a52 darkest */
-      --horizontal-rule: #2e3440;
-      --blue-table-header: #81a1c1; 
-      --table-background-cal: #eceff4; 
-      --body-text: #2e3440;
-      --table-background-hwtable: #d8dee9;   /* #e5e9f0; */ 
-      --today-cal-color: #d8dee9;
+    /** www.nordtheme.com **/
+    /* Polar Night (Dark accents for text/borders) */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+
+    /* Snow Storm (Light backgrounds) */
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+
+    /* Frost (Ice/Blue accents) */
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+
+    /* Aurora (Highlight colors) */
+    --nord11: #bf616a; /* Red */
+    --nord12: #d08770; /* Orange */
+    --nord13: #ebcb8b; /* Yellow */
+    --nord14: #a3be8c; /* Green */
+    --nord15: #b48ead; /* Purple */
+
+  /* Theme Mapping */
+    /*
+      --bg-color: var(--nord6);
+      --card-bg: var(--nord5);
+      --text-color: var(--nord0);
+      --border-color: var(--nord4);
+      --accent-color: var(--nord10);
+   */    
+    --header-main: var(--nord0); 
+    --nav-text: var(--nord5);
+    --nav-text-hover: var(--nord8);  
+    --nav-dropdown-hover: var(--nord2);  
+    --main-background: var(--nord6);
+    --footer-background: var(--nord5);
+    --links: #a04e56;     /* #a84f57 ; #994a52 darkest */
+    --horizontal-rule: var(--nord3);
+    --blue-table-header: var(--nord9); 
+    --table-background-cal: var(--nord5); 
+    --body-text: var(--nord0);
+    --table-background-hwtable: var(--nord4);   /* #e5e9f0; */ 
+    --today-cal-color: var(--nord4);
 }
   
 html {
