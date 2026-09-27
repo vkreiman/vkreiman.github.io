@@ -13,7 +13,7 @@
       --nav-text-hover: #88c0c0;  /* hsl(16 0% 70%); */ 
       --nav-dropdown-hover: #434c5e;  /* rgba(255,255,255,0.14) */ 
       /*   --dropdown-background:  #f2f2f2;  not used */
-      --links: #bf616a;     /* #1d4ed8  #8b0000 */
+      --links: #a84f57;     /* #a04e56 best; #994a52 darkest */
       --horizontal-rule: #d8dee9;
       --blue-table-header: #81a1c1;    /* #b2c7e1 */
       --table-background-cal: #eceff4;   /* rgba(203,213,225,.2); */ 
@@ -209,10 +209,6 @@ h2 {
 
 main a {
     color: var(--links);
-  text-decoration: underline;
-  text-decoration-color: rgba(191, 97, 106, 0.3);
-  /* Softer line to keep it clean */
-  text-underline-offset: 4px;
 }
 
 main a:hover {
