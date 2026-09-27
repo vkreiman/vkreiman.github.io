@@ -5,18 +5,21 @@
   }
 
   :root{
-      --header-border-light: #003ac2;
-      --header-border: #003ac2;    /* #1f6a87; */
-      --header-main: #09073d;
-      --blue-nav-letters: #2fffff; /* lightgray; #c0c0c0; */
-      --blue-nav-hover: #444444;   /* #a7ccee94;*/ 
-      --dropdown-background: #f2f2f2;
-      --links: #36c;
-      --blue-table-header: #ccd7f2;  /* #ccd7f2 for light blue  #99b0e6 for darker */
+      --header-main: hsl(16 25% 15%); /* #0f172a; */ 
+      --header-border-light: hsl(16 25% 15%);   /* #8993a0 */  
+   /* --blue-nav-letters: hsl(16 10% 80% / 1); not used */ 
+      --nav-text: rgba(255,255,255,.8);
+      --nav-text-hover: hsl(207 55% 75%);  /* hsl(16 0% 70%); */ 
+      --nav-dropdown-hover: hsl(207 85% 35%);  /* rgba(255,255,255,0.14) */ 
+      /*   --dropdown-background:  #f2f2f2;  not used */
+      --links: #0066cc;     /* #1d4ed8  #8b0000 */
+      --horizontal-rule: #d6d6d6;
+      --blue-table-header: hsl(16 10% 80% / 1);    /* #b2c7e1 */
+      --table-background-cal: hsl(207 85% 99%);   /* rgba(203,213,225,.2); */ 
+      --body-text: #212121;
+      --table-background-hwtable: hsl(207 85% 93%);  /* #f4f4f4 */
+      --today-cal-color: hsl(207 85% 93%);
   }
-
-/*    --blue-table-header: rgb(228 240 245);*/
-
   
 html {
     font-size: 18px;
@@ -28,6 +31,7 @@ body{
     margin: 0;
     font-family: "STIX Two Text";
     text-underline-offset: 3px;
+    color: var(--body-text);
 }
 
 .flex-wrapper {
@@ -44,14 +48,14 @@ header {
     /*! border-top: 4px solid var(--header-border); */
 /*    min-height: 64px;*/
     background-color: var(--header-main);
-    box-shadow: 0 -4px 0 0 var(--header-border-light) inset;
-/*    position: relative; */
+    box-shadow: 0 -5px 0 0 var(--header-border-light) inset;
+    z-index: 1000;
 }
 
 .wrapper-header {
 /*    max-width: 860px; */
     margin: 0 auto;
-    padding: 3px 40px 0px 40px;
+    padding: 0px 40px 0px 40px;
 }
 
 /* Navbar container */
@@ -75,7 +79,7 @@ header {
     font-family: "Source Sans 3", sans-serif;
     flex-grow: 1;
     text-align: left;
-    color: white;
+    color: var(--nav-text);
 }
 
 .navbar-right {
@@ -90,17 +94,16 @@ header {
 
 .navbar-right > a, .dropdown {
     box-sizing: border-box;
-    padding: 10px 30px 6px 30px;
-        border-bottom: 4px solid transparent;
+    padding: 10px 30px 10px 30px;
 }
 
 /* Links inside the navbar */
 .navbar a {
-  font-size: 1.0rem;
+  font-size: .9rem; /* 1.0 rem */
   font-weight: 500;
   text-align: center;
 /*  text-decoration: none; */
-  color: white;
+  color: var(--nav-text);
 }
 
 /* The dropdown container */
@@ -110,7 +113,7 @@ header {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-    font-size: 1rem;
+    font-size:.9rem; /* 1rem */
     font-weight: 500;
     border: none;
     outline: none;
@@ -119,18 +122,18 @@ header {
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
-    color: white;
+    color: var(--nav-text);
     /*! position: absolute; */
 }
 
 /* Underline navbar links on hover */
 .navbar-right > a:hover, .dropdown:hover, .dropdown:hover .dropbtn {
-    border-bottom-color: var(--blue-nav-letters); /* Creates the
+  /*  border-bottom-color: var(--blue-nav-letters); */ /* Creates the
 						     underline effect */
     display: inline; /* Ensures the element wraps its content correctly */
     text-decoration: none;
     font-weight: 500;
-    color: var(--blue-nav-letters);
+    color: var(--nav-text-hover); /* hsl(16 100% 100% / .6) */
 }
 
 /* Dropdown content (hidden by default) */
@@ -153,7 +156,7 @@ header {
 .dropdown-content a {
   float: none;
     font-weight: 900;
-  color: white;
+  color: var(--nav-text);
   margin: 0px;
   border-radius: 0px;
   padding: 5px 11.2px;
@@ -161,19 +164,20 @@ header {
   display: block;
   text-align: left;
   font-weight: 650;
-  font-size: .8rem;
+  font-size: .7rem; /* .8rem */
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
     text-decoration-line: none;
-    color: white;
-    background-color: var(--blue-nav-hover);
+    color: white; /* var(--nav-text); */
+    background-color: var(--nav-dropdown-hover);
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+  /*  border-bottom: 5px solid var(--blue-nav-letters); */
     border-bottom-left-radius: 8px; 
     border-bottom-right-radius: 8px; 
 } 
@@ -212,7 +216,7 @@ main{
 }
 
 footer { 
-    border-top: 2px solid #e7e7e7;
+    border-top: 2px solid var(--horizontal-rule); /* 2px solid #e7e7e7; */
 }
 
 .wrapper-footer {
@@ -249,17 +253,13 @@ footer span {
 
 section:first-of-type {
     padding-top: 2.5rem;
-    border-top: 2px solid #e7e7e7;
+    border-top: 2px solid var(--horizontal-rule);
 }
 
 section {
     border: .26em;
     margin: 1.2rem 0em .26em 0em; 
 }
-
-
-
-
 
 /*
 p, ul { max-width: 70ch; }
@@ -279,7 +279,7 @@ p {
     font-family: "STIX Two Text";
 /*    font-family: "Times New Roman", Times, serif;*/
 /*    border-top: 4px groove; */
-    border-bottom: 2px solid #e7e7e7;
+    border-bottom: 2px solid var(--horizontal-rule);
 }
 
 #sylldata ul {
@@ -446,6 +446,22 @@ hr.thin {
     header, footer { 
 	display: none
     }
+
+    .theorem, .definition, .lemma, .notation {
+        break-inside: avoid;
+        page-break-inside: avoid; /* for older browsers */
+    }
+
+    .stdg section {
+	break-before: page;
+	page-break-before: always; /* for older browsers */
+    }
+
+    .stdg section:first-child {
+	break-before: avoid; /* Prevents a page break
+				before the very first section */
+        page-break-inside: avoid; /* for older browsers */
+    }
 }
 
 
@@ -457,6 +473,7 @@ table {
   font-size: 0.7rem;
   table-layout: auto;
   width: 100%;
+  color: inherit;
 }
 
 caption {
@@ -470,25 +487,29 @@ tfoot {
   background-color: var(--blue-table-header);
 }
 
-th,
-td {
+th, td {
   border: 1px solid rgb(160 160 160);
   padding: 8px 10px;
 }
 
+th {
+    font-weight: bold;
+}
+    
 /*
 td:last-of-type {
   text-align: center;
 }
 */
 
-td:nth-child(4) {
-  text-align: left;
+td:nth-child(4) { text-align: left;
 }
 
 tbody > tr:nth-of-type(even) {
-  background-color: rgb(237 238 242);
+    background-color: var(--table-background-hwtable);
+    /* rgb(237 238 242)*/
 }
+
 
 /*
 tfoot th {
