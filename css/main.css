@@ -5,21 +5,52 @@
   }
 
 :root{
-    /* www.nordtheme.com */
-      --header-main: #2e3440; /* #0f172a; */ 
-    /*  --header-border-light: hsl(16 25% 15%); not used */
-   /* --blue-nav-letters: hsl(16 10% 80% / 1); not used */ 
-      --nav-text: #e5e9f0;
-      --nav-text-hover: #88c0c0;  /* hsl(16 0% 70%); */ 
-      --nav-dropdown-hover: #434c5e;  /* rgba(255,255,255,0.14) */ 
-      /*   --dropdown-background:  #f2f2f2;  not used */
-      --links: #a84f57;     /* #a04e56 best; #994a52 darkest */
-      --horizontal-rule: #d8dee9;
-      --blue-table-header: #a3be8c;    /* #b2c7e1 */
-      --table-background-cal: #eceff4;   /* rgba(203,213,225,.2); */ 
-      --body-text: #2e3440;
-      --table-background-hwtable: #d8dee9;   /* #e5e9f0; */ 
-      --today-cal-color: #d8dee9;
+    /** www.nordtheme.com **/
+    /* Polar Night (Dark accents for text/borders) */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+
+    /* Snow Storm (Light backgrounds) */
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+
+    /* Frost (Ice/Blue accents) */
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+
+    /* Aurora (Highlight colors) */
+    --nord11: #bf616a; /* Red */
+    --nord12: #d08770; /* Orange */
+    --nord13: #ebcb8b; /* Yellow */
+    --nord14: #a3be8c; /* Green */
+    --nord15: #b48ead; /* Purple */
+
+  /* Theme Mapping */
+    /*
+      --bg-color: var(--nord6);
+      --card-bg: var(--nord5);
+      --text-color: var(--nord0);
+      --border-color: var(--nord4);
+      --accent-color: var(--nord10);
+   */    
+    --header-main: var(--nord0); 
+    --nav-text: var(--nord5);
+    --nav-text-hover: var(--nord8);  
+    --nav-dropdown-hover: var(--nord2);  
+    --main-background: var(--nord6);
+    --footer-background: var(--nord4);
+    --links: #a04e56;     /* #a84f57 ; #994a52 darkest */
+    --horizontal-rule: var(--nord4);
+    --blue-table-header: var(--nord14); 
+    --table-background-cal: var(--nord5); 
+    --body-text: var(--nord0);
+    --table-background-hwtable: var(--nord4);   /* #e5e9f0; */ 
+    --today-cal-color: var(--nord4);
 }
   
 html {
@@ -220,10 +251,12 @@ main a:hover {
 main{
     flex: 1;
     line-height: 1.6rem;
+    background-color: var(--main-background);
 }
 
 footer { 
-    border-top: 2px solid var(--horizontal-rule); /* 2px solid #e7e7e7; */
+    border-top: 2px solid var(--horizontal-rule); 
+    background-color: var(--footer-background);
 }
 
 .wrapper-footer {
