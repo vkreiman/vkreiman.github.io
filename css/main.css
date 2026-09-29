@@ -509,11 +509,11 @@ hr.thin {
     
 table {
   border-collapse: collapse;
-  border: 2px solid rgb(140 140 140);
   font-size: 0.7rem;
   table-layout: auto;
   width: 100%;
   color: inherit;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 caption {
@@ -528,7 +528,7 @@ tfoot {
 }
 
 th, td {
-  border: 1px solid rgb(160 160 160);
+  border: 1px solid #a0a0a0;
   padding: 8px 10px;
 }
 
