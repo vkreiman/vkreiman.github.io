@@ -46,11 +46,12 @@
     --footer-background: var(--nord6);
     --links: #a04e56;     /* #a84f57 ; #994a52 darkest */
     --horizontal-rule: var(--nord4);
+    --table-header-cal: var(--nord4);
     --blue-table-header: var(--nord7); 
-    --table-background-cal: var(--nord6); 
+    --table-background-cal: white; 
     --body-text: var(--nord0);
     --table-background-hwtable: var(--nord4);   /* #e5e9f0; */ 
-    --today-cal-color: var(--nord4);
+    --today-cal-color: var(--nord5);
 }
   
 html {
