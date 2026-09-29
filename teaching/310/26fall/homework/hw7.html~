@@ -1,0 +1,90 @@
+---
+layout: exercises
+title: Advanced Probability
+number: Math 310
+date: October 1, 2025
+---
+
+<div class="homework">
+  
+<section>
+  <h2>Homework 7: Independence </h2>
+
+  <ol>
+    <li>Two dice, one red and one green, are rolled. Define the
+      events
+      <ul>
+	<li>\(A\): The red die lands on a 3, 4, or 5</li>
+	<li>\(B\): The sum of the two dice is 9</li>
+      </ul>
+      <ol class="nested-list">
+	<li> Compute \(P(A\mid B)\). </li>
+	<li> Compute \(P(B\mid A)\). </li>
+	<li> Are \(A\) and \(B\) independent events? Justify
+	  your answer. </li>
+      </ol>
+    </li>
+
+
+    <li>
+      Recall that three events \(A\), \(B\), and \(C\)
+      are <i>independent</i> if
+      \begin{equation}
+      \begin{split}
+      & P(A\cap B)=P(A)\cdot P(B)\\
+      & P(B\cap C)=P(B)\cdot P(C)\\
+      & P(A\cap C)=P(A)\cdot P(C)
+      \end{split}
+      \end{equation}
+
+      and
+
+      \begin{equation}
+      P(A\cap B\cap C)=P(A)\cdot P(B)\cdot P(C)
+      \end{equation}
+      
+      Two dice, one red and one green, are
+	  rolled. Define the events
+      <ul>
+	<li>  \(A\): The red die lands on a 1, 2, or 3</li>
+	<li> \(B\): The red die lands on a 3, 4, or 5</li>
+	<li> \(C\): The sum of the two dice is 9</li>
+      </ul>
+      
+      Do these three events satisfy the first three equations above?
+      Do they satisfy the fourth? Are the three events independent?
+    </li>
+
+    <li>
+      A roulette wheel has thirty-six numbers colored red or black
+      according to the pattern indicated below:
+
+      \begin{array}{cccccccccccccccccc}
+      \hline
+      1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16
+      & 17 & 18\\
+      R & R & R & R & R & B & B & B & B & R & R & R & R & B & B & B & B &
+      B\\
+      36 & 35 & 34 & 33 & 32 & 31 & 30 & 29 & 28 & 27 & 26 & 25 & 24 & 23
+      & 22 & 21 & 20 & 19\\
+      \hline
+      \end{array}
+
+      Define the events
+      <ul>
+	<li> \(A\): Red number appears</li>
+	<li> \(B\): Even number appears</li>
+	<li> \(C\): Number is less than or equal to 18</li>
+      </ul>
+      
+      Do these three events satisfy the first three equations
+      appearing in Problem 2 above? Do they satisfy the fourth? Are
+      the three events independent?
+    </li>
+  </ol> 
+
+
+  
+</section>
+
+</div>
