@@ -51,7 +51,7 @@
     --table-background-cal: white; 
     --body-text: var(--nord0);
     --table-background-hwtable: var(--nord4);   /* #e5e9f0; */ 
-    --today-cal-color: var(--nord5);
+    --today-cal-color: var(--nord6);
 }
   
 html {

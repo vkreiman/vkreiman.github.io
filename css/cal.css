@@ -13,7 +13,7 @@
 
 
     #cal th, #cal td {
-	border: 1px solid #a0a0a0;
+	border: 1px solid #e0e0e0;
     }
     
     #cal th {
@@ -33,11 +33,7 @@
     #cal tr {
         background-color: var(--table-background-cal);
     }
-
-    #cal thead {
-	background-color: var(--table-header-cal);
-    }
-    
+   
     .caldate {
         font-size: .7rem;
         margin-bottom: .5rem;
@@ -46,10 +42,11 @@
 
 
     #cal th {
-        background-color: var(--blue-table-header);
+	background-color: var(--table-header-cal);
 	height: 25px;
     }
 
+    
     #cal .exam {
         font-size: 1.2rem;
         font-weight: bold;
