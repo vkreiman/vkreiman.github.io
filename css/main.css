@@ -332,8 +332,13 @@ p {
 
 #hom ul {
     list-style-type: disc;
-    padding: 0rem 0rem 0rem 1.5rem;
+    padding: 1px 1px 1px 1.5rem;
 }
+
+#home p {
+    margin: 0 0 0 0;
+   /*  padding: 0.44rem 0.44rem 0.44rem 0rem; */
+}    
 
 a { text-decoration: none; color: #000000; }
 a:hover { text-decoration: underline; }
