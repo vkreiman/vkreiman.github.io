@@ -39,8 +39,9 @@
       --accent-color: var(--nord10);
    */    
     --header-main: var(--nord0); 
-    --nav-text: var(--nord5);
-    --nav-text-hover: var(--nord8);  
+    --nav-my-name: var(--nord5);
+    --nav-text: rgba(255,255,255,.6);
+    --nav-text-hover: white;  
     --nav-dropdown-hover: var(--nord2);  
     --main-background: white; /*var(--nord6) too dark */
     --footer-background: var(--nord6);
@@ -112,7 +113,7 @@ header {
     font-family: "Source Sans 3", sans-serif;
     flex-grow: 1;
     text-align: left;
-    color: var(--nav-text);
+    color: var(--nav-my-name);
 }
 
 .navbar-right {
@@ -219,7 +220,7 @@ header {
     max-width: 710px; /* 860 px */
     /* display: inline-flex; */
     margin: 0 auto;
-    padding: 0 30px 60px 30px;
+    padding: 0 30px 90px 30px;
 }
 
 h1 { 
@@ -331,8 +332,8 @@ p {
 }
 
 #hom ul {
-    list-style-type: disc;
-    padding: 1px 1px 1px 1.5rem;
+    list-style-type: circlr;
+    padding: 1px 1px 1px 2.5rem;
 }
 
 #hom p {
