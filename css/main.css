@@ -39,7 +39,7 @@
       --accent-color: var(--nord10);
    */    
     --header-main: var(--nord0); 
-    --nav-my-name: var(--nord5);
+    --nav-my-name: var(--nord6);
     --nav-text: rgba(255,255,255,.6);
     --nav-text-hover: white;  
     --nav-dropdown-hover: var(--nord2);  
@@ -332,7 +332,7 @@ p {
 }
 
 #hom ul {
-    list-style-type: circlr;
+    list-style-type: circle;
     padding: 1px 1px 1px 2.5rem;
 }
 
