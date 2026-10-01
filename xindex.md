@@ -5,7 +5,7 @@ title: Victor Kreiman
 
 # Home
 
-<section markdown="1">
+<section id="hom" markdown="1">
     
 I am an [associate professor](https://www.uwp.edu/faculty-and-staff/kreiman) of mathematics at the [University of Wisconsin - Parkside](http://www.uwp.edu). Currently, I am teaching 
 	  
