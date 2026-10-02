@@ -39,9 +39,9 @@
       --accent-color: var(--nord10);
    */    
     --header-main: var(--nord0); 
-    --nav-my-name: var(--nord6);
-    --nav-text: rgba(255,255,255,.6);
-    --nav-text-hover: white;  
+    --nav-my-name: var(--nord5);
+    --nav-text: var(--nord5);
+    --nav-text-hover: var(--nord8);  
     --nav-dropdown-hover: var(--nord2);  
     --main-background: white; /*var(--nord6) too dark */
     --footer-background: var(--nord6);
