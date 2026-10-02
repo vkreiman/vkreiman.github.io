@@ -1,7 +1,7 @@
     /* Basic CSS for styling the calendar */
     #sched table {
         /*      width: 710px;*/
-        width: 100%;
+        width: 90%;
         table-layout: fixed;
         border-collapse: collapse;
         margin: auto;
@@ -10,6 +10,7 @@
 	/*   font-size: .7rem; */
 	background-color: #fff;
 	/* margin: 0 0 1.5rem 0; */
+	box-shadow: 0 4px 6px rgba(0,0,0,0.5);
     }
 
      #sched th, #sched td {
@@ -33,7 +34,7 @@
      }
 
      #sched tr {
-	 height: 40px; /* Ensures rows are not collapsed */
+	 height: 5px; /* Ensures rows are not collapsed */
 	 background-color: var(--table-background-cal);
      }
 
