@@ -13,27 +13,28 @@
     }
 
      #sched th, #sched td {
-         border: 1px solid #e0e0e0;
+         border: 1px solid #b0b0b0;
          padding: 8px;
          text-align: center;
          height: 25px; /* Ensures consistent row height */
      }
 
      #sched th {
-         background-color: #f7f7f7;
+         background-color: var(--nord6);
          font-weight: bold;
          width: 18%; /* 16% */
      }
 
      #sched th.time-col, #sched td.time-col {
          width: 10%;
-         background-color: #f7f7f7;
+         background-color: var(--nord6);
          font-weight: bold;
          font-size: 0.9em;
      }
 
      #sched tr {
 	 height: 40px; /* Ensures rows are not collapsed */
+	 background-color: var(--table-background-cal);
      }
 
      #sched tr:has(+ tr.half-hour) td {
@@ -47,10 +48,10 @@
       
       /* Example class for booked events */
       #sched .event {
-          background-color: #d1e7dd;
-          color: #0f5132;
+          background-color: #C6E2EE;
+          color: var(--nord0);
           font-weight: bold;
-	  border: 1px solid #e0e0e0 !important;
+	  border: 1px solid #b0b0b0 !important;
           /*   border-radius: 4px; */
           vertical-align: middle;
       }
