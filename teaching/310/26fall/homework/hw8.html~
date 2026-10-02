@@ -1,0 +1,58 @@
+---
+layout: exercises
+title: Advanced Probability
+number: Math 310
+date: October 6, 2025
+---
+
+<div class="homework">
+  
+<section>
+  <h2>Homework 8: Discrete Random Variables</h2>
+
+  <ol>
+    <li> Section 3.1, #2, 3.</li>
+
+    <li>An urn contains seven balls numbered 1 to 7. Two balls are
+      drawn simultaneously. Let \(X\) be the larger of the two numbers
+      drawn. Find \(f_X(x)\).</li>
+
+    <li>A fair die is tossed three times. Let \(X\) be the number of
+      different faces that appear. Find \(f_X(x)\).
+    </li>
+
+<!--
+    <li>Two dice are rolled. Let \(X\) be the product of the two
+      dice. Find \(f_X(x)\).
+    </li>
+-->
+    
+    <li>Five men and five women are ranked according to their scores
+      on an examination. Assume that no two scores are alike and all
+      \(10!\) possible rankings are equally likely. Let \(X\) denote
+      the highest ranking achieved by a woman. (For instance, \(X=1\)
+      if the top-ranked person is a woman.) Find \(f_X(x)\).
+    </li>
+
+    <li>Let \(X\) be the difference between the number of heads and
+      the number of tails when a coin is tossed \(n\) times. What are
+      the possible values of \(X\)?
+    </li>
+
+    <li>An elementary school has 3 sixth-grade classes, each
+      consisting of 20 students. From these 60 sixth-grade students, a
+      committee of 3 students is selected at random. Let the random
+      variable \(X\) be the number of different classes the three
+      committee members are from. (For example, \(X=3\) if the
+      committee members are all from different classes.) What are the
+      different values \(X\) can take?  Find the probability function
+      of \(X\).
+    </li>
+  </ol>
+  
+</section>
+
+</div>
+
+<!-- <ol class="nested-list"> -->
+	  
