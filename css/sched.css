@@ -28,7 +28,7 @@
      }
 
      #sched th.time-col, #sched td.time-col {
-         width: 10%;
+         width: 15%; /* 10% */
          background-color: var(--nord6);
          font-weight: bold;
          font-size: 0.9em;
