@@ -13,7 +13,7 @@ I am an [associate professor](https://www.uwp.edu/faculty-and-staff/kreiman) of 
 * [Math 301](https://vkreiman.github.io/teaching/301/26fall) (Linear Algebra)
 * [Math 310](https://vkreiman.github.io/teaching/310/26fall) (Advanced Probability and Statistics)
 	  
-My teaching schedule is posted [here](https://vkreiman.github.io/weekly). My research interests are algebraic geometry, representation theory, and combinatorics.
+My research interests are algebraic geometry, representation theory, and combinatorics.
   
 </section>
 

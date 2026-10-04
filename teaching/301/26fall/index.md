@@ -27,7 +27,7 @@ semester: Fall 2026
 * [Syllabus](syllabus.html)
 * [Canvas](https://www.uwp.edu/explore/offices/campustechnologyservices/innovationsinlearning/canvas-login.cfm)
 * [Matrix Calculator](https://www.desmos.com/matrix)
-* [Fall 2025 Website](../25fall/index.html)
+* [Fall 2025 Webpage](../25fall/index.html)
 
 </section>
 
