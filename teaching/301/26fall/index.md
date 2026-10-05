@@ -9,6 +9,7 @@ semester: Fall 2026
 
 #### Assignments
 
+* [Homework 6](homework/hw6.html): Linear Independence (Part 2)
 * [Homework 5](homework/hw5.html): Linear Independence (Part 1)
 * [Homework 4](homework/hw4.html): Subspace, Linear Combination, Span
 * [Homework 3](homework/hw3.html): Vector Spaces
