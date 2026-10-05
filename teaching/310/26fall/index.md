@@ -10,6 +10,7 @@ semester: Fall 2026
 #### Assignments
 
 
+* [Homework 9](homework/hw9.html): The Binomial Random Variable
 * [Homework 8](homework/hw8.html): Discrete Random Variables
 * [Homework 7](homework/hw7.html): Independence
 * [Homework 6](homework/hw6.html): Bayes' Theorem
