@@ -53,7 +53,7 @@
     --body-text: var(--nord0);
     --table-background-hwtable: var(--nord5);   /* #e5e9f0; */ 
     --today-cal-color: var(--nord6);
-    --schedule-event: var(--nord13); /* #c6e2ee */
+    --schedule-event: #c6e2ee;
 }
   
 html {
