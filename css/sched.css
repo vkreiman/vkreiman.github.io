@@ -45,13 +45,13 @@
      
      /* Style for half-hour rows to make them visually distinct if needed */
       #sched tr.half-hour td {
-          border-top: 1px solid #eee;
+          border-top: 0px solid #eee;
       }
       
       /* Example class for booked events */
       #sched .event {
-          background-color: #C6E2EE;
-          color: var(--nord0);
+          background-color: var(--schedule-event);
+          color: var(--body-text);
           font-weight: bold;
 	  border: 1px solid #b0b0b0 !important;
           /*   border-radius: 4px; */
