@@ -9,6 +9,7 @@ semester: Fall 2026
 
 #### Assignments
 
+* [Homework 7](homework/hw7.html): Basis, Coordinates, and Dimension
 * [Homework 6](homework/hw6.html): Linear Independence (Part 2)
 * [Homework 5](homework/hw5.html): Linear Independence (Part 1)
 * [Homework 4](homework/hw4.html): Subspace, Linear Combination, Span
