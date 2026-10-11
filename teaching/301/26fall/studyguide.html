@@ -176,13 +176,50 @@ semester: Fall 2026
     </div>
 
     <div class="theorem">
-      All bases of a vector space \(V\) have the same number of
-      elements.
+      Let \(V\) be a vector space with basis \( \{\bv_1,\ldots,\bv_n\} \).
+      <ol>
+	<li>If a set in \(V\) has more than \( n\) vectors, then it is
+	  linearly dependent. </li>
+	<li>If a set in \(V\) has fewer than \( n\) vectors, then it
+	does not span \(V\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \( \cB\) be a basis of a vector space \(V\) containing
+      exactly \(n\) vectors. Then every basis of \( V\) contains
+      exactly \(n\) vectors.
     </div>
     
     <div class="definition" title="Dimension">
-      The <b>dimension</b> of a nonzero vector space \(V\) is the
-      number of vectors in a basis for \(V\).
+      Let \(V\) be a vector space with basis containing exactly \(n\)
+      vectors.  Then we we say that \(V\) is <b>finite
+      dimensional</b>, and we call \(n\) the <b>dimension</b> of
+      \(V\). We write \(\dim (V) = n\). If \(V\) is not finite
+      dimensional, then we call \(V\) <b>infinite dimensional</b>.
+    </div>
+
+    <div class="theorem">
+      Let \(S\) be a finite set of vectors in a finite dimensional
+      vector space \(V\).
+      <ol>
+	<li> If \(S\) spans \(V\) but is not linearly independent,
+	then \(S\) can be reduced to a basis for \(V\) be removing
+	appropriate vectors from \(S\).</li>
+	<li> If \(S\) is linearly independent but does not span \(V\),
+	then \(S\) can be enlarged to a basis for \(V\) be adding
+	appropriate vectors of \(V\) to \(S\).</li>
+      </ol>
+    </div>
+
+    <div class="theorem">
+      Let \(W\) be a subspace of a finite dimensional vector space
+      \(V\). Then
+      <ol>
+	<li> \(W\) is finite dimensional.</li>
+	<li> \(\dim (W) \leq \dim (V)\).</li>
+	<li> \(W=V\) if and only if \(\dim W = \dim V\).
+      </ol>
     </div>
 
     <div class="theorem">
