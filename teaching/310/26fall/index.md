@@ -9,7 +9,7 @@ semester: Fall 2026
 
 #### Assignments
 
-
+* [Homework 10](homework/hw10.html): Continuous Random Variables
 * [Homework 9](homework/hw9.html): The Binomial Random Variable
 * [Homework 8](homework/hw8.html): Discrete Random Variables
 * [Homework 7](homework/hw7.html): Independence

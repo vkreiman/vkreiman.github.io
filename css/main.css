@@ -44,7 +44,7 @@
     --nav-text-hover: var(--nord8);  
     --nav-dropdown-hover: var(--nord2);  
     --main-background: white; /*var(--nord6) too dark */
-    --footer-background: var(--nord6);
+    --footer-background: white; /* var(--nord6) */
     --links: #a04e56;     /* #a84f57 ; #994a52 darkest */
     --horizontal-rule: var(--nord4);
     --table-header-cal: var(--nord8);
