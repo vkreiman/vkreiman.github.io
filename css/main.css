@@ -42,7 +42,7 @@
     --nav-my-name: var(--nord5);
     --nav-text: var(--nord5);
     --nav-text-hover: var(--nord8);  
-    --nav-dropdown-hover: var(--nord2);  
+    --nav-dropdown-hover: var(--nord1);  
     --main-background: white; /*var(--nord6) too dark */
     --footer-background: white; /* var(--nord6) */
     --links: #a04e56;     /* #a84f57 ; #994a52 darkest */
