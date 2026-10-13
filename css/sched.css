@@ -22,14 +22,14 @@
      }
 
      #sched th {
-         background-color: var(--nord6);
+         background-color: var(--nord5);
          font-weight: bold;
          width: 18%; /* 16% */
      }
 
      #sched th.time-col, #sched td.time-col {
          width: 15%; /* 10% */
-         background-color: var(--nord6);
+         background-color: var(--nord5);
          font-weight: bold;
          font-size: 0.9em;
      }
