@@ -47,8 +47,8 @@
     --footer-background: var(--nord6); /* var(--nord6) */
     --links: #a04e56;     /* #a84f57 ; #994a52 darkest */
     --horizontal-rule: var(--nord4);
-    --table-header-cal: var(--nord8);
-    --blue-table-header: var(--nord8); 
+    --table-header-cal: var(--nord13);
+    --blue-table-header: var(--nord13); 
     --table-background-cal: white; 
     --body-text: var(--nord0);
     --table-background-hwtable: white;   /* #e5e9f0; */ 
