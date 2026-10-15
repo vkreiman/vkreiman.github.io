@@ -42,13 +42,13 @@
     --nav-my-name: var(--nord5);
     --nav-text: var(--nord4);
     --nav-text-hover: white;  
-    --nav-dropdown-hover: var(--nord11);  
+    --nav-dropdown-hover: var(--nord10);  
     --main-background: var(--nord6); /*var(--nord6) too dark */
     --footer-background: var(--nord6); /* var(--nord6) */
     --links: #a04e56;     /* #a84f57 ; #994a52 darkest */
     --horizontal-rule: var(--nord4);
-    --table-header-cal: var(--nord13);
-    --blue-table-header: var(--nord13); 
+    --table-header-cal: var(--nord8);
+    --blue-table-header: var(--nord8); 
     --table-background-cal: white; 
     --body-text: var(--nord0);
     --table-background-hwtable: white;   /* #e5e9f0; */ 
@@ -555,6 +555,11 @@ td:nth-child(4) { text-align: left;
 
 tbody > tr:nth-of-type(even) {
     background-color: var(--table-background-hwtable);
+    /* rgb(237 238 242)*/
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color: var(--nord5);
     /* rgb(237 238 242)*/
 }
 
