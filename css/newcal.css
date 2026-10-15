@@ -12,31 +12,25 @@
     }
 
     /* Set a specific, short width for the first column */
-    #newcal td:first-child, th:first-child {
-	width: 8px; /* Adjust this value as needed */
-    }
-
-    /* Styles the first cell of every data row */
-    #newcal tr td:first-child {
-	font-weight: bold;
-	background-color: #f0f0f0; /* adjust color */
+    #newcal table tr td:first-child, #newcal table tr th:first-child {
+	width: 25px; /* Adjust this value as needed */
+        background-color: #f0f0f0; /* adjust color */
     }
 
     /* Styles the first cell of a header row */
-    #newcal tr th:first-child {
-	background-color: #dcdcdc; /* adjust color */
+    #newcal table tr th:first-child {
+	background-color: var(--nord6); /* adjust color */
+    }
+        
+    #newcal th {
+        font-weight: bold;
+        padding: 0pt;
     }
         
     #newcal th, #newcal td {
 	border: 1px solid #c0c0c0;
     }
     
-    #newcal th {
-        font-weight: bold;
-        padding: 1pt;
-        width: 8em;
-    }
-
     #newcal td {
         padding: 0pt 5pt 0pt 5pt;
         width: 8em;
