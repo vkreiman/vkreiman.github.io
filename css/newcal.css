@@ -12,18 +12,18 @@
     }
 
     /* Set a specific, short width for the first column */
-    td:first-child, th:first-child {
-	width: 20px; /* Adjust this value as needed */
+    #newcal td:first-child, th:first-child {
+	width: 8px; /* Adjust this value as needed */
     }
 
     /* Styles the first cell of every data row */
-    tr td:first-child {
+    #newcal tr td:first-child {
 	font-weight: bold;
 	background-color: #f0f0f0; /* adjust color */
     }
 
     /* Styles the first cell of a header row */
-    tr th:first-child {
+    #newcal tr th:first-child {
 	background-color: #dcdcdc; /* adjust color */
     }
         
