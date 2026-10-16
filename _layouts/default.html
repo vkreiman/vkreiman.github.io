@@ -181,7 +181,8 @@
     <script>
       console.log("Hello there");
       calId = document.getElementById("cal");
-      if (calId != null) {
+      newcalId = document.getElementById("newcal");
+      if ((calId != null) || (newcalId != null))  {
 	  console.log("Cal exists");
 	  let wm = document.getElementsByClassName("wrapper-main")[0];
 	  if (wm != null) {

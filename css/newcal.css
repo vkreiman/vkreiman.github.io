@@ -14,14 +14,12 @@
     /* Set a specific, short width for the first column */
     #newcal table tr td:first-child, #newcal table tr th:first-child {
 	width: 25px; /* Adjust this value as needed */
-        background-color: #f0f0f0; /* adjust color */
+        background-color: var(--table-header-cal); /* adjust color */
+	font-weight: bold;
+	text-align: center;     /* Centers horizontally */
+	vertical-align: middle; /* Centers vertically (this is usually the default) */
     }
 
-    /* Styles the first cell of a header row */
-    #newcal table tr th:first-child {
-	background-color: var(--nord6); /* adjust color */
-    }
-        
     #newcal th {
         font-weight: bold;
         padding: 0pt;
