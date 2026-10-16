@@ -193,11 +193,11 @@ semester: Fall 2026
               classDay.getDate();
 	  tds[i].insertAdjacentHTML("afterbegin",
 				    `<div class='caldate'>${a}</div>`);
+
+	  if (isSameDay(currentDate, classDay)) {
+              tds[i].style.backgroundColor = todayCalCol; }
       }
-
-      if (isSameDay(currentDate, classDay)) {
-          tds[i].style.backgroundColor = todayCalCol; }
-
+	  
       if (((i + 1) % 6 == 0) || i == 0) {
           classDay.setDate(classDay.getDate() + 0);
       } else if ((i + 1) % 6 == 1) {
