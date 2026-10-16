@@ -25,7 +25,7 @@ semester: Fall 2026
 
 #### Course Resources
 
-* [Calendar](calendar.html) 
+* [Calendar](newcalendar.html) 
 * [Study Guide](studyguide.html)
 * [Syllabus](syllabus.html)
 * [Canvas](https://www.uwp.edu/explore/offices/campustechnologyservices/innovationsinlearning/canvas-login.cfm)
