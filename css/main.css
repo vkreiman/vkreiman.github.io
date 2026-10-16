@@ -56,7 +56,7 @@ body {
     --nav-my-name: var(--nord5);
     --nav-text: var(--nord4);
     --nav-text-hover: #ffffff;  
-    --nav-dropdown-hover: var(--nord10);  
+    --nav-dropdown-hover: var(--nord3);  
     --main-background: var(--nord6);
     --footer-background: var(--nord6);
     --links: #a04e56;     
