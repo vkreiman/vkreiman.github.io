@@ -1,0 +1,211 @@
+---
+layout: course
+title: College Algebra II / Trig
+number: Math 114
+semester: Fall 2026
+---
+
+<section>
+
+  <div id="newcal">
+    <center>
+      <table>
+        <caption>Calendar</caption>
+        <thead>
+          <tr>
+	    <th></th>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THURSDAY</th>
+            <th>FRIDAY</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Week 1 --  Aug 31 -->
+          <tr>
+	    <td>1</td>
+            <td>No Class</td>
+            <td>No Class</td>
+            <td>Graphing Lines</td>
+            <td>Graphing Lines</td>
+            <td>Factoring Quadratic Polynomials</td>
+	  </tr>
+          <!-- Week 2 --  Sep 7 -->
+          <tr>
+	    <td>2</td>
+            <td>No Class <br> Labor Day</td>
+            <td>Solving Quadratic Equations</td>
+            <td>Solving Quadratic Equations</td>
+            <td>Complex Numbers <br> <div class="quiz">Quiz 1</div></td>
+            <td>Distance Formula, Circles</td>
+	  </tr>
+          <!-- Week 3 --  Sep 14 -->
+          <tr>
+	    <td>3</td>
+            <td>Introduction to Functions</td>
+            <td>Domain and Range</td>
+            <td>More Domains, Difference Quotients</td>
+            <td>Difference Quotients, Graphs of Functions</td>
+            <td>Graphs of Functions <br> <div class="quiz">Quiz
+            2</div></td>
+	  </tr>
+          <!-- Week 4 -- Sep 21  -->
+          <tr>
+	    <td>4</td>
+            <td>Graph Transformations</td>
+            <td>Graph Transformations</td>
+            <td>Compositions of Functions</td>
+            <td>Inverse Functions</td>
+            <td>Exam 1 Review</td>
+	  </tr>
+          <!-- Week 5 -- Sep 28  -->
+          <tr>
+	    <td>5</td>
+            <td><div class="exam">Exam 1</div></td>
+            <td>Inverse Functions</td>
+            <td>Quadratic Functions</td>
+            <td>Quadratic Functions</td>
+            <td>Polynomial Functions</td>
+	  </tr>
+          <!-- Week 6 -- Oct 5  -->
+          <tr>
+	    <td>6</td>
+            <td>Graphing Polynomial Functions</td>
+            <td>Factor Theorem <br> <div class="quiz">Quiz 3</div></td>
+            <td>Factoring Polynomials</td>
+            <td>Factoring Polynomials</td>
+            <td>Rational Functions</td>
+	  </tr>
+          <!-- Week 7 -- Oct 12  -->
+          <tr>
+	    <td>7</td>
+            <td>Rational Functions</td>
+            <td>Rational Functions</td>
+            <td>Exam 2 Review</td>
+            <td>Exam 2 Review</td>
+            <td><div class="exam">Exam 2</div></td>
+	  </tr>
+          <!-- Week 8 -- Oct 19  -->
+          <tr>
+	    <td>8</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+	  </tr>
+          <!-- Week 9 -- Oct 26  -->
+          <tr>
+	    <td>9</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+	  </tr>
+          <!-- Week 10 -- Nov 2  -->
+          <tr>
+	    <td>10</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+	  </tr>
+          <!-- Week 11 -- Noc 9  -->
+          <tr>
+	    <td>11</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+	  </tr>
+          <!-- Week 12 -- Nov 16  -->
+          <tr>
+	    <td>12</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+	  </tr>
+          <!-- Week 13 -- Nov 23  -->
+          <tr>
+	    <td>13</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Thanksgiving</td>
+            <td></td>
+	  </tr>
+          <!-- Week  14 -- Nov 30  -->
+          <tr>
+	    <td>14</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+	  </tr>
+          <!-- Week  15 -- Dec 7  -->
+          <tr>
+	    <td>15</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+	  </tr>
+	  
+        </tbody>
+      </table>
+    </center>
+  </div> <!-- cal -->
+
+</section>
+
+<script>
+  // Steps 1 and 2 retrieve calendar today color from css variable.
+  // 1. Get the computed styles of the root element
+  const rootStyles = window.getComputedStyle(document.documentElement);
+
+  // 2. Fetch the specific variable value
+  const todayCalCol = rootStyles.getPropertyValue('--today-cal-color').trim();
+
+  function isSameDay(date1, date2) {
+      // Compare year, month, and day
+      return date1.getFullYear() === date2.getFullYear() && date1.getMonth() ===
+          date2.getMonth() && date1.getDate() === date2.getDate();
+  }
+
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+		  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  tds = document.getElementsByTagName("td");
+  let classDay = new Date("August 31, 2026");
+  let currentDate = new Date();
+
+  for (let i = 0; i < tds.length; i++) {
+
+      if (i % 6 !== 0) {
+      a = months[classDay.getMonth()] + " " +
+              classDay.getDate();
+	  tds[i].insertAdjacentHTML("afterbegin",
+				    `<div class='caldate'>${a}</div>`);
+
+	  if (isSameDay(currentDate, classDay)) {
+              tds[i].style.backgroundColor = todayCalCol; }
+      }
+	  
+      if (((i + 1) % 6 == 0) || i == 0) {
+          classDay.setDate(classDay.getDate() + 0);
+      } else if ((i + 1) % 6 == 1) {
+          classDay.setDate(classDay.getDate() + 3);
+      } else {
+	  classDay.setDate(classDay.getDate() + 1);
+      }
+
+  }     
+  
+  </script>
