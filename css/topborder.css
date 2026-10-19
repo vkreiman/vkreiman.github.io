@@ -135,7 +135,7 @@ header {
 
 .navbar-right > a, .dropdown {
     box-sizing: border-box;
-    padding: 5px 20px; /* Tighter navigation spacing */
+    padding: 10px 20px; /* Tighter navigation spacing */
     display: flex;
     align-items: center;
 }

@@ -1,0 +1,54 @@
+---
+layout: exercises
+title: Advanced Probability
+number: Math 310
+date: October 22, 2025
+---
+
+<div class="homework">
+  
+<section>
+  <h2>Homework 13: Jointly Distributed Continuous Random
+  Variables</h2>
+
+  <ol>
+
+    <li> Section 3.4, #4, 5.</li>
+
+    <li>
+      Let \(X\) and \(Y\) be continuous random variables with joint
+      pdf
+      $$ f_{X,Y}(x,y) =
+      \begin{cases}
+      2e^{-(x+y)}& 0\lt x\lt y,
+      0\lt y\\ 0& \text{otherwise}
+      \end{cases} $$
+      Find \(P(Y\lt 3X)\).
+    </li>
+
+    <li>
+      Let \(X\) and \(Y\) be continuous random variables with joint
+      pdf
+      $$
+      f_{X,Y}(x,y)=
+      \begin{cases}
+      cx^2y, & \text{if }0\leq y\leq x\leq 1\\
+      0, & \text{otherwise}
+      \end{cases}
+      $$
+      <ol class="nested-list">
+	<li>
+	  Find \(c\).</li>
+	<li>  Find
+	  \(P(X+Y)\geq 1\).</li>
+	<li> Find the marginal pdf \(f_Y(y)\).</li>
+      </ol>
+    </li>
+  </ol>
+  
+</section>
+
+</div>
+
+<!-- <ol class="nested-list"> -->
+	  

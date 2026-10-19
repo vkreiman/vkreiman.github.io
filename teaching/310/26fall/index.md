@@ -9,6 +9,7 @@ semester: Fall 2026
 
 #### Assignments
 
+* [Homework 13](homework/hw13.html): Jointly Distributed Continuous Random Variables
 * [Homework 12](homework/hw12.html): Jointly Distributed Discrete Random Variables
 * [Homework 11](homework/hw11.html): The Cumulative Distribution Function
 * [Homework 10](homework/hw10.html): Continuous Random Variables
