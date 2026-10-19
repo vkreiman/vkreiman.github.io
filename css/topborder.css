@@ -135,7 +135,7 @@ header {
 
 .navbar-right > a, .dropdown {
     box-sizing: border-box;
-    padding: 10px 20px; /* Tighter navigation spacing */
+    padding: 5px 20px; /* Tighter navigation spacing */
     display: flex;
     align-items: center;
 }
@@ -184,7 +184,7 @@ header {
     left: 0;
     top: 100%;
     background-color: var(--header-main);
-    min-width: 150px;
+    min-width: 168px;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     border-bottom-left-radius: 6px;
