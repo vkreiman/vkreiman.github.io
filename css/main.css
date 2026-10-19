@@ -458,11 +458,11 @@ td:nth-child(4) {
     text-align: left;
 }
 
-tbody > tr:nth-of-type(even) {
+tbody > tr:nth-of-type(odd) {
     background-color: var(--table-background-hwtable);
 }
 
-tbody > tr:nth-of-type(odd) {
+tbody > tr:nth-of-type(even) {
     background-color: var(--nord5);
 }
 
