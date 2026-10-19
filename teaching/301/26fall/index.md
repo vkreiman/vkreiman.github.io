@@ -9,6 +9,7 @@ semester: Fall 2026
 
 #### Assignments
 
+* [Homework 9](homework/hw9.html): Linear Transformations
 * [Homework 8](homework/hw8.html): Null Space and Column Space of a Matrix 
 * [Homework 7](homework/hw7.html): Basis, Coordinates, and Dimension
 * [Homework 6](homework/hw6.html): Linear Independence (Part 2)
