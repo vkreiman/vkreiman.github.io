@@ -262,12 +262,12 @@ a:focus-visible, button:focus-visible {
    6. LISTS & SECTIONS
    ========================================================================== */
 section:first-of-type {
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     border-top: 2px solid var(--horizontal-rule);
 }
 
 section {
-    margin: 2rem 0;
+    margin: 1.2rem 0 0.26rem 0;
 }
 
 #sylldata {
@@ -315,7 +315,7 @@ ol {
 
 ul {
     list-style-type: none;
-    margin: 0.5rem 0;
+    margin: 0.26rem 0;
     padding: 0;
 }
 
@@ -325,12 +325,12 @@ ol br {
 
 ol li {
     color: var(--nord1);
-    margin: 0.4rem 0.24rem 1rem 0.24rem;
+    margin: 0.24rem 0.24rem 1rem 0.24rem;
 }
 
 .nested-list {
     list-style-type: none;
-    margin: 0 1.2rem;
+  /*  margin: 0 1.2rem; */
 }
 
 .nested-list ol {
@@ -339,7 +339,7 @@ ol li {
 
 ol.nested-list > li {
     border: 0;
-    margin: 0 0 0.4rem 0;
+    margin: 0 0 0.3rem 0; /* 0.3 -> 0.4 */
     display: block;
     counter-increment: mycounter;
 }
@@ -350,7 +350,7 @@ ol.nested-list > li:before {
 
 ul li {
     color: var(--nord1);
-    margin: 0.4rem 0.24em;
+    margin: 0.4rem 0.24em; /* .4rem .24em */
 }
 
 .res {
