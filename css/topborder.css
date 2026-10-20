@@ -399,8 +399,13 @@ hr.thin {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 12px 0;
-    border-bottom: 1px solid var(--horizontal-rule);
+    padding: 11px 0 0 0;
+    border-bottom: 1px solid var(--nord0);
+    margin: 0 10px;
+}
+
+.homework {
+    margin: 0 10px;
 }
 
 .homework ul {
@@ -408,7 +413,8 @@ hr.thin {
 }
 
 .homework h2 {
-    margin: 3rem 0 2rem 0;
+    margin: 3.1rem 0 2.8rem 0;
+    font-size: 1.2rem;
 }
 
 .homework section {
@@ -422,7 +428,9 @@ hr.thin {
 .homework section:first-of-type {
     padding-top: 0;
     border-top: 0;
-}
+}    
+
+
 
 /* ==========================================================================
    9. TABLES
