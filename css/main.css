@@ -108,7 +108,7 @@ header {
 
 .navbar {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -122,7 +122,9 @@ header {
     flex-grow: 1;
     text-align: left;
     color: var(--nav-my-name);
-    padding: 8px 0; /* Snugger vertical spacing */
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-right {
