@@ -220,7 +220,7 @@ header {
    ========================================================================== */
 h1 {
     font-size: 1.8rem;
-    margin: 44px 0px 42px 0px;
+    margin: 50px 0px 48px 0px;
     font-family: "STIX Two Text", "Times New Roman", serif;
     font-weight: 500;
     text-align: center;
@@ -429,7 +429,7 @@ hr.thin {
    ========================================================================== */
 table {
     border-collapse: collapse;
-    font-size: 0.88rem;
+    font-size: 0.7rem;
     table-layout: auto;
     width: 100%;
     color: inherit;
@@ -440,7 +440,7 @@ table {
 
 caption {
     font-size: 1.1rem;
-    padding: 1rem 0;
+    padding: 1rem 0 1.2rem 0;
     font-weight: bold;
     color: var(--nord0);
 }
@@ -452,23 +452,22 @@ thead, tfoot {
 
 th, td {
     border: 1px solid var(--nord4);
-    padding: 10px 14px;
+    padding: 8px 10px;
 }
 
 th {
     font-weight: 600;
-    text-align: left;
 }
 
 td:nth-child(4) {
     text-align: left;
 }
 
-tbody > tr:nth-of-type(even) {
+tbody > tr:nth-of-type(odd) {
     background-color: var(--table-background-hwtable);
 }
 
-tbody > tr:nth-of-type(odd) {
+tbody > tr:nth-of-type(even) {
     background-color: var(--nord5);
 }
 
