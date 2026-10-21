@@ -1,0 +1,51 @@
+---
+layout: exercises
+title: Advanced Probability
+number: Math 310
+date: October 24, 2025
+---
+
+<div class="homework">
+  
+<section>
+  <h2>Homework 14: Independent Random Variables</h2>
+
+  <ol>
+
+    <li> Section 3.5, #7, 11.</li>
+		   
+    <li> Let \(X\) and \(Y\) be jointly continuous with joint pdf
+      \(f_{X,Y}(x,y)=(24/5)(x+y)\), for \(0\leq 2y\leq x\leq 1\).
+      <ol class="nested-list">
+	<li> Find \(f_X(x)\) and \(f_Y(y)\).</li>
+	<li> Are \(X\) and \(Y\) independent?</li>
+      </ol>
+    </li>
+    
+    <li> A point is chosen at random from the interior of a circle
+      whose equation is \(x^2+y^2\leq 4\). Let the random variables
+      \(X\) and \(Y\) denote the \(x\)- and \(y\)-coordinates of a
+      sampled point.
+      <ol class="nested-list">
+	<li> Find \(f_{X,Y}(x,y)\).</li>
+	<li> Find \(f_X(x)\) and \(f_Y(y)\).</li>
+	<li> Are \(X\) and \(Y\) independent?</li>
+      </ol>
+    </li>
+
+    <li> A hat contains 3 red and 6 white slips of paper. You draw 2
+      slips at random, without replacement.  Let \(X\) equal 1 if the
+      first slip is red, and \(X\) equal 0 otherwise. Let \(Y\) equal
+      1 if the second slip is red, and \(Y\) equal 0 otherwise. Use
+      the definition of independence of random variables to determine
+      whether \(X\) and \(Y\) are independent.
+    </li>
+
+  </ol>
+  
+</section>
+
+</div>
+
+<!-- <ol class="nested-list"> -->
+	  
