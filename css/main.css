@@ -157,7 +157,7 @@ header {
   text-align: center;
   color: var(--nav-text);
   text-decoration: none;
-  transition: color 4s ease, background-color 4s ease;
+  transition: color .2s ease, background-color .2s ease;
 }
 
 /* Button expands to handle its own padding, alignment, and transitions */
@@ -172,7 +172,7 @@ header {
   cursor: pointer;
   padding: 10px 20px; 
   background-color: transparent; 
-  transition: color 4s ease, background-color 4s ease; 
+  transition: color .2s ease, background-color .2s ease; 
   display: flex;
   align-items: center;
   height: 100%;
