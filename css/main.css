@@ -55,8 +55,8 @@ body {
     --footer-background: var(--nord6);
     --links: #a04e56;
     --horizontal-rule: var(--nord4);
-    --table-header-cal: var(--nord7);
-    --blue-table-header: var(--nord7);
+    --table-header-cal: var(--nord8);
+    --blue-table-header: var(--nord8);
     --table-background-cal: #ffffff;
 
     --body-text: var(--nord0);
