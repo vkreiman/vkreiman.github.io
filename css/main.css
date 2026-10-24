@@ -343,7 +343,7 @@ ol li {
 
 .nested-list {
     list-style-type: none;
-  /*  margin: 0 1.2rem; */
+    margin: 0 1.2rem;
 }
 
 .nested-list ol {
