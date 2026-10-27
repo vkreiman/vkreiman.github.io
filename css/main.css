@@ -419,6 +419,8 @@ hr.thin {
 
 .homework {
     margin: 0 10px;
+    padding: 0px 30px;
+    line-height: 1.5rem;
 }
 
 .homework ul {
@@ -427,22 +429,22 @@ hr.thin {
 
 .homework h2 {
     margin: 3.1rem 0 2.8rem 0;
-    font-size: 1.2rem;
+    font-size: 1.13rem;
 }
 
 .homework section {
     margin: 0;
 }
 
-.homework p {
+.homework p, li {
     margin: 0;
+    font-size: 17px;
 }
 
 .homework section:first-of-type {
     padding-top: 0;
     border-top: 0;
 }    
-
 
 
 /* ==========================================================================

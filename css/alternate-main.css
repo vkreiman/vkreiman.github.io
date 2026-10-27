@@ -11,7 +11,7 @@ body, h1, h2, h3, h4, p, ul, ol, figure, blockquote {
 }
 
 html {
-    font-size: 18px;
+    font-size: 20px;
     overflow-y: scroll;
 }
 
@@ -92,7 +92,7 @@ body {
 
 .wrapper-main {
     max-width: 750px;
-    padding: 0 20px 80px 20px;
+    padding: 0 20px 120px 20px;
 }
 
 .wrapper-footer {
@@ -244,10 +244,10 @@ header {
    ========================================================================== */
 h1 {
     font-size: 2.2rem;
-    margin: 60px 0px 15px 0px;
+    margin: 80px 0px 15px 0px;
     font-family: "StIX Two Text", "Times New Roman", serif;
     font-weight: 500;
-    text-align: center;
+    text-align: left;
 }
 
 h2 {
@@ -286,8 +286,8 @@ a:focus-visible, button:focus-visible {
    6. LISTS & SECTIONS
    ========================================================================== */
 section:first-of-type {
-    padding-top: 2.5rem;
-    border-top: 2px solid var(--horizontal-rule);
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--horizontal-rule);
 }
 
 section {
@@ -299,7 +299,7 @@ section {
     margin: 0 0 2.6rem 0;
     font-size: 1rem;
     font-family: "STIX Two Text", serif;
-    border-bottom: 2px solid var(--horizontal-rule);
+    border-bottom: 1px solid var(--horizontal-rule);
 }
 
 #sylldata ul {
@@ -507,7 +507,7 @@ tbody > tr:nth-of-type(even) {
    10. FOOTER
    ========================================================================== */
 footer {
-    border-top: 2px solid var(--horizontal-rule);
+    border-top: 1px solid var(--horizontal-rule);
     background-color: var(--footer-background);
 }
 
@@ -574,4 +574,3 @@ footer a:hover {
         page-break-inside: avoid;
     }
 }
-
