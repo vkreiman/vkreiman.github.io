@@ -18,7 +18,7 @@ html {
 body {
     margin: 0;
     font-family: "STIX Two Text", "Times New Roman", serif;
-    line-height: 1.65rem;
+    line-height: 1.55rem;
     text-underline-offset: 3px;
     color: var(--body-text);
     background-color: var(--main-background);
@@ -465,7 +465,11 @@ caption {
     font-size: 1.1rem;
     padding: 1rem 0 1.4rem 0;
     font-weight: 500;
-    color: var(--nord0);
+    color: var(--nord1);
+}
+
+#hom-sched caption {
+    padding: 1.5rem 0 1.4rem 0;
 }
 
 thead, tfoot {
