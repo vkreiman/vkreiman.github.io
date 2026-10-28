@@ -75,11 +75,14 @@ body {
 }
 
 .wrapper-header, .wrapper-main, .wrapper-footer {
+    width: 100%; /* This line and the next one moves header and footer from margins. */    
+    max-width: 750px;  /* Standardizes total layout width */
+
     margin: 0 auto;
 }
 
 .wrapper-header {
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 .wrapper-main {
@@ -97,7 +100,7 @@ main {
 }
 
 /* ========================================================================== 
-   4. NAVIGATION & HEADER (UPDATED)
+   4. NAVIGATION & HEADER 
    ========================================================================== */ 
 header {
   top: 0;
@@ -141,6 +144,16 @@ header {
   padding: 10px 20px;
   display: flex;
   align-items: center;
+}
+
+.arrow {
+    margin: 0 0 0 .2rem;
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.dropdown:hover .arrow {
+  transform: rotate(180deg);
 }
 
 /* Dropdown outer wrapper stretches vertically to align with links */
@@ -276,7 +289,7 @@ a:focus-visible, button:focus-visible {
    ========================================================================== */
 section:first-of-type {
     padding-top: 2.5rem;
-    border-top: 2px solid var(--horizontal-rule);
+    border-top: 1px solid var(--horizontal-rule);
 }
 
 section {
@@ -288,7 +301,7 @@ section {
     margin: 0 0 2.6rem 0;
     font-size: 1rem;
     font-family: "STIX Two Text", serif;
-    border-bottom: 2px solid var(--horizontal-rule);
+    border-bottom: 1px solid var(--horizontal-rule);
 }
 
 #sylldata ul {
@@ -299,7 +312,7 @@ section {
 
 #hom ul {
     list-style-type: circle;
-    padding: 1px 1px 1px 2.5rem;
+    padding: 1px 1px 1.5rem 2.5rem;
 }
 
 #hom p {
@@ -363,7 +376,7 @@ ol.nested-list > li:before {
 
 ul li {
     color: var(--nord1);
-    margin: 0.4rem 0.24em; /* .4rem .24em */
+    margin: 0.2rem 0.24em; /* .4rem .24em */
 }
 
 .res {
@@ -502,7 +515,7 @@ tbody > tr:nth-of-type(even) {
    10. FOOTER
    ========================================================================== */
 footer {
-    border-top: 2px solid var(--horizontal-rule);
+    border-top: 1px solid var(--horizontal-rule);
     background-color: var(--footer-background);
 }
 
