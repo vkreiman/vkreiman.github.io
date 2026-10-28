@@ -246,7 +246,7 @@ header {
    ========================================================================== */
 h1 {
     font-size: 2.1rem;
-    margin: 65px 0px 63px 0px;
+    margin: 85px 0px 73px 0px;
     font-family: "STIX Two Text", "Times New Roman", serif;
     font-weight: 700;
     text-align: center;
@@ -312,7 +312,7 @@ section {
 
 #hom ul {
     list-style-type: circle;
-    padding: 1px 1px 1.5rem 2.5rem;
+    padding: 1px 1px 2.5rem 2.5rem;
 }
 
 #hom p {
