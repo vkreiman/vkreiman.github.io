@@ -9,6 +9,7 @@ semester: Fall 2026
 
 #### Assignments
 
+* [Homework 15](homework/hw15.html): Functions of Random Variables
 * [Homework 14](homework/hw14.html): Independent Random Variables
 * [Homework 13](homework/hw13.html): Jointly Distributed Continuous Random Variables
 * [Homework 12](homework/hw12.html): Jointly Distributed Discrete Random Variables
