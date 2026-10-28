@@ -87,7 +87,7 @@ body {
 
 .wrapper-main {
     max-width: 750px;
-    padding: 0 20px 80px 20px;
+    padding: 0 20px 100px 20px;
 }
 
 .wrapper-footer {
@@ -245,10 +245,10 @@ header {
    5. TYPOGRAPHY & HEADINGS
    ========================================================================== */
 h1 {
-    font-size: 1.8rem;
-    margin: 50px 0px 48px 0px;
+    font-size: 2.1rem;
+    margin: 65px 0px 63px 0px;
     font-family: "STIX Two Text", "Times New Roman", serif;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
 }
 

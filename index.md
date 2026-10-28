@@ -3,7 +3,7 @@ layout: default
 title: Victor Kreiman
 ---
 
-# Home
+# Victor Kreiman
 
 <section id="hom" markdown="1">
     
