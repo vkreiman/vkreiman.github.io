@@ -6,7 +6,7 @@ title: Victor Kreiman
 
 <div id="hom" markdown="1">
 
-<section>
+<section markdown="1">
 
 # Victor Kreiman
 
