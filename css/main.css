@@ -252,6 +252,10 @@ h1 {
     text-align: center;
 }
 
+.title-page h1 {
+    text-align: left;
+}
+
 h2 {
     font-size: 1.3rem;
     margin: 0 0 20px 0;
@@ -312,11 +316,31 @@ section {
 
 #hom ul {
     list-style-type: circle;
-    padding: 1px 1px 2.5rem 2.5rem;
+    padding: 1px 1px 2rem 2.5rem;
 }
 
 #hom p {
     margin: 0;
+}
+
+#hom h1 {
+    margin: 85px 0px 5px 0px;
+    font-family: "STIX Two Text", "Times New Roman", serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+#hom .subtitle {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  color: #666666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+#hom section:first-of-type {
+    padding-top: 1rem;
+    border-top: 1px solid var(--horizontal-rule);
 }
 
 .links {
