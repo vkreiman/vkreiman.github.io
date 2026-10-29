@@ -6,12 +6,12 @@ title: Victor Kreiman
 
 <div id="hom" markdown="1">
 
-<section markdown="1">
-
 # Victor Kreiman
 
 Associate Professor of Mathematics, University of Wisconsin - Parkside
 {: .subtitle}
+
+<section markdown="1">
 
 My research interests are algebraic geometry, representation theory, and combinatorics. Currently, I am teaching 
 	  
