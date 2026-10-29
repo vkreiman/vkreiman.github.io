@@ -4,7 +4,7 @@ title: Victor Kreiman
 ---
 
 
-<div id="hom" markdown="1">
+<div id="hom" class="titleblock" markdown="1">
 
 # Victor Kreiman
 

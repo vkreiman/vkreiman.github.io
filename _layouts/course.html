@@ -2,12 +2,14 @@
 layout: default
 ---
 
-  <h1>
-    {{ page.number }} | {{ page.title }} |
-    {{ page.semester }}
-  </h1>
 
+<div class="titleblock">
 
+  <h1> {{ page.number }} </h1>
+
+  <p class="subtitle"> {{ page.title }}, {{ page.semester }} </p>
+  
 {{ content }}
 
     
+</div>

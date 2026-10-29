@@ -323,14 +323,14 @@ section {
     margin: 0;
 }
 
-#hom h1 {
+.titleblock h1 {
     margin: 85px 0px 5px 0px;
     font-family: "STIX Two Text", "Times New Roman", serif;
     font-weight: 700;
     text-align: left;
 }
 
-#hom .subtitle {
+.titleblock .subtitle {
   font-family: system-ui, -apple-system, sans-serif;
   font-size: 16px;
   color: #666666;
@@ -338,7 +338,7 @@ section {
   letter-spacing: 0.5px;
 }
 
-#hom section:first-of-type {
+.titleblock section:first-of-type {
     padding-top: 1rem;
     border-top: 1px solid var(--horizontal-rule);
 }
