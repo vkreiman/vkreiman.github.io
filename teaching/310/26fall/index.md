@@ -7,6 +7,9 @@ semester: Fall 2026
 
 <section markdown="1">
 
+This course covers the main mathematical methods and techniques of probability theory, including random variables, expected value, variance, and the central limit theorem. Time permitting, we will cover topics in estimation and hypothesis testing. 
+
+
 #### Assignments
 
 * [Homework 16](homework/hw16.html): Convolution

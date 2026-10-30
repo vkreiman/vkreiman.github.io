@@ -301,8 +301,8 @@ section {
 }
 
 #sylldata {
-    padding: 0 0.9rem 2.3rem 0;
-    margin: 0 0 2.6rem 0;
+    padding: 0 0.9rem 1rem 0;
+    margin: 0 0 2rem 0;
     font-size: 1rem;
     font-family: "STIX Two Text", serif;
     border-bottom: 1px solid var(--horizontal-rule);
