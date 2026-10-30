@@ -7,7 +7,7 @@ semester: Fall 2026
 
 <section markdown="1">
 
-This course is an introduction to linear algebra including systems of equations, matrices, determinants, vector spaces and linear transformations, diagonalization, inner product spaces, and orthogonality. 
+This course is an introduction to linear algebra. Topics include systems of equations, matrices, determinants, vector spaces and linear transformations, diagonalization, inner product spaces, and orthogonality. 
 
 </section>
 
@@ -16,6 +16,7 @@ This course is an introduction to linear algebra including systems of equations,
 
 #### Assignments
 
+* [Homework 10](homework/hw10.html): Kernel, Range
 * [Homework 9](homework/hw9.html): Linear Transformations
 * [Homework 8](homework/hw8.html): Null Space and Column Space of a Matrix 
 * [Homework 7](homework/hw7.html): Basis, Coordinates, and Dimension
