@@ -1,0 +1,26 @@
+---
+layout: exercises
+title: Advanced Probability
+number: Math 310
+date: October 29, 2025
+---
+
+<div class="homework">
+  
+<section>
+  <h2>Homework 16: Convolution</h2>
+
+  <ol>
+    <li> Section 3.9, #1.</li>
+
+    <li> Suppose that \(X\) and \(Y\) are independent random variables
+      with \(f_X(x)=xe^{-x}\), \(x\geq 0\), and \(f_Y(y)=e^{-y}\),
+      \(y\geq 0\). Find the pdf of \(X+Y\).</li>
+  </ol>
+
+</section>
+
+</div>
+
+<!-- <ol class="nested-list"> -->
+	  
