@@ -13,7 +13,9 @@ Associate Professor of Mathematics, University of Wisconsin - Parkside
 
 <section markdown="1">
 
-My research interests are algebraic geometry, representation theory, and combinatorics. Currently, I am teaching 
+My research interests are algebraic geometry, representation theory, and combinatorics.
+
+## Fall 2026 Courses
 	  
 * [Math 114](https://vkreiman.github.io/teaching/114/26fall) (College Algebra II with Trigonometry)
 * [Math 301](https://vkreiman.github.io/teaching/301/26fall) (Linear Algebra)
@@ -23,17 +25,12 @@ My research interests are algebraic geometry, representation theory, and combina
 </section>
 
 
-
 <section>
 
-  <center>
-
-  <div id="sched">
-      
-      <table>
-        <caption>Fall 2026 Teaching Schedule</caption>
-	
-	<thead>
+	<h2>Fall 2026 Teaching Schedule</h2>
+	<div id="sched">
+	<table>
+		<thead>
           <tr>
             <th class="time-col"></th>
             <th>Monday</th>
@@ -228,6 +225,5 @@ My research interests are algebraic geometry, representation theory, and combina
   </div> <!-- sched -->
 
 
-  </center>
 </section>
 
