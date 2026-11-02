@@ -51,7 +51,7 @@ body {
     --nav-text-hover: #ffffff;
     --nav-dropdown-hover: var(--nord3);
 
-    --main-background: var(--nord6);
+    --main-background: #ffffff; /* var(--nord6) */
     --footer-background: var(--nord6);
     --links: #a04e56;
     --horizontal-rule: var(--nord4);
@@ -330,13 +330,17 @@ section {
 #hom h2 {
     font-family: "Stix Two Text", sans-serif;
      /* font-family: system-ui, -apple-system, sans-serif; */
-    font-size: 18px;
+    font-size: 1rem;
    /* text-transform: uppercase; */
    /*  letter-spacing: 1px; */
     color: var(--nord1);
-    margin: 2rem 0 .3rem 0;
-    font-weight: 600; 
+    margin: 2.8rem 0 .3rem 0;
+    font-weight: 300; 
     text-align: left;
+}
+
+#hom section {
+    padding: 0;
 }
 
 #hom #sched h2 {

@@ -13,8 +13,6 @@ Associate Professor of Mathematics, University of Wisconsin - Parkside
 
 <section markdown="1">
 
-My research interests are algebraic geometry, representation theory, and combinatorics.
-
 ## Fall 2026 Courses
 	  
 * [Math 114](https://vkreiman.github.io/teaching/114/26fall) (College Algebra II with Trigonometry)
