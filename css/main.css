@@ -149,7 +149,7 @@ header {
 .arrow {
     margin: 0 0 0 .2rem;
   font-size: 0.8rem;
-  transition: transform 0.2s ease;
+  transition: transform 0.1s ease;
 }
 
 .dropdown:hover .arrow {
@@ -170,7 +170,7 @@ header {
   text-align: center;
   color: var(--nav-text);
   text-decoration: none;
-  transition: color .2s ease, background-color .2s ease;
+  transition: color .1s ease, background-color .1s ease;
 }
 
 /* Button expands to handle its own padding, alignment, and transitions */
@@ -185,7 +185,7 @@ header {
   cursor: pointer;
   padding: 10px 20px; 
   background-color: transparent; 
-  transition: color .2s ease, background-color .2s ease; 
+  transition: color .1s ease, background-color .1s ease; 
   display: flex;
   align-items: center;
   height: 100%;
@@ -275,7 +275,7 @@ main a {
     color: var(--links);
     text-decoration: none;
     border-bottom: 1px transparent;
-    transition: color 0.2s ease;
+    transition: color 0.1s ease;
 }
 
 main a:hover {
@@ -330,13 +330,14 @@ section {
 #hom h2 {
     font-family: "Stix Two Text", sans-serif;
      /* font-family: system-ui, -apple-system, sans-serif; */
-    font-size: 1rem;
+    font-size: 16px;
    /* text-transform: uppercase; */
    /*  letter-spacing: 1px; */
     color: var(--nord1);
     margin: 2.8rem 0 .3rem 0;
-    font-weight: 300; 
+    font-weight: 500; 
     text-align: left;
+    letter-spacing: 0.5px;
 }
 
 #hom section {
