@@ -57,11 +57,11 @@ body {
     --horizontal-rule: var(--nord4);
     --table-header-cal: var(--nord8);
     --blue-table-header: var(--nord8);
-    --table-background-cal: #ffffff;
+    --table-background-cal: var(--nord6);
 
     --body-text: var(--nord0);
     --table-background-hwtable: #ffffff;
-    --today-cal-color: var(--nord5);
+    --today-cal-color: var(--nord4);
     --schedule-event: #c6e2ee;
 }
 
@@ -320,7 +320,7 @@ section {
 }
 
 #hom ul li {
-     margin: 0.2rem 0;
+     margin: 0.3rem 0;
 }
 
 #hom p {
@@ -330,7 +330,7 @@ section {
 #hom h2 {
     font-family: "Stix Two Text", sans-serif;
      /* font-family: system-ui, -apple-system, sans-serif; */
-    font-size: 16px;
+    font-size: 20px;
    /* text-transform: uppercase; */
    /*  letter-spacing: 1px; */
     color: var(--nord1);
@@ -557,7 +557,7 @@ tbody > tr:nth-of-type(odd) {
 }
 
 tbody > tr:nth-of-type(even) {
-    background-color: var(--nord5);
+    background-color: var(--nord6);
 }
 
 /* ==========================================================================
