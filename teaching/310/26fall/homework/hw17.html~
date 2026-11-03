@@ -1,0 +1,61 @@
+---
+layout: exercises
+title: Advanced Probability
+number: Math 310
+date: November 3, 2025
+---
+
+<div class="homework">
+  
+<section>
+  <h2>Homework 17: Expectation</h2>
+
+  <ol>
+    <li> An urn contains four chips numbered 1 through 4. Two are
+      drawn without replacement. Let the random variable \(X\) denote
+      the larger of the two. Find \(E(X)\).</li>
+
+    <li> A fair coin is tossed three times. Let the random variable
+      \(X\) denote the total number of heads that appear times the
+      number of heads that appear on the first and third tosses. Find
+      \(E(X)\).
+    </li>
+    
+    <li> A box contains 5 red and 5 blue marbles. Two marbles are
+      drawn randomly. If they are the same color, then you win $1.10;
+      if they are different colors, then you lose $1.00. Calculate the
+      expected value your winnings.
+    </li>
+    
+    <li> An arrow is fired at random into a circle of radius 8. (Note
+      that the probability that it lands in any region of the circle
+      depends on the <i>area</i> of the region.) If its distance from
+      the center is
+      \begin{align}
+      0 \text{ to } 1 \text{ inches}:& \text{ win }$10\\
+      1 \text{ to } 3 \text{ inches}:& \text{ win }$5\\
+      3 \text{ to } 5 \text{ inches}:& \text{ win }$2\\
+      5 \text{ to } 8 \text{ inches}:& \text{ lose }$4
+      \end{align}
+      Find the expected winnings.
+    </li>
+
+    <li> Suppose that teams A and B play in the world series, and that
+        team A has a 60% chance of winning any game against team
+        B. Find the expected number of games that will be played.
+        (The series is the best of seven - the first team to win four
+        games wins the series.)
+    </li>
+
+    <li> Let \(X\) have pdf $$ f_X(x)=2(1-x), 0\leq x\leq 1 $$ Find
+      \(E(X)\).
+    </li>
+    
+  </ol>
+
+</section>
+
+</div>
+
+<!-- <ol class="nested-list"> -->
+	  

@@ -12,6 +12,7 @@ This course covers the main mathematical methods and techniques of probability t
 
 #### Assignments
 
+* [Homework 17](homework/hw17.html): Expectation
 * [Homework 16](homework/hw16.html): Convolution
 * [Homework 15](homework/hw15.html): Functions of Random Variables
 * [Homework 14](homework/hw14.html): Independent Random Variables
