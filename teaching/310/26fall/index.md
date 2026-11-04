@@ -12,7 +12,7 @@ This course covers the main mathematical methods and techniques of probability t
 
 #### Assignments
 
-* [Homework 18](homework/hw17.html): Law of the Unconscious Statistician
+* [Homework 18](homework/hw18.html): Law of the Unconscious Statistician
 * [Homework 17](homework/hw17.html): Expectation
 * [Homework 16](homework/hw16.html): Convolution
 * [Homework 15](homework/hw15.html): Functions of Random Variables
