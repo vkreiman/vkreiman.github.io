@@ -62,7 +62,7 @@ body {
     --body-text: var(--nord0);
     --table-background-hwtable: #ffffff;
     --today-cal-color: var(--nord4);
-    --schedule-event: var(--nord13);
+    --schedule-event: #c6e2ee;
 }
 
 /* ==========================================================================
