@@ -607,9 +607,9 @@ footer a:hover {
     }
 
     p, li, body {
-        font-size: 15px;
-        line-height: 1.4rem;
-        color: #000000;
+	font-size: 11pt; /* Or 12pt depending on your preference */
+	line-height: 1.35; /* This allows STIX's larger x-height to breathe */
+	color: #000;
     }
 
     header, footer, .dropdown {
