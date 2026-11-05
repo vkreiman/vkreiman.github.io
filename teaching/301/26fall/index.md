@@ -42,7 +42,6 @@ This course is an introduction to linear algebra. Topics include systems of equa
 * [Syllabus](syllabus.html)
 * [Canvas](https://www.uwp.edu/explore/offices/campustechnologyservices/innovationsinlearning/canvas-login.cfm)
 * [Matrix Calculator](https://www.desmos.com/matrix)
-* [Fall 2025 Webpage](../25fall/index.html)
 
 </section>
 
