@@ -5,6 +5,8 @@ number: Math 301
 semester: Fall 2026
 ---
 
+<div class="courseblock" markdown="1">
+
 <section markdown="1">
 
 This course is an introduction to linear algebra. Topics include systems of equations, matrices, determinants, vector spaces and linear transformations, diagonalization, inner product spaces, and orthogonality. 
@@ -14,7 +16,7 @@ This course is an introduction to linear algebra. Topics include systems of equa
 
 <section markdown="1">
 
-#### Assignments
+## Assignments
 
 * [Homework 11](homework/hw11.html): One-to-One, Onto
 * [Homework 10](homework/hw10.html): Kernel, Range
@@ -33,7 +35,7 @@ This course is an introduction to linear algebra. Topics include systems of equa
 
 <section markdown="1">
 
-#### Course Resources
+## Course Resources
 
 * [Calendar](newcalendar.html) 
 * [Study Guide](studyguide.html)
@@ -44,3 +46,4 @@ This course is an introduction to linear algebra. Topics include systems of equa
 
 </section>
 
+</div> <!-- courseblock -->
