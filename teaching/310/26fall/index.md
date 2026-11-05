@@ -5,12 +5,14 @@ number: Math 310
 semester: Fall 2026
 ---
 
+<div class="courseblock" markdown="1">
+
 <section markdown="1">
 
 This course covers the main mathematical methods and techniques of probability theory, including random variables, expected value, variance, and the central limit theorem. Time permitting, we will cover topics in estimation and hypothesis testing. 
 
 
-#### Assignments
+## Assignments
 
 * [Homework 18](homework/hw18.html): Law of the Unconscious Statistician
 * [Homework 17](homework/hw17.html): Expectation
@@ -36,7 +38,7 @@ This course covers the main mathematical methods and techniques of probability t
 
 <section markdown="1">
 
-#### Course Resources
+## Course Resources
 
 * [Calendar](newcalendar.html) 
 * [Syllabus](syllabus.html)
@@ -44,3 +46,4 @@ This course covers the main mathematical methods and techniques of probability t
 
 </section>
 
+</div> <!-- courseblock -->
