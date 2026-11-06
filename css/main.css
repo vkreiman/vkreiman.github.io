@@ -57,7 +57,7 @@ body {
     --horizontal-rule: var(--nord4);
     --table-header-cal: var(--nord8);
     --blue-table-header: var(--nord8);
-    --table-background-cal: var(--nord6);
+    --table-background-cal: white;
 
     --body-text: var(--nord0);
     --table-background-hwtable: #ffffff;
