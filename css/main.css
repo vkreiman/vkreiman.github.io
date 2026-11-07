@@ -91,7 +91,7 @@ body {
 }
 
 .wrapper-footer {
-    padding: 6px 30px; /* Reduced vertical padding */
+    padding: 6px 20px;
 }
 
 main {
@@ -604,6 +604,12 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.ftright {
+  display: flex;
+  gap: 6px;
+  align-items: center;
 }
 
 /* ==========================================================================
