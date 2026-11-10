@@ -14,6 +14,7 @@ This course covers the main mathematical methods and techniques of probability t
 
 ## Assignments
 
+* [Homework 20](homework/hw20.html): Variance and Standard Deviation
 * [Homework 19](homework/hw19.html): Indicator Random Variables
 * [Homework 18](homework/hw18.html): Law of the Unconscious Statistician
 * [Homework 17](homework/hw17.html): Expectation

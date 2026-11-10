@@ -1,0 +1,47 @@
+---
+layout: exercises
+title: Advanced Probability
+number: Math 310
+date: November 11, 2025
+---
+
+<div class="homework">
+  
+<section>
+  <h2>Homework 20: Variance and Standard Deviation</h2>
+
+  <ol>
+    <li> Section 4.3, #3, 4, 6, 7(a). </li>
+
+    <li> Two distinct integers are chosen at random from the first
+      five positive integers. Compute the expected value and variance
+      of the absolute value of the difference of the two numbers.
+    </li>
+
+    <li> A box contains 5 red and 5 blue marbles. Two marbles are
+      drawn randomly. If they are the same color, then you win $1.10;
+      if they are different colors, then you lose $1.00. Calculate the
+      expected value and standard deviation of your winnings.
+    </li>
+
+    <li> Suppose that teams A and B play in the world series, and that
+      team A has a 60% chance of winning any game against team B. Find
+      the expected value, variance, and standard deviation of the
+      number of games that will be played.  (The series is the best of
+      seven - the first team to win four games wins the series.)
+    </li>
+
+    <li> Let \(X\) have pdf \begin{equation*} f_X(x)= \begin{cases}
+      2(1-x), &\text{if }0\leq x\leq 1\\ 0, &\text{otherwise}
+      \end{cases} \end{equation*} Find \(E(X)\), \(E(X^2)\),
+      Var\((X)\), and Std Dev\((X)\).
+    </li>
+    
+  </ol>
+
+</section>
+
+</div>
+
+<!-- <ol class="nested-list"> -->
+	  
