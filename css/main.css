@@ -82,7 +82,7 @@ body {
 }
 
 .wrapper-header {
-    padding: 0 20px;
+    padding: 0;
 }
 
 .wrapper-main {
@@ -487,8 +487,8 @@ hr.thin {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 11px 0 0 0;
-    border-bottom: 1px solid var(--nord0);
+    padding: 12px 0 8px 0;
+    border-bottom: 1px solid var(--horizontal-rule);
     margin: 0;
 }
 
@@ -511,7 +511,7 @@ hr.thin {
     margin: 0;
 }
 
-.homework p, li {
+.homework p, .homework li {
     margin: 0;
     font-size: 17px;
 }
@@ -625,7 +625,7 @@ footer a:hover {
         margin: 2.6rem 0 2.1rem 0;
     }
 
-    p, li, body {
+    p, li, body, .homework p, .homework li {
 	font-size: 11pt; /* Or 12pt depending on your preference */
 	line-height: 1.35; /* This allows STIX's larger x-height to breathe */
 	color: #000;
