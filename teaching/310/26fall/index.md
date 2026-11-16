@@ -14,6 +14,7 @@ This course covers the main mathematical methods and techniques of probability t
 
 ## Assignments
 
+* [Homework 22](homework/hw22.html): Correlation
 * [Homework 21](homework/hw21.html): Covariance
 * [Homework 20](homework/hw20.html): Variance and Standard Deviation
 * [Homework 19](homework/hw19.html): Indicator Random Variables
