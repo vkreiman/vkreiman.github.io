@@ -621,8 +621,12 @@ footer a:hover {
     }
 
     .homework h2 {
-        margin: 2.6rem 0 2.1rem 0;
+        margin: 2.4rem 0 1.9rem 0;
     }
+    
+    .homework-exercises {
+        border-bottom: 1px solid var(--nord1);
+    }    
 
     p, li, body, .homework p, .homework li {
 	font-size: 11pt; /* Or 12pt depending on your preference */
