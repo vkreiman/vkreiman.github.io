@@ -14,6 +14,7 @@ This course covers the main mathematical methods and techniques of probability t
 
 ## Assignments
 
+* [Homework 24](homework/hw24.html): The Poisson Distribution
 * [Homework 23](homework/hw23.html): Hypergeometric, Geometric, and
   Negative Binomial Distributions
 * [Homework 22](homework/hw22.html): Correlation
