@@ -626,6 +626,7 @@ footer a:hover {
     
     .homework-exercises {
         border-bottom: 1px solid var(--nord1);
+	padding: 12px 0 2px 0;
     }    
 
     p, li, body, .homework p, .homework li {
